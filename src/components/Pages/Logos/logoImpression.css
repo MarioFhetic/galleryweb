@@ -1,0 +1,37 @@
+.logo_impression
+{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+}
+
+.logo_impression .rectTest
+{
+    fill: transparent;
+}
+
+.logo_impression text
+{
+    font-family: 'AvenirNextLTPro-Ultra-Light';
+    font-size: 30.95px;
+    fill: #999999;
+}
+
+.logo_impression .widthSvg path
+{
+    width: 80%;
+}
+
+.logo_impression rect
+{
+    fill: #990000;
+}
+
+
+.logo_impression path
+{
+    width: 50%;
+    fill: #333333;
+}
+

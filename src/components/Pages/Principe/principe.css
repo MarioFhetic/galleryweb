@@ -1,0 +1,106 @@
+.bigContainer .containerHeader .header
+{
+    margin: auto;
+    width: 80vw;
+    border-top: 1px solid #DFE0E1;
+    border-bottom: 1px solid #DFE0E1;
+    padding: 2% 0;
+}
+
+.bigContainer p
+{
+    font-family: 'Whitney-Book';
+    font-size: 1.3em;  
+    line-height: 150%;
+    text-align: justify;
+}
+
+.bigContainer h2
+{
+    color: #851314;
+    text-transform: uppercase;
+    font-family: 'Whitney-Medium';
+    font-size: 22px;
+}
+
+
+.bigContainer h1
+{
+    color: #851314;
+    text-transform: uppercase;
+    font-family: 'Whitney-Medium';
+    font-size: 22px;
+}
+
+
+.bigContainer .containerHeader .header p
+{
+    font-family: 'Whitney-Medium';
+    font-size: 1.3rem;
+    font-weight: lighter;
+    letter-spacing: 0.2px;
+    color: #666666;
+}
+
+.bigContainer .section
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+
+.bigContainer .section .leftContent p 
+{
+    max-width: 30vw;
+}
+
+.bigContainer .section .rightContent
+{
+    width: 40vw;
+    max-height: 80vh;
+}
+
+.bigContainer .section .rightContent img
+{
+    width: auto;
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+
+.bigContainer .sectionBottom
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.bigContainer .sectionBottom .rightContent
+{
+    width: 40vw;
+    max-height: 80vh;
+}
+
+.bigContainer .sectionBottom .rightContent img
+{
+    width: auto;
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.bigContainer .sectionBottom .leftContent p 
+{
+    max-width: 30vw;
+}
+
+.bigContainer .sectionBottom .textEnd
+{
+    max-width: 80%;
+}

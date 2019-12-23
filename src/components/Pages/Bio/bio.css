@@ -1,0 +1,331 @@
+.bigContainer .containerHeader .header
+{
+    margin: auto;
+    width: 80vw;
+    border-top: 1px solid #DFE0E1;
+    border-bottom: 1px solid #DFE0E1;
+    padding: 2% 0;
+}
+
+.bigContainer p
+{
+    font-family: 'Whitney-Book';
+    font-size: 1.3em;  
+    line-height: 150%;
+    text-align: justify;
+}
+
+.section h1
+{
+    margin-bottom: 1rem;
+    color: #851314;
+    text-transform: uppercase;
+}
+
+.section li 
+{
+    padding-right: 0.5em;
+}
+
+.section span
+{
+    font-family: 'Whitney-Light';
+    font-size: 17px;
+}
+
+.bigContainer .containerHeader .header h1
+{
+    font-family: 'AvenirNextLTPro-Ultra-Light';
+    font-size: 30px;
+}
+
+.bigContainer .containerHeader .header .secondQuote
+{
+    padding-left: 40%;
+}
+
+
+.bigContainer .containerHeader .header p
+{
+    display: block;
+    margin-top: 5%;
+    font-family: 'Whitney-Medium';
+    font-size: 24px;
+    line-height: 170%;
+}
+
+.bigContainer ul 
+{
+   list-style: none;
+   line-height: 150%;
+}
+
+.bigContainer .section
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.bigContainer .section .price span
+{
+    border: none
+}
+
+/* .bigContainer .section span 
+{
+    border-right: 1px solid #DFE0E1;
+    padding: 0 0.5em;
+}  */
+
+.bigContainer .section span:after
+{
+    content: "";
+    border-right: 1px solid #DFE0E1;
+    padding-left: 0.5em;
+    margin-right: 0.5em;
+
+} 
+
+.bigContainer .section .price span:after
+{
+    border: none;
+}
+
+
+.bigContainer .section ul
+{
+    padding: 0;
+    text-align: left;
+}
+
+.bigContainer .section div
+{
+    margin-bottom: 1rem;
+}
+
+.bigContainer .section .price li
+{
+    font-weight: bold;
+    display: inline;
+}
+
+.bigContainer .section .price span
+{
+    display: block;
+}
+
+.bigContainer .section .expositionPerso li
+{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bigContainer .section .expositionCollective li
+{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bigContainer .section .collectionPublique li
+{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.bigContainer .sectionHeader
+{
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 2%; 
+}
+
+.bigContainer .sectionHeader .leftContent
+{
+    max-width: 40%;
+}
+
+.bigContainer .sectionHeader .leftContent p 
+{
+    max-width: 100%;
+}
+
+.bigContainer .sectionHeader .rightContent
+{
+    max-width: 50%;
+    background-color: khaki;
+}
+
+.bigContainer .sectionHeader .rightContent img
+{
+    display: inline-block;
+    width: auto;
+    padding: 2%;
+    max-width: 40%;
+}
+
+.bigContainer .sectionMain
+{
+    max-width: 100%;
+} 
+
+.bigContainer .sectionMain .containerImg
+{
+    margin-left: 9%;
+    max-width: 100%;
+}
+
+.bigContainer .sectionMain .containerImg .cardImg
+{
+    display: inline-block;
+    padding: 0 1%;
+    max-width: 30vw;
+}
+
+.bigContainer .sectionMain .containerImg .cardImg img
+{    
+    width: 22vw;
+    height: 30vw;
+}
+
+.bigContainer .sectionMain .containerImg .cardImgOther
+{
+    display: inline-block;
+    width: 33%;
+}
+
+.bigContainer .sectionMain .containerImg .cardImgOther img
+{    
+    width: 30vw;
+    height: 30vw;
+}
+
+.sectionMain .containerImg .cardImg .captionImg
+{
+    position: relative;
+    width: 100%;
+    top: 1%;
+    left: 0px;
+    font-family: 'Whitney-Book';
+    font-weight: lighter;
+    font-size: 0.8rem; 
+    text-transform: uppercase;
+    color: #333333;
+}
+
+
+.sectionMain .containerImg .cardImgOther .captionImg
+{
+    position: relative;
+    width: 100%;
+    top: 1%;
+    left: 0px;
+    font-family: 'Whitney-Book';
+    font-weight: lighter;
+    font-size: 0.8rem; 
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.sectionBottom
+{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 2%;
+}
+
+.sectionBottom .leftContent
+{
+    margin-left: 10%;
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.sectionBottom .leftContent p
+{
+    text-align: justify;
+    text-align-last: start;
+    margin: auto;
+    max-width: 50%;
+    margin-bottom: 2%;
+}
+
+.sectionBottom .leftContent .containerImg
+{
+    display: flex;
+    align-items: flex-end;
+    max-height: 100%;
+}
+
+.sectionBottom .leftContent .containerImg img
+{
+    padding-top: 5%;
+    padding-right: 10%;
+    width: 22vw;
+    height: 30vw;
+}
+
+.sectionBottom .rightContent
+{
+    max-width: 26.5vw;
+}
+
+.sectionBottom .rightContent img
+{
+    width: auto;
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.bigContainer .sectionEnd
+{
+    max-width: 100%;
+    margin-left: 10%;
+    margin-top: 2%;
+} 
+
+.bigContainer .sectionEnd .containerImg
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+}
+
+.bigContainer .sectionEnd .containerImg .cardImg img
+{    
+    width: 20vw;
+    height: 25vw;
+}
+
+.bigContainer .sectionEnd .containerImg .cardImgOther img
+{    
+    width: 35vw;
+    height: 25vw;
+}
+
+
+.bigContainer .sectionEnd .centeredImg
+{
+   display: flex;
+   margin-top: 2%;
+   max-width: 85%;
+   justify-content: center;
+}
+
+.bigContainer .sectionEnd .centeredImg :first-child
+{
+    width: 15vw;
+    height: 15vw;
+}
+
+.bigContainer .sectionEnd .centeredImg :last-child
+{
+    width: 10vw;
+    height: 15vw;
+}

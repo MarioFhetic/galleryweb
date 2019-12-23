@@ -1,0 +1,116 @@
+{
+  "albums" : {
+    "chute-de-pierre" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Delphoi n°10",
+        "price" : "380 €",
+        "size" : "30 cm x 30 cm",
+        "text" : "Papier Hanhemülhe rag 308g. mat Plexicollage et chassis alu - 600 € Edition limitée à 15 exemplaires",
+        "url" : "01.jpg",
+        "year" : "2017"
+      }, {
+        "name" : "Delphoi n°3",
+        "price" : "380 €",
+        "size" : "30 cm x 30 cm",
+        "text" : "Papier Hanhemülhe rag 308g. mat Plexicollage et chassis alu - 600 € Edition limitée à 15 exemplaires",
+        "url" : "02.jpg",
+        "year" : "2017"
+      }, {
+        "name" : "Delphoi n°10",
+        "price" : "380 €",
+        "size" : "30 cm x 30 cm",
+        "text" : "Papier Hanhemülhe rag 308g. mat Plexicollage et chassis alu - 600 € Edition limitée à 15 exemplaires",
+        "url" : "03.jpg",
+        "year" : "2017"
+      }, {
+        "name" : "Delphoi n°2",
+        "price" : "380 €",
+        "size" : "30 cm x 30 cm",
+        "text" : "Papier Hanhemülhe rag 308g. mat Plexicollage et chassis alu - 600 € Edition limitée à 15 exemplaires",
+        "url" : "04.jpg",
+        "year" : "2017"
+      } ],
+      "link" : "chute-de-pierre",
+      "serie" : "Chute de pierre"
+    },
+    "vestiges" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Vestiges n°1",
+        "price" : "900 €",
+        "size" : "100 cm x 100 cm",
+        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "url" : "01.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Vestiges n°2",
+        "price" : "900 €",
+        "size" : "100 cm x 100 cm",
+        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "url" : "02.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Vestiges n°3",
+        "price" : "900 €",
+        "size" : "100 cm x 100 cm",
+        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "url" : "03.jpg",
+        "year" : "2009"
+      } ],
+      "link" : "vestiges",
+      "serie" : "Vestiges"
+    },
+    "still-alive" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Bouteille et flacons.",
+        "price" : "900 €",
+        "size" : "65 cm x 42 cm",
+        "text" : "Contrecollé Dibond - 650 € Plexicollage et chassis alu - 800 € Papier Hanhemülhe rag 308g. mat Tirage limité à 10 exemplaires",
+        "url" : "01.jpg",
+        "year" : "2010"
+      }, {
+        "name" : "Moule et citrons.",
+        "price" : "900 €",
+        "size" : "100 cm x 100 cm",
+        "text" : "Contrecollé Dibond - 650 € Plexicollage et chassis alu - 800 € Papier Hanhemülhe rag 308g. mat Tirage limité à 10 exemplaires",
+        "url" : "02.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Gant, graine.",
+        "price" : "900 €",
+        "size" : "100 cm x 100 cm",
+        "text" : "Contrecollé Dibond - 650 € Plexicollage et chassis alu - 800 € Papier Hanhemülhe rag 308g. mat Tirage limité à 10 exemplaires",
+        "url" : "03.jpg",
+        "year" : "2009"
+      },
+      {
+        "name" : "Citron et carton.",
+        "price" : "900 €",
+        "size" : "54 cm x 77 cm",
+        "text" : "Tirage seul - 580 € Contrecollé Dibond - 670 € Papier Hanhemülhe rag 308g. mat Tirage limité à 10 exemplaires",
+        "url" : "04.jpg",
+        "year" : "2010"
+      },
+      {
+        "name" : "Vestiges n°3",
+        "price" : "900 €",
+        "size" : "100 cm x 100 cm",
+        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "url" : "05.jpg",
+        "year" : "2009"
+      },
+      {
+        "name" : "Vestiges n°3",
+        "price" : "900 €",
+        "size" : "100 cm x 100 cm",
+        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "url" : "06.jpg",
+        "year" : "2009"
+      } ],
+      "link" : "still-alive",
+      "serie" : "Still-Alive"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.logo_principe
+{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+}
+
+.logo_principe .rectTest
+{
+    fill: transparent;
+}
+
+.logo_principe text
+{
+    font-family: 'AvenirNextLTPro-Ultra-Light';
+    font-size: 30.95px;
+    fill: #999999;
+}
+
+.logo_principe .widthSvg path
+{
+    width: 80%;
+}
+
+.logo_principe rect
+{
+    fill: #990000;
+}
+
+
+.logo_principe path
+{
+    width: 50%;
+    fill: #333333;
+}
+
