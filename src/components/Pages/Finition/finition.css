@@ -13,13 +13,13 @@ h2
     color: #851314;
     text-transform: uppercase;
     font-family: 'Whitney-Medium';
-    font-size: 22px;
+    font-size: 1rem;
 }
 
 .bigContainer p
 {
     font-family: 'Whitney-Book';
-    font-size: 1.3em;  
+    font-size: 1.2rem;  
     line-height: 150%;
     text-align: justify;
 }
@@ -46,10 +46,6 @@ h2
     flex-wrap: wrap;
     margin-left: 10%;
     margin-top: 2%;
-}
-
-.bigContainer .section .leftContent
-{
 }
 
 .bigContainer .section .leftContent p

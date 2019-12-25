@@ -10,7 +10,7 @@
 .bigContainer p
 {
     font-family: 'Whitney-Book';
-    font-size: 1.3em;  
+    font-size: 1.3rem;  
     line-height: 150%;
     text-align: justify;
 }
@@ -24,19 +24,19 @@
 
 .section li 
 {
-    padding-right: 0.5em;
+    padding-right: 0.5rem;
 }
 
 .section span
 {
     font-family: 'Whitney-Light';
-    font-size: 17px;
+    font-size: 1.2rem;
 }
 
 .bigContainer .containerHeader .header h1
 {
     font-family: 'AvenirNextLTPro-Ultra-Light';
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 
 .bigContainer .containerHeader .header .secondQuote
@@ -50,14 +50,14 @@
     display: block;
     margin-top: 5%;
     font-family: 'Whitney-Medium';
-    font-size: 24px;
+    font-size: 1.2rem;
     line-height: 170%;
 }
 
 .bigContainer ul 
 {
    list-style: none;
-   line-height: 150%;
+   line-height: 250%;
 }
 
 .bigContainer .section
@@ -214,7 +214,7 @@
     left: 0px;
     font-family: 'Whitney-Book';
     font-weight: lighter;
-    font-size: 0.8rem; 
+    font-size: 1rem; 
     text-transform: uppercase;
     color: #333333;
 }
@@ -228,7 +228,7 @@
     left: 0px;
     font-family: 'Whitney-Book';
     font-weight: lighter;
-    font-size: 0.8rem; 
+    font-size: 1rem; 
     text-transform: uppercase;
     color: #333333;
 }

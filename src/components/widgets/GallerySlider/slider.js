@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import SlickSlider from 'react-slick';
+// import styleCarousel from "slick-carousel/slick/slick.css";
+// import styleCarouselTheme from "slick-carousel/slick/slick-theme.css";
 
 import {firebaseLooper, firebaseImage} from '../../../firebase'
 

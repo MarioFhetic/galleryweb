@@ -10,7 +10,7 @@
 .bigContainer p
 {
     font-family: 'Whitney-Book';
-    font-size: 1.3em;  
+    font-size: 1.2rem;  
     line-height: 150%;
     text-align: justify;
 }
@@ -20,7 +20,7 @@
     color: #851314;
     text-transform: uppercase;
     font-family: 'Whitney-Medium';
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 
 
@@ -29,7 +29,7 @@
     color: #851314;
     text-transform: uppercase;
     font-family: 'Whitney-Medium';
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 
 
