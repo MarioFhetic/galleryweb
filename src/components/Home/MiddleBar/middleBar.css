@@ -28,6 +28,12 @@
     letter-spacing: 1px;
 }
 
+.containerMiddleBar .middleBar :last-child
+{
+    border-right: 1px solid white;
+}
+
+
 .containerMiddleBar .middleBar div a
 {
     color: grey;

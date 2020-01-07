@@ -87,7 +87,11 @@ const Bio = () =>
                     </p>
                 </div>
                 <div className = {styles.rightContent}>
-                    
+                    <div className = {styles.containerImg}>
+                        <img src="../../images/bio/section1carton.jpg" alt=""/>
+                        <img src="../../images/bio/section1book.jpg" alt=""/>
+                        <img src="../../images/bio/section1voiture.jpg" alt=""/>
+                    </div>
                 </div>
             </div>
             <div className = {styles.sectionMain}>

@@ -4,6 +4,8 @@
     position: relative;
     font-size: 12px;
     cursor: pointer;
+    margin-left: 5%;
+    margin-top: 2%;
  }
     .burger .burgerlines:after {
       left: 0;
@@ -30,4 +32,15 @@
         background-color: black;
         height: 0.25em;
         position: absolute;
+}
+
+.option a
+{
+    font-family: 'Whitney-Book';
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding: 0 1rem;
+    color: black;
+    font-size: 1rem; 
+    text-decoration: none;
 }

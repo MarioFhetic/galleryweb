@@ -48,6 +48,7 @@
     "react-app-polyfill": "^1.0.4",
     "react-dev-utils": "^9.1.0",
     "react-dom": "^16.11.0",
+    "react-responsive": "^8.0.1",
     "react-router-dom": "^5.1.2",
     "react-simple-sidenav": "^1.0.1",
     "react-slick": "^0.25.2",

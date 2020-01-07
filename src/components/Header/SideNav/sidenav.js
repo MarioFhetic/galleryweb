@@ -1,6 +1,8 @@
 import React from 'react';
 import SideNav from 'react-simple-sidenav';
 
+import SideNavItems from './sideNavItems'
+
 const SideNaviguation = (props) => {
     return(
         <div>
@@ -8,7 +10,7 @@ const SideNaviguation = (props) => {
             showNav = {props.showNav}
             onHideNav = {props.onHideNav}
             >
-                options
+                <SideNavItems/>
             </SideNav>
         </div>
     )

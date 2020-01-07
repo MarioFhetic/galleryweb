@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import styles from './gallery.css'
 import {firebaseLooper, firebaseDB} from '../../firebase'
 
-import Slider from '../widgets/GallerySlider/slider.js'
 import GallerySlider from '../widgets/GallerySlider/GallerySlider'
 
 import { sequenceExpression } from '@babel/types'

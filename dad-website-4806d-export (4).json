@@ -606,13 +606,37 @@
         "year" : "1988"
       },
       {
-        "name" : "Rome 3.08 a.m.",
-        "price" : "600 €",
-        "size" : "60 cm x 60 cm",
-        "text" : "Photographie argentique 60 cm x 60 cm - 600 €  /  Contre collé 750 € 100 cm x 100 cm - 900 €  /  Contre collé 1150 € Caisse américaine 1350 €  Papier Fine art paper 308g mat ou Barité satin 330g Edition limitée à 15 exemplaires   ",
+        "name" : "Rome 3.29 a.m.",
+        "price" : "550 € / Contrecollé - 650 €",
+        "size" : "45 cm x 60 cm",
+        "text" : "100 cm x 134 cm - 1050 € Contrecollé - 1250 €  /  Caisse américaine - 1450 €  Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté sati Edition limitée à 15 exemplaires.   ",
         "url" : "09.jpg",
         "year" : "1988"
-      }        
+      },
+      {
+        "name" : "Rome 4.10 a.m.",
+        "price" : "550 € / Contrecollé - 650 €",
+        "size" : "45 cm x 60 cm",
+        "text" : "85 cm x 100 cm - 850 € Contrecollé - 1000 €  /  Caisse américaine - 1250 €   Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin Edition limitée à 15 exemplaires.  ",
+        "url" : "10.jpg",
+        "year" : "1988"
+      },
+      {
+        "name" : "Rome 4.11 a.m.",
+        "price" : "600 € / Contre collé 750 €",
+        "size" : "60 cm x 60 cm",
+        "text" : "100 cm x 100 cm - 900 €  /  Contre collé 1150 € Caisse américaine 1350 €  Papier Fine art paper 308g mat ou Barité satin 330g Edition limitée à 15 exemplaires.   ",
+        "url" : "11.jpg",
+        "year" : "1988"
+      },
+      {
+        "name" : "Rome 4.12 a.m.",
+        "price" : "550 € / Contrecollé - 650 €",
+        "size" : "49 cm x 60 cm",
+        "text" : "85 cm x 100 cm - 850 € Contrecollé - 1000 €  /  Caisse américaine - 1250 €   Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin Edition limitée à 15 exemplaires. ",
+        "url" : "12.jpg",
+        "year" : "1988"
+      }               
     ],
       "id" : 7,
       "link" : "foro-italico",

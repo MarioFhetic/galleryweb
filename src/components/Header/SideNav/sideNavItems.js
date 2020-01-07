@@ -1,18 +1,20 @@
 import React from 'react';
-import style from './navbar.css'
+import style from './sidenav.css'
 
 import {Link} from 'react-router-dom';
 
 
-const NavbarItems = () => 
+const SideNavItems = () => 
 {
 
     const items = [
+
     {        
         type : style.option,
         text : 'home',
         link : '/',
     },
+
     {        
         type : style.option,
         text : 'bio',
@@ -35,18 +37,6 @@ const NavbarItems = () =>
         type : style.option,
         text : 'finition',
         link : '/finition',
-    },
-
-    // {        
-    //     type : style.option,
-    //     text : 'photographies originales numérotées et signées',
-    //     link : '/',
-    // },
-
-    {        
-        type : style.option,
-        text : 'galerie',
-        link : '/galerie',
     },
 
     {        
@@ -77,4 +67,4 @@ const NavbarItems = () =>
     )
 }
 
-export default NavbarItems;
+export default SideNavItems;

@@ -1,9 +1,6 @@
 import React from 'react';
-import styles from './header.css';
+import styles from './SideNav/sidenav.css';
 import SideNav from './SideNav/sidenav.js'
-
-
-
 
 
 
@@ -19,7 +16,6 @@ const HeaderSideNav = (props) =>
             </div>
         )
     
-
     return(
         
         <header className = {styles.header}>
