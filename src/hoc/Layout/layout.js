@@ -26,14 +26,18 @@ class Layout extends Component
     {
         return(
             <div>
-                <Header/> 
-                {/* <MediaQuery query="(max-device-width: 1024px)">
+                <MediaQuery query="(min-device-width: 1024px)">
+                    <Header/>
+                </MediaQuery>
+                <MediaQuery query="(max-device-width: 1024px)">
                  <HeaderSideNav
                 showNav = {this.state.showNav}
                 onHideNav = {() => this.toggleSideNav(false)}
                 onOpenNav = {() => this.toggleSideNav(true)}
                 />
-                </MediaQuery> */}
+                </MediaQuery>
+
+                
 
                 {this.props.children}
                 <Footer/>

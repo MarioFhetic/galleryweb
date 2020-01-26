@@ -34,6 +34,8 @@
         position: absolute;
 }
 
+
+
 .option a
 {
     font-family: 'Whitney-Book';
@@ -41,6 +43,25 @@
     text-transform: uppercase;
     padding: 0 1rem;
     color: black;
-    font-size: 1rem; 
+    font-size: 1.2rem; 
     text-decoration: none;
+}
+
+@media only screen and (min-width : 320px) and (max-width: 1024px)
+{
+  .burger {
+    font-size: 8px;
+  }
+  nav
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+  }
+
+  nav div
+  {
+    padding-bottom: 5rem;
+  }
 }

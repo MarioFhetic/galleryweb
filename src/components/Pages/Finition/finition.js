@@ -20,12 +20,12 @@ const Finition = () =>
                         au format exact de l'image, sur laquelle est collé au dos un châssis en aluminium de 2 cm d'épaisseur, rentrant de 5 cm.
                     </p>
                     <div className = {styles.containerImg}>
-                        <img src="../../images/finitions/section1left.jpg" alt=""/>
+                        <img src="../../images/finitions/section1left.jpg" alt="Photographie faite en contre collé et chassis alumminium"/>
                     </div>
                     <p>Cette finition garantie une excellente rigidité et permet une accroche décollée du mur.</p>
                 </div>
                 <div className = {styles.rightContent}>
-                    <img src="../../images/finitions/section1right.png" alt=""/>
+                    <img src="../../images/finitions/section1right.png" alt="Photographie faite en contre collé et chassis alumminium"/>
                 </div>
             </div>
             <div className = {styles.sectionAmericaine}>
@@ -36,12 +36,12 @@ const Finition = () =>
                         L’ensemble est intégré dans un cadre en bois naturel, noir ou blanc. Largeur de la bordure du cadre, 9 mm, profondeur 35 mm.
                     </p>
                     <div className = {styles.containerImg}>
-                        <img src="../../images/finitions/section2left.jpg" alt=""/>
+                        <img src="../../images/finitions/section2left.jpg" alt="Tirage est contrecollé sur une plaque rigide de Dibond"/>
                     </div>
                     <p>Un cadre sans verre, sobre et élégant qui met en valeur le grain du papier sans aucun reflet.</p>
                 </div>
                 <div className = {styles.rightContent}>
-                    <img src="../../images/finitions/section2right.png" alt=""/>
+                    <img src="../../images/finitions/section2right.png" alt="Tirage est contrecollé sur une plaque rigide de Dibond"/>
                 </div>
             </div>
             <div className = {styles.sectionPlexicollage}>
@@ -54,7 +54,7 @@ const Finition = () =>
                     </p>
                     <div className = {styles.testContainer}>
                         <div className = {styles.containerImg}>
-                            <img src="../../images/finitions/section3left.png" alt=""/>
+                            <img src="../../images/finitions/section3left.png" alt="Photographie sur un tirage contre collé sur une plaque d'aluminium de 1 mm "/>
                         </div>
                         <div className = {styles.captionImg}>
                             <p>
@@ -65,11 +65,11 @@ const Finition = () =>
                     <p>Cette finition garantie une excellente rigidité et permet une accroche décollée du mur.</p>
                 </div>
                 <div className = {styles.rightContent}>
-                    <img src="../../images/finitions/section3right.png" alt=""/>
+                    <img src="../../images/finitions/section3right.png" alt="Photographie sur un tirage contre collé sur une plaque d'aluminium de 1 mm"/>
                 </div>
             </div>
             <div className = {styles.bigImg}>
-                <img src="../../images/finitions/bigImg.jpg" alt=""/>
+                <img src="../../images/finitions/bigImg.jpg" alt="Photographie d'un salon avec des tableaux sur les murs"/>
             </div>
 
         </div>

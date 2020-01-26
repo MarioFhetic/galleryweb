@@ -35,7 +35,7 @@ const Principe = () =>
                     </p>
                 </div>
                 <div className = {styles.rightContent}>
-                    <img src="../../images/principe/section1right.png" alt=""/>
+                    <img src="../../images/principe/section1right.png" alt="Photographie montrant une image de la série Chutte de Pierre"/>
                 </div>
             </div>
             <div className = {styles.sectionBottom}>
@@ -64,7 +64,7 @@ const Principe = () =>
 
                 </div>
                 <div className = {styles.rightContent}>
-                    <img src="../../images/principe/section2right.jpg" alt=""/>
+                    <img src="../../images/principe/section2right.jpg" alt="Photographie d'un tableau en noir et blanc affiché au mur"/>
                 </div>
                 <div className = {styles.textEnd}>
                     <h2>COPYRIGHTS</h2>

@@ -34,10 +34,10 @@ const Impression = () =>
                     </p>
                 </div>
                 <div className = {styles.rightContent}>
-                    <img src="../../images/impression/section1right.jpg" alt=""/>
+                    <img src="../../images/impression/section1right.jpg" alt="Photophraphie d'une femme regardant une image imprimée sur papier"/>
                 </div>
                 <div className = {styles.logoLabelImage}>
-                    <img src="../../images/impression/logolabelimage.png" alt=""/>
+                    <img src="../../images/impression/logolabelimage.png" alt="Logo Label Image"/>
                 </div>
             </div>
             <div className = {styles.sectionBottom}>
@@ -47,7 +47,7 @@ const Impression = () =>
                     en termes de rendu et de conservation.
                 </p>
                 <div className = {styles.leftContentBottom}>
-                    <img src="../../images/impression/section2left.jpg" alt=""/>
+                    <img src="../../images/impression/section2left.jpg" alt="Photographie d'une femme mettant un papier dans une imprimante"/>
                 </div>
                 <div className = {styles.rightContentBottom}>
                     <h2>LES TIRAGES NUMÉRIQUES PIGMENTAIRES FINE ART</h2>

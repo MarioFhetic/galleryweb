@@ -88,28 +88,28 @@ const Bio = () =>
                 </div>
                 <div className = {styles.rightContent}>
                     <div className = {styles.containerImg}>
-                        <img src="../../images/bio/section1carton.jpg" alt=""/>
-                        <img src="../../images/bio/section1book.jpg" alt=""/>
-                        <img src="../../images/bio/section1voiture.jpg" alt=""/>
+                        <img src="../../images/bio/section1carton.jpg" alt="Photographie d'un carton en noir et blanc"/>
+                        <img src="../../images/bio/section1book.jpg" alt="Photographie d'un livre en noir et blanc"/>
+                        <img src="../../images/bio/section1voiture.jpg" alt="Photographie d'une voiture en noir et blanc"/>
                     </div>
                 </div>
             </div>
             <div className = {styles.sectionMain}>
                 <div className = {styles.containerImg}>
                     <div className = {styles.cardImg}>
-                        <img src="../../images/bio/sectionmain01.jpg" alt=""/>
+                        <img src="../../images/bio/sectionmain01.jpg" alt="Photographie d'une sculpture en oxydation"/>
                         <div className = {styles.captionImg}>
                             <span>Oxydation 5  135,5x132,5</span>    
                         </div>                        
                     </div>
                     <div className = {styles.cardImg}>
-                        <img src="../../images/bio/sectionmain02.jpg" alt=""/>
+                        <img src="../../images/bio/sectionmain02.jpg" alt="Photographie d'une sculpture en oxydation"/>
                         <div className = {styles.captionImg}>
                             <span>Oxydation 4  141x100</span>    
                         </div>                        
                     </div>
                     <div className = {styles.cardImgOther}>
-                        <img src="../../images/bio/sectionmain03.jpg" alt=""/>
+                        <img src="../../images/bio/sectionmain03.jpg" alt="Photographie d'une sculpture en oxydation"/>
                         <div className = {styles.captionImg}>
                             <span>Il Baccio 158x217</span>    
                         </div>                        
@@ -126,32 +126,32 @@ const Bio = () =>
                     </p>
                     <div className = {styles.containerImg}>
                         <div className = {styles.cardImg}>
-                            <img src="../../images/bio/sectionbottom01.jpg" alt=""/>
+                            <img src="../../images/bio/sectionbottom01.jpg" alt="Affiche de pub réalisés par Éric Fayolle"/>
                         </div>
                         <div className = {styles.cardImg}>
-                            <img src="../../images/bio/sectionbottom02.jpg" alt=""/>
+                            <img src="../../images/bio/sectionbottom02.jpg" alt="Affiche de pub réalisés par Éric Fayolle"/>
                         </div>
                     </div>
                 </div>
                 <div className = {styles.rightContent}>
-                    <img src="../../images/bio/sectionbottom03.jpg" alt=""/>
+                    <img src="../../images/bio/sectionbottom03.jpg" alt="Affiche de pub réalisés par Éric Fayolle"/>
                 </div>
             </div>
             <div className = {styles.sectionEnd}>
                 <div className = {styles.containerImg}>
                         <div className = {styles.cardImgOther}>
-                            <img src="../../images/bio/sectionend01.jpg" alt=""/>                     
+                            <img src="../../images/bio/sectionend01.jpg" alt="Design architectural réalisés par Éric Fayolle"/>                     
                         </div>
                         <div className = {styles.cardImg}>
-                            <img src="../../images/bio/sectionend02.jpg" alt=""/>                       
+                            <img src="../../images/bio/sectionend02.jpg" alt="Design architectural réalisés par Éric Fayolle"/>                       
                         </div>
                         <div className = {styles.cardImg}>
-                            <img src="../../images/bio/sectionend03.jpg" alt=""/>                       
+                            <img src="../../images/bio/sectionend03.jpg" alt="Design architectural réalisés par Éric Fayolle"/>                       
                         </div>
                 </div>
                 <div className = {styles.centeredImg}>
-                    <img src="../../images/bio/sectionfooter01.jpg" alt=""/>
-                    <img src="../../images/bio/sectionfooter02.jpg" alt=""/>
+                    <img src="../../images/bio/sectionfooter01.jpg" alt="Timbre de la ville de Paris réalisés par Éric Fayolle"/>
+                    <img src="../../images/bio/sectionfooter02.jpg" alt="Timbre de la ville de Paris réalisés par Éric Fayolle"/>
                 </div>
             </div>
         </div>

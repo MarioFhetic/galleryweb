@@ -645,27 +645,28 @@
     "mexique" : {
       "cover" : "01.jpg",
       "gallery" : [ {
-        "name" : "Vestiges n°1",
-        "price" : "900 €",
-        "size" : "100 cm x 100 cm",
-        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "name" : "San Cristobal de las casas",
+        "price" : "550€",
+        "size" : "54 cm x 54 cm",
+        "text" : "Contrecollé - 650 € / Caisse américaine - 800 € 84 cm x 84 cm - 800 € Contrecollé - 950 € /Caisse américaine - 1150 € Fine art Hahnemulhe 308 g mat ou Baryté satin Edition limitée à 15 exemplaires. ",
         "url" : "01.jpg",
-        "year" : "2009"
+        "year" : "1992"
       }, {
-        "name" : "Vestiges n°2",
-        "price" : "900 €",
-        "size" : "100 cm x 100 cm",
-        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "name" : "Femme au châle",
+        "price" : "550€ €",
+        "size" : "44 cm x 54 cm",
+        "text" : "Contrecollé - 650 € / Caisse américaine - 800 € 68 cm x 84 cm - 750 € Contrecollé - 870 € / Caisse américaine - 980 € Fine art Hahnemulhe 308 g mat ou Baryté satin Edition limitée à 15 exemplaires. ",
         "url" : "02.jpg",
-        "year" : "2009"
+        "year" : "1992"
       }, {
-        "name" : "Vestiges n°3",
-        "price" : "900 €",
-        "size" : "100 cm x 100 cm",
-        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
-        "url" : "03.jpg",
-        "year" : "2009"
-      } ],
+        "name" : "Homme et chapeau",
+        "price" : "550€ €",
+        "size" : "44 cm x 54 cm",
+        "text" : "Contrecollé - 650 € / Caisse américaine - 800 € 68 cm x 84 cm - 750 € Contrecollé - 870 € / Caisse américaine - 980 € Fine art Hahnemulhe 308 g mat ou Baryté satin Edition limitée à 15 exemplaires. ",
+        "url" : "02.jpg",
+        "year" : "1992"
+      }
+     ],
       "id" : 8,
       "link" : "mexique",
       "serie" : "Mexique"
