@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import style from './cardList.css';
-import {firebaseLooper, firebaseImage} from '../../../firebase'
+import {firebaseLooper, firebaseImage} from '../../../firebase';
+import Fade from 'react-reveal/Fade';
+
 
 import CardListItem from './cardListItem';
 
@@ -60,11 +62,13 @@ class CardList extends Component
     render()
     {
         return(
-            <div className = {style.bigContainerCardList}>
-                <div className = {style.cardListWrapper}>
-                    {this.renderImages()}
+            <Fade delay = {1200}>
+                <div className = {style.bigContainerCardList}>
+                    <div className = {style.cardListWrapper}>
+                        {this.renderImages()}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         )
     }
 }

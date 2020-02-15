@@ -1,10 +1,13 @@
 import React from 'react';
 import MiddleBarItems from './middleBarItems';
+import Fade from 'react-reveal/Fade';
 
 const MiddleBar = () =>
 {
     return(
-        <MiddleBarItems/>
+        <Fade delay = {1000}>
+            <MiddleBarItems/>
+        </Fade>
     )
 }
 

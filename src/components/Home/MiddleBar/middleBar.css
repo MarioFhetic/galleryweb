@@ -40,3 +40,19 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.containerMiddleBar .middleBar div a:hover
+{
+    color: black;
+    transition: color 1s ease;
+}
+
+
+/* 
+@media only screen and (min-width : 375px) and (max-width: 812px)
+{
+    .containerMiddleBar
+    {
+        margin-left: 2rem;
+    }
+}  */

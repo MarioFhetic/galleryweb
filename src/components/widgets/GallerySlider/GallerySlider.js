@@ -5,27 +5,25 @@ import {Link} from 'react-router-dom';
 import './slick-theme.css';
 
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={styles.containerArrowRight}
-      style={{transform: 'translate3d(0, -50%, 0) rotate(45deg)', transform: 'translate3d(0, -50%, 0) rotate(45deg)'}}
-      onClick={onClick}
-    ><a className = {styles.arrow} href=""></a></div>
-  );
-}
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={styles.homok}
+//       onClick={onClick}
+//     ><a className = {styles.arrow} href=""></a></div>
+//   );
+// }
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={styles.containerArrowLeft}
-      style={{transform: 'translate3d(0, -50%, 0) rotate(-135deg)', transform: 'translate3d(0, -50%, 0) rotate(-135deg)'}}
-      onClick={onClick}
-    ><a className = {styles.arrow} href=""></a></div>
-  );
-}
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={styles.homok}
+//       onClick={onClick}
+//     ><a className = {styles.arrow} href=""></a></div>
+//   );
+// }
 
 export default class GallerySlider extends Component {
   constructor(props) {
@@ -33,7 +31,7 @@ export default class GallerySlider extends Component {
     this.state = {
       nav1: null,
       nav2: null,
-      slickGoTo: 0,
+      initialSlide: 0
     };
   }
 
@@ -44,7 +42,8 @@ export default class GallerySlider extends Component {
 
     this.setState({
       nav1: this.slider1,
-      nav2: this.slider2
+      nav2: this.slider2,
+      initialSlide: 0,
     });
   }
 
@@ -73,15 +72,17 @@ export default class GallerySlider extends Component {
   } 
 
   render() {
-    let index = this.state.slickGoTo;
+    // console.log(this.state.slickGoTo)
     let serie = this.props.serie;
     let imageData = this.getImageData();
     let images = this.getImages();
+    let index = this.state.initialSlide;
+    console.log(index)
     const settings = {
       dots: false,
       arrows: true,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />
+      // nextArrow: <SampleNextArrow />,
+      // prevArrow: <SamplePrevArrow />
     };
 
     return (
@@ -132,13 +133,14 @@ export default class GallerySlider extends Component {
             swipeToSlide={true}
             fade = {false}
             dots = {true}
+            initialSlide = {index - images.length}
             focusOnSelect={false}
-            initialSlide={index}
             slickSetOption ={{refresh: true}}
         >
             {images.length > 0 && images.map((item, index) => {
                 return (
                     <div key={item}>
+                      {console.log(this.state.initialSlide)}
                         <img src={item} className={styles.slickImg} alt="#"/>
                     </div>
                 )

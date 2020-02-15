@@ -13,3 +13,29 @@ rect
 {
     fill: #660000;
 }
+/* 
+Iphone 6 7 8 */
+@media only screen  
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) 
+{
+    .sidenavContainer .logo_header
+    {
+        width: 250px;
+        margin-top: 30%;
+    }
+}
+
+/* iPhone 5 */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+    .sidenavContainer .logo_header
+    {
+
+        width: 100px;
+        margin-top: 30%;
+    }
+ }

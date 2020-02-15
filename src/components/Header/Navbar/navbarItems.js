@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './navbar.css'
 
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 const NavbarItems = () => 
@@ -37,16 +37,10 @@ const NavbarItems = () =>
         link : '/finition',
     },
 
-    // {        
-    //     type : style.option,
-    //     text : 'photographies originales numérotées et signées',
-    //     link : '/',
-    // },
-
     {        
         type : style.option,
         text : 'galerie',
-        link : '/galerie',
+        link : '/gallery',
     },
 
     {        
@@ -57,14 +51,16 @@ const NavbarItems = () =>
 
     ]
 
+
+
     const showItems = () =>
     {
         return items.map((item, i) => {
             return(
                 <div key = {i} className = {item.type}>
-                    <Link to = {item.link}>
+                    <NavLink exact to = {item.link} activeClassName = {style.active}>
                         {item.text}
-                    </Link>
+                    </NavLink>
                 </div>
             )
         })

@@ -2,9 +2,10 @@ import React, {Component} from 'react'
 import styles from './gallery.css'
 import {firebaseLooper, firebaseDB} from '../../firebase'
 
-import GallerySlider from '../widgets/GallerySlider/GallerySlider'
+import GallerySlider from '../widgets/GallerySlider/GallerySlider';
+import Fade from 'react-reveal/Fade';
 
-import { sequenceExpression } from '@babel/types'
+
 
 class Gallery extends Component
 {
@@ -40,7 +41,12 @@ class Gallery extends Component
 
         return(
             <div className={styles.outerGallery}>
-                {gallery && <GallerySlider serie={serie} link={link} gallery={gallery} />}
+                {
+                gallery && 
+                <Fade delay = {800}>
+                    <GallerySlider serie={serie} link={link} gallery={gallery} />
+                </Fade>
+                }
             </div>
         )
     }

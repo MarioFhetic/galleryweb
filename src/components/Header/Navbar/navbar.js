@@ -1,10 +1,15 @@
 import React from 'react';
 import NavbarItems from './navbarItems';
+import Fade from 'react-reveal/Fade';
 
 const Navbar = () =>
 {
+
+
     return(
-        <NavbarItems/>
+        <Fade delay = {1400}>
+            <NavbarItems/>
+        </Fade>
     )
 }
 

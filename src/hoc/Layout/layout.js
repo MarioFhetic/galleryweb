@@ -26,7 +26,7 @@ class Layout extends Component
     {
         return(
             <div>
-                <MediaQuery query="(min-device-width: 1024px)">
+                <MediaQuery query="(min-device-width: 1025px)">
                     <Header/>
                 </MediaQuery>
                 <MediaQuery query="(max-device-width: 1024px)">
