@@ -1,7 +1,7 @@
 .logo_header
 {
     margin: auto;
-    /* width: 400px; */
+    width: 400px; 
 }
 
 rect
@@ -14,9 +14,6 @@ rect
     fill: #660000;
 }
 /* 
-
-
-
 
 
 Iphone 6 7 8 */
@@ -43,6 +40,11 @@ and (orientation : portrait) {
         width: 100px;
         margin-top: 30%;
     }
+    .logo_header
+    {
+        margin: auto;
+        width: 300px; 
+    }
  }
 
  @media only screen and (min-width : 1224px)
@@ -59,6 +61,29 @@ and (orientation : portrait) {
     .logo_header
     {
         margin: auto;
-        width: 700px; 
+        width: 400px; 
     }
+}
+
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) {
+    .logo_header
+    {
+        margin: auto;
+        width: 300px; 
     }
+ }
+
+ @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+    .logo_header
+    {
+        margin: auto;
+        width: 300px; 
+    }
+ }
+

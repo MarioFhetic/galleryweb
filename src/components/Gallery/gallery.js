@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import styles from './gallery.css'
 import {firebaseLooper, firebaseDB} from '../../firebase'
+import {Link} from 'react-router-dom';
 
 import GallerySlider from '../widgets/GallerySlider/GallerySlider';
 import Fade from 'react-reveal/Fade';
@@ -41,6 +42,9 @@ class Gallery extends Component
 
         return(
             <div className={styles.outerGallery}>
+                <Link to = "/">
+                    <img className = {styles.returnArrow} src="../../images/left-arrow.png" alt=""/> 
+                </Link>
                 {
                 gallery && 
                 <Fade delay = {800}>

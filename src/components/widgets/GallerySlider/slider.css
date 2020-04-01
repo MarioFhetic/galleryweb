@@ -24,11 +24,7 @@
     justify-content: space-between;
 }
 
-.innerGallery .returnArrow
-{
-   position: absolute;
-   max-width: 33px;
-}
+
 
 .dataSlider,
 .dataSlider .slick-slider {
@@ -56,7 +52,7 @@
 .dataSlider h2 {
     margin-top: 2%;
     padding-bottom: 40%;
-    font-family: 'AvenirNextLTPro-Italic';
+    font-family: 'AvenirNextLTPro-It';
     font-weight: lighter;
     font-size: 1rem;
     color: #666666;
@@ -172,10 +168,9 @@
     }
     .returnArrow
     {
+        position: absolute;
         width: 25px;
         left: 10px;
         top: 60px;
     }
-    
-
 }

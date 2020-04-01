@@ -35,15 +35,30 @@
 }
 
 
+.sidenavContainer .option
+{
+  border-bottom: 1px solid #E8E8E8;
+}
 
-.option a
+.sidenavContainer :last-child
+{
+  border-bottom: none;
+}
+.sidenavContainer nav :first-child
+{
+  padding-top: 0;
+}
+
+
+.sidenavContainer a
 {
     font-family: 'Whitney-Book';
     font-weight: lighter;
     letter-spacing: 0.1rem;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     padding: 0 1rem;
     color: black;
+    opacity: 0.8;
     font-size: 1.2rem; 
     text-decoration: none;
 }
@@ -53,16 +68,19 @@
   .burger {
     font-size: 8px;
   }
-  nav
+
+  .sidenavContainer nav
   {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center ;
+    padding-top: 5rem;
   }
 
-  nav div
+  .sidenavContainer .option
   {
-    padding-bottom: 5rem;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+
   }
 }

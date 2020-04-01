@@ -123,6 +123,12 @@
     {
         flex-direction: column;
     }
+
+    .bigContainer .containerHeader
+    {
+        padding: 5% 0;
+    }
+    
     .bigContainer .section .leftContent p
     {
         max-width: 80vw;

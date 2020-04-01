@@ -11,9 +11,16 @@
     fill: transparent;
 }
 
+.logo_principe svg
+{
+    position: relative;
+    left: 10%;
+}
+
+
 .logo_principe text
 {
-    font-family: 'AvenirNextLTPro-Ultra-Light';
+    font-family: 'AvenirNextLTPro-UltLt';
     font-size: 30.95px;
     fill: #999999;
 }

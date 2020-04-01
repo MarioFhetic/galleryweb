@@ -13,12 +13,13 @@ a
 {   
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 .bigContainerCardList .cardListWrapper
 {
     display: flex;
-    width: 80vw;
+    max-width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 3rem;
@@ -65,10 +66,16 @@ a
     }
 }
 
-/* @media only screen and (min-width : 375px) and (max-width: 812px)
-{
-    .bigContainerCardList
+@media screen and (min-width: 1400px) {
+
+    .bigContainerCardList .cardListWrapper .cardImg
     {
-        margin-left: 2rem;
+        width: 26vw;
+        height: 26vw;
     }
-}  */
+    .bigContainerCardList .cardListWrapper
+    {
+        max-width: 90%;
+    }
+}
+

@@ -12,3 +12,35 @@ h1, h2 {
     padding: 7vh 5vw 5vh 5vw;
 }
 
+.outerGallery .returnArrow
+{
+   position: absolute;
+   cursor: pointer;
+   max-width: 30px;
+   z-index: 7;
+}
+
+@media only screen and (min-width : 320px) and (max-width: 812px)
+{
+
+    .outerGallery .returnArrow
+    {
+        position: absolute;
+        max-width: 25px;
+        top: 60px;
+        
+    }
+
+}
+
+@media only screen and (min-width : 768px) and (max-width: 1023px)
+{
+
+    .outerGallery .returnArrow
+    {
+        position: absolute;
+        max-width: 25px;
+        top: 90px;
+    }
+
+}

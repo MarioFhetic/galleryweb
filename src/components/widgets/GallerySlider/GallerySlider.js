@@ -31,21 +31,19 @@ export default class GallerySlider extends Component {
     this.state = {
       nav1: null,
       nav2: null,
-      initialSlide: 0
     };
   }
 
-  componentDidMount() {
 
-    // this.slider1.slickGoTo(0, true);
-    // this.slider2.slickGoTo(0, true);
 
-    this.setState({
-      nav1: this.slider1,
-      nav2: this.slider2,
-      initialSlide: 0,
-    });
-  }
+  // componentDidMount()
+  // {
+  //   this.state = {
+  //     nav1: this.slider1,
+  //     nav2: this.slider2,
+  //   };
+  // }
+
 
   getImageData(){
     let gallery = this.props.gallery;
@@ -71,47 +69,63 @@ export default class GallerySlider extends Component {
     return images;
   } 
 
+
+  componentWillMount()
+  {
+    this.setState({
+      nav1: this.slider1,
+      nav2: this.slider2,
+    });
+  }
+
+  componentDidMount() {
+
+    // this.getImageData();
+    // this.getImages()
+
+    this.setState({
+      nav1: this.slider1,
+      nav2: this.slider2,
+    });
+  }
+
+  
   render() {
     // console.log(this.state.slickGoTo)
     let serie = this.props.serie;
     let imageData = this.getImageData();
     let images = this.getImages();
-    let index = this.state.initialSlide;
-    console.log(index)
     const settings = {
       dots: false,
       arrows: true,
+      initialSlide: 0,
       // nextArrow: <SampleNextArrow />,
       // prevArrow: <SamplePrevArrow />
     };
 
     return (
+      
       <div className={styles.innerGallery}>
-      <Link to = "/">
-        <img className = {styles.returnArrow} src="../../images/left-arrow.png" alt=""/> 
-      </Link>
-
-
-       
+        
         <div className={styles.dataSlider}>
 
           <div className = {styles.dataSlider_title}>
-            <h1>Serie</h1>
+            <h1>Série</h1>
             <h1>{serie}</h1>
           </div>
           <Slider
-            initialSlide={index}
             dots={false}
             arrow={false}
             swipe = {false}
             fade = {true}
             focusOnSelect = {false}
-            /* asNavFor={this.state.nav2} */
+            asNavFor={this.state.nav2} 
             ref={slider => (this.slider1 = slider)}
           >
               {imageData.length > 0 && imageData.map((item, i)=> {
                   return (
                       <div key={i}>
+                        {console.log(item)}
                           <h2>{item[0]}</h2>
                           <p>{item[1]}</p>
                           <p>{item[2]}</p>
@@ -124,6 +138,7 @@ export default class GallerySlider extends Component {
         </div>
         <Slider
             {...settings}
+            initialSlide = {0}
             className={styles.imageSlider}
             asNavFor={this.state.nav1}
             adaptiveHeight = {true}
@@ -133,16 +148,16 @@ export default class GallerySlider extends Component {
             swipeToSlide={true}
             fade = {false}
             dots = {true}
-            initialSlide = {index - images.length}
             focusOnSelect={false}
-            slickSetOption ={{refresh: true}}
         >
             {images.length > 0 && images.map((item, index) => {
                 return (
                     <div key={item}>
-                      {console.log(this.state.initialSlide)}
+                      {console.log(index)}
+                      {console.log(item)}
                         <img src={item} className={styles.slickImg} alt="#"/>
                     </div>
+                    
                 )
             })}
         </Slider>

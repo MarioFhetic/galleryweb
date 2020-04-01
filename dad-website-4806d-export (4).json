@@ -726,6 +726,43 @@
       "id" : 10,
       "link" : "oxydations",
       "serie" : "Oxydations"
+    },
+    "lost-in-abstraction" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Sans-titre 1",
+        "price" : "380 €",
+        "size" : "30 x 36 cm",
+        "text" : "Format final 42 cm x 59,4 cm Fine art paper 350 g mat 100% coton Légèrement texturé, bords frangés sur les 4 côtés. Edition limitée à 15 exemplaires.",
+        "url" : "01.jpg",
+        "year" : "2019"
+      }, {
+        "name" : "Sans-titre 2",
+        "price" : "380 €",
+        "size" : "30 x 36 cm",
+        "text" : "Format final 42 cm x 59,4 cm Fine art paper 350 g mat 100% coton Légèrement texturé, bords frangés sur les 4 côtés. Edition limitée à 15 exemplaires.",
+        "url" : "02.jpg",
+        "year" : "2019"
+      }, {
+        "name" : "Sans-titre 3",
+        "price" : "380 €",
+        "size" : "30 x 36 cm",
+        "text" : "Format final 42 cm x 59,4 cm Fine art paper 350 g mat 100% coton Légèrement texturé, bords frangés sur les 4 côtés. Edition limitée à 15 exemplaires.",
+        "url" : "03.jpg",
+        "year" : "2019"
+      },
+      {
+        "name" : "Sans-titre 4",
+        "price" : "380 €",
+        "size" : "30 x 36 cm",
+        "text" : "Format final 42 cm x 59,4 cm Fine art paper 350 g mat 100% coton Légèrement texturé, bords frangés sur les 4 côtés. Edition limitée à 15 exemplaires.",
+        "url" : "04.jpg",
+        "year" : "2019"
+      }  
+    ],
+      "id" : 11,
+      "link" : "lost-in-abstraction",
+      "serie" : "Lost in abstraction"
     }
   }
 }

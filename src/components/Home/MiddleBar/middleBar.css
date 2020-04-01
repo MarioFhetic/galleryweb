@@ -8,6 +8,7 @@
 {
     display: flex;
     flex-wrap: wrap;
+    /* width: 85vw; */
     justify-content: center;
     font-family: 'Whitney-Book';
     font-weight: lighter;
@@ -56,3 +57,115 @@
         margin-left: 2rem;
     }
 }  */
+
+/* Iphone X */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+    .containerMiddleBar .middleBar div:nth-child(3)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(6)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(9)
+    {
+        border-right: none;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px)
+and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait)
+{
+    .containerMiddleBar .middleBar div:nth-child(2)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(4)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(7)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(9)
+    {
+        border-right: none;
+    }
+}
+
+/* 6 7 8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+    .containerMiddleBar .middleBar div:nth-child(3)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(6)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(9)
+    {
+        border-right: none;
+    }
+}
+
+/* 6 7 8 PLUS */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+    .containerMiddleBar .middleBar div:nth-child(3)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(6)
+    {
+        border-right: 1px solid grey;
+    }
+    .containerMiddleBar .middleBar div:nth-child(7)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(9)
+    {
+        border-right: 1px solid grey;
+    }
+    .containerMiddleBar .middleBar div:nth-child(10)
+    {
+        border-right: none;
+    }
+ }
+
+
+ /* Ipad */
+ @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px) 
+and (orientation : portrait) { 
+    .containerMiddleBar .middleBar div:nth-child(7)
+    {
+        border-right: none;
+    }
+}
+
+ /* Ipad  Mini */
+
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) 
+and (orientation : portrait) { 
+    .containerMiddleBar .middleBar div:nth-child(9)
+    {
+        border-right: none;
+    }
+}

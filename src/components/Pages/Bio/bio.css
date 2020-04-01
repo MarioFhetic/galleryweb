@@ -37,13 +37,14 @@
 
 .bigContainer .containerHeader .header h1
 {
-    font-family: 'AvenirNextLTPro-Ultra-Light';
-    font-size: 1.8rem;
+    font-family: 'AvenirNextLTPro-UltLtIt';
+    font-size: 2rem;
 }
 
 .bigContainer .containerHeader .header .secondQuote
 {
-    padding-left: 40%;
+    padding-top: 1%;
+    padding-left: 25%;
 }
 
 
@@ -146,11 +147,14 @@
     margin-left: 10%;
     flex-wrap: wrap;
     margin-top: 2%; 
+    /* background-color: pink; */
 }
 
 .bigContainer .sectionHeader .leftContent
 {
     max-width: 40%;
+    /* background-color: palegreen; */
+
 }
 
 .bigContainer .sectionHeader .leftContent p 
@@ -161,21 +165,34 @@
 .bigContainer .sectionHeader .rightContent
 {
     max-width: 50%;
+    /* background-color: papayawhip; */
 }
 
 .bigContainer .sectionHeader .rightContent img
 {    
-    max-width: 40%;
+    max-width: 45%;
+    margin-top: 5%;
     padding-bottom: 2%;
 }
+
+.bigContainer .sectionHeader .rightContent .containerImg:first-child img
+{
+    margin-top: 5%;
+    margin-right: 4%;
+
+}
+
 
 .bigContainer .sectionHeader .rightContent .containerImg
 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* background-color: paleturquoise; */
+
 }
+
 
 
 
@@ -226,7 +243,7 @@
     font-family: 'Whitney-Book';
     font-weight: lighter;
     font-size: 1rem; 
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #333333;
 }
 
@@ -240,7 +257,7 @@
     font-family: 'Whitney-Book';
     font-weight: lighter;
     font-size: 1rem; 
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #333333;
 }
 
@@ -346,6 +363,10 @@
     .bigContainer .sectionHeader
     {
         flex-direction: column;
+    }
+    .bigContainer .containerHeader
+    {
+        padding: 5% 0;
     }
     .bigContainer .sectionHeader .leftContent 
     {
