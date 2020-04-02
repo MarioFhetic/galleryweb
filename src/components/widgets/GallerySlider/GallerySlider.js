@@ -5,26 +5,6 @@ import {Link} from 'react-router-dom';
 import './slick-theme.css';
 
 
-// function SampleNextArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={styles.homok}
-//       onClick={onClick}
-//     ><a className = {styles.arrow} href=""></a></div>
-//   );
-// }
-
-// function SamplePrevArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <div
-//       className={styles.homok}
-//       onClick={onClick}
-//     ><a className = {styles.arrow} href=""></a></div>
-//   );
-// }
-
 export default class GallerySlider extends Component {
   constructor(props) {
     super(props);
@@ -34,21 +14,10 @@ export default class GallerySlider extends Component {
     };
   }
 
-
-
-  // componentDidMount()
-  // {
-  //   this.state = {
-  //     nav1: this.slider1,
-  //     nav2: this.slider2,
-  //   };
-  // }
-
-
   getImageData(){
     let gallery = this.props.gallery;
     let imageData = [];
-    
+
     gallery.length > 0 && gallery.map((item, index) => {
         let foo = [item.name, item.year, item.price, item.size, item.text]
         imageData = [...imageData, foo]
@@ -67,7 +36,7 @@ export default class GallerySlider extends Component {
         return images;
     });
     return images;
-  } 
+  }
 
 
   componentWillMount()
@@ -79,34 +48,32 @@ export default class GallerySlider extends Component {
   }
 
   componentDidMount() {
-
-    // this.getImageData();
-    // this.getImages()
-
+    //Unecessary tu peux delete :
     this.setState({
       nav1: this.slider1,
       nav2: this.slider2,
     });
   }
 
-  
+
   render() {
-    // console.log(this.state.slickGoTo)
     let serie = this.props.serie;
     let imageData = this.getImageData();
     let images = this.getImages();
     const settings = {
       dots: false,
       arrows: true,
-      initialSlide: 0,
-      // nextArrow: <SampleNextArrow />,
-      // prevArrow: <SamplePrevArrow />
+      initialSlide: 0
     };
 
+    //FIX THE SLIDER NOT RENDERING BEFORE FIRST CLICK
+    this.slider2 && this.slider2.slickGoTo(0)
+
+
     return (
-      
+
       <div className={styles.innerGallery}>
-        
+
         <div className={styles.dataSlider}>
 
           <div className = {styles.dataSlider_title}>
@@ -119,7 +86,7 @@ export default class GallerySlider extends Component {
             swipe = {false}
             fade = {true}
             focusOnSelect = {false}
-            asNavFor={this.state.nav2} 
+            asNavFor={this.slider2}
             ref={slider => (this.slider1 = slider)}
           >
               {imageData.length > 0 && imageData.map((item, i)=> {
@@ -138,15 +105,15 @@ export default class GallerySlider extends Component {
         </div>
         <Slider
             {...settings}
-            initialSlide = {0}
+            initialSlide = {1}
             className={styles.imageSlider}
-            asNavFor={this.state.nav1}
+            asNavFor={this.slider1}
             adaptiveHeight = {true}
             ref={slider => (this.slider2 = slider)}
             slidesToShow={1}
             centerMode = {false}
             swipeToSlide={true}
-            fade = {false}
+            fade = {true}
             dots = {true}
             focusOnSelect={false}
         >
@@ -154,10 +121,9 @@ export default class GallerySlider extends Component {
                 return (
                     <div key={item}>
                       {console.log(index)}
-                      {console.log(item)}
                         <img src={item} className={styles.slickImg} alt="#"/>
                     </div>
-                    
+
                 )
             })}
         </Slider>

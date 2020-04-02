@@ -16,7 +16,7 @@ class Gallery extends Component
         serie: '',
         link: ''
     }
-    
+
     componentWillMount()
     {
         // on recupère le nom de l'album
@@ -25,9 +25,10 @@ class Gallery extends Component
         firebaseDB.ref(`albums/${name}`).once('value')
         .then((snapshot) =>
         {
-            let album = snapshot.val() 
+            let album = snapshot.val()
+            // On écrit l'album dans le state
             album && this.setState({
-                gallery: album.gallery, 
+                gallery: album.gallery,
                 serie: album.serie,
                 link: album.link
             })
@@ -36,6 +37,7 @@ class Gallery extends Component
     }
 
     render(){
+        // Recup data
         let serie = this.state.serie;
         let link = this.state.link;
         let gallery = this.state.gallery
@@ -43,10 +45,10 @@ class Gallery extends Component
         return(
             <div className={styles.outerGallery}>
                 <Link to = "/">
-                    <img className = {styles.returnArrow} src="../../images/left-arrow.png" alt=""/> 
+                    <img className = {styles.returnArrow} src="../../images/left-arrow.png" alt=""/>
                 </Link>
                 {
-                gallery && 
+                gallery &&
                 <Fade delay = {800}>
                     <GallerySlider serie={serie} link={link} gallery={gallery} />
                 </Fade>

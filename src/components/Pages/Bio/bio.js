@@ -16,8 +16,8 @@ const Bio = () =>
                         <h1 className = {styles.secondQuote}>cela signifie que l’expérience est nécessairement faussée "</h1>
                         <p>
                             Si une photographie donne une image de la réalité, elle doit être capable de saisir ce que les gens regardent
-                            mais ne voient plus.<br></br> Le réel n’est pas seulement dans ce qui est perçu, mais dans la manière de voir et de faire.
-                            <br></br>
+                            mais ne voient plus. Le réel n’est pas seulement dans ce qui est perçu, mais dans la manière de voir et de faire.
+        
                             L’ordinaire, le dérisoire, les éléments épars de la banalité quotidienne, sont ceux qui méritent d’être privilégiés, 
                             parce qu’on avait fini par ne plus savoir les voir. La photographie est l’expression de notre façon d’éprouver l’existence, 
                             et d'évoquer au-delà des apparences du visible le monde vivant qui nous entoure.

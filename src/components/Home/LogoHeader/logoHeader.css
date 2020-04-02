@@ -57,6 +57,24 @@ and (orientation : portrait) {
 
 }
 
+@media only screen and (min-width : 1500px)
+{
+    .logo_header
+    {
+        margin: auto;
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width : 1600px)
+{
+    .logo_header
+    {
+        margin: auto;
+        width: 600px;
+    }
+}
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1025px) {
     .logo_header
     {
