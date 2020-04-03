@@ -63,7 +63,7 @@ export default class GallerySlider extends Component {
     const settings = {
       dots: false,
       arrows: true,
-      initialSlide: 0
+      initialSlide: 0,
     };
 
     //FIX THE SLIDER NOT RENDERING BEFORE FIRST CLICK
@@ -90,28 +90,10 @@ export default class GallerySlider extends Component {
           >
               {imageData.length > 0 && imageData.map((item, i)=> {
 
-                  {/* let regex = /(-)(?= )/gm; // selectionne les "-" suivis d'un espace */}
-                  {/* let str = item[4] //string */}
-                  {/* let element = (<br/>)
-                  const elementbr = React.createElement(
-                    '<br/>',
-                    {className: 'greeting'},
-                    'Bonjour, monde !'
-                  ); */}
-
-                  {/* let foo = str.replace(regex, "<br/>"); //match and replace */}
                   function testRegex() { 
                     let regex = /(-)(?= )/gm;
-                    let str = item[4]
                     return {__html: item[4].replace(regex, "<br/>")}; 
                   };
-
-                  {/* console.log("elementype : ", element.type)
-                  console.log("element : ", element)
-
-                  console.log(foo)
-                  console.log("str : ", str)
-                  console.log("regex : ", regex) */}
 
                   return (
                       <div key={i}>
@@ -144,7 +126,6 @@ export default class GallerySlider extends Component {
                     <div key={item}>
                         <img src={item} className={styles.slickImg} alt="#"/>
                     </div>
-
                 )
             })}
         </Slider>
