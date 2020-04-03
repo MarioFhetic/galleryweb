@@ -46,6 +46,7 @@
     font-family: 'AvenirNextLTPro-Regular';
     font-weight: lighter;
     font-size: 0.8rem;
+    line-height: 180%;
     color: #333333;
 }
 
@@ -54,7 +55,7 @@
     padding-bottom: 40%;
     font-family: 'AvenirNextLTPro-It';
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #666666;
 }
 

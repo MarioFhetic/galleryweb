@@ -90,11 +90,9 @@ const Bio = () =>
                         </p>
                     </div>
                     <div className = {styles.rightContent}>
-                        <div className = {styles.containerImg}>
                             <img src="../../images/bio/section1carton.jpg" alt="Photographie d'un carton en noir et blanc"/>
                             <img src="../../images/bio/section1book.jpg" alt="Photographie d'un livre en noir et blanc"/>
                             <img src="../../images/bio/section1voiture.jpg" alt="Photographie d'une voiture en noir et blanc"/>
-                        </div>
                     </div>
                 </div>
                 <div className = {styles.sectionMain}>

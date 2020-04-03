@@ -45,8 +45,9 @@ class Gallery extends Component
         return(
             <div className={styles.outerGallery}>
                 <Link to = "/">
-                    <img className = {styles.returnArrow} src="../../images/left-arrow.png" alt=""/>
+                    <img className = {styles.returnArrow} src="../../images/flechehomesvg.svg" alt=""/>
                 </Link>
+
                 {
                 gallery &&
                 <Fade delay = {800}>
