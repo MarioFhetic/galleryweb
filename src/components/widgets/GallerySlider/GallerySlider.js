@@ -123,7 +123,7 @@ export default class GallerySlider extends Component {
                       </div>
                   );
               })}
-          </Slider>’
+          </Slider>
         </div>
         <Slider
             {...settings}

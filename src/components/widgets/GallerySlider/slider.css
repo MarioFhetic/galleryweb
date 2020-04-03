@@ -80,7 +80,7 @@
 
 /* .slick-slide p:last-child { */
 .lastP {
-    max-width: 16vw;
+    max-width: 25vw;
 }
 
 .imageSlider,
@@ -155,7 +155,7 @@
     }
     .lastP
     {
-        max-width: 70%;
+        max-width: 90%;
     }
     .dataSlider h2
     {

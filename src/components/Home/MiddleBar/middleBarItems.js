@@ -9,6 +9,16 @@ const MiddleBarItems = () =>
     const items = [
     {        
         type : style.option,
+        text : 'Lost in abstraction',
+        link : 'gallery/lost-in-abstraction',
+    },   
+    {        
+        type : style.option,
+        text : 'Emballages',
+        link : 'gallery/emballages',
+    },
+    {        
+        type : style.option,
         text : 'Chute de pierre',
         link : 'gallery/chute-de-pierre',
     },
@@ -59,18 +69,6 @@ const MiddleBarItems = () =>
         type : style.option,
         text : 'Mexique',
         link : 'gallery/mexique',
-    },
-
-    {        
-        type : style.option,
-        text : 'Emballages',
-        link : 'gallery/emballages',
-    },
-
-    {        
-        type : style.option,
-        text : 'Oxydations',
-        link : 'gallery/oxydations',
     },
 
     ]
