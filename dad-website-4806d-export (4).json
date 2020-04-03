@@ -674,26 +674,58 @@
     "emballages" : {
       "cover" : "01.jpg",
       "gallery" : [ {
-        "name" : "Vestiges n°1",
-        "price" : "900 €",
-        "size" : "100 cm x 100 cm",
-        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "name" : "Emballage 1",
+        "price" : "54 cm x 54 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu - 650 € Caisse américaine et contrecollé - 800 € 84 cm x 84 cm - 800 € Contrecollé alu + chassis  - 900 € Caisse américaine et contrecollé - 1100 € Fine art paper Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
         "url" : "01.jpg",
-        "year" : "2009"
+        "year" : "1982"
       }, {
-        "name" : "Vestiges n°2",
-        "price" : "900 €",
-        "size" : "100 cm x 100 cm",
-        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "name" : "Emballage 2",
+        "price" : "54 cm x 54 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu - 650 € Caisse américaine et contrecollé - 800 € 84 cm x 84 cm - 800 € Contrecollé alu + chassis  - 900 € Caisse américaine et contrecollé - 1100 € Fine art paper Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
         "url" : "02.jpg",
-        "year" : "2009"
+        "year" : "1982"
       }, {
-        "name" : "Vestiges n°3",
-        "price" : "900 €",
-        "size" : "100 cm x 100 cm",
-        "text" : "Contrecollé et chassis alu - 1100 € Caisse américaine - 1300 €  Papier Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires  ",
+        "name" : "Emballage 3",
+        "price" : "69 cm x 54 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu - 700 € Caisse américaine et contrecollé - 850 € Papier baryté satiné 330 gr  Edition limitée à 15 exemplaires",
         "url" : "03.jpg",
-        "year" : "2009"
+        "year" : "1982"
+      },
+      {
+        "name" : "Emballage 4",
+        "price" : "84 cm x 104 cm - 800 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu - 950 € Caisse américaine et contrecollé - 1100 € Fine art paper Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires",
+        "url" : "04.jpg",
+        "year" : "1982"
+      },
+      {
+        "name" : "Emballage recto",
+        "price" : "69 cm x 54 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu - 700 € Caisse américaine et contrecollé - 850 € Papier baryté satiné 330 gr Edition limitée à 15 exemplaires",
+        "url" : "05.jpg",
+        "year" : "1982"
+      },
+      {
+        "name" : "Emballage verso",
+        "price" : "54 cm x 54 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu - 700 € Caisse américaine et contrecollé - 850 € Papier baryté satiné 330 gr Edition limitée à 15 exemplaires",
+        "url" : "06.jpg",
+        "year" : "1982"
+      },
+      {
+        "name" : "Emballage 5",
+        "price" : "54 cm x 54 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu - 650 € Caisse américaine et contrecollé - 800 € 84 cm x 84 cm - 800 € Contrecollé alu + chassis  - 900 € Caisse américaine et contrecollé - 1100 € Fine art paper Hanhemülhe rag 308g. mat Edition limitée à 15 exemplaires",
+        "url" : "07.jpg",
+        "year" : "1982"
       } ],
       "id" : 9,
       "link" : "emballages",

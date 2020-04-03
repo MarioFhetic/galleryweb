@@ -69,7 +69,6 @@ export default class GallerySlider extends Component {
     //FIX THE SLIDER NOT RENDERING BEFORE FIRST CLICK
     this.slider2 && this.slider2.slickGoTo(0)
 
-
     return (
 
       <div className={styles.innerGallery}>
@@ -90,18 +89,41 @@ export default class GallerySlider extends Component {
             ref={slider => (this.slider1 = slider)}
           >
               {imageData.length > 0 && imageData.map((item, i)=> {
+
+                  {/* let regex = /(-)(?= )/gm; // selectionne les "-" suivis d'un espace */}
+                  {/* let str = item[4] //string */}
+                  {/* let element = (<br/>)
+                  const elementbr = React.createElement(
+                    '<br/>',
+                    {className: 'greeting'},
+                    'Bonjour, monde !'
+                  ); */}
+
+                  {/* let foo = str.replace(regex, "<br/>"); //match and replace */}
+                  function testRegex() { 
+                    let regex = /(-)(?= )/gm;
+                    let str = item[4]
+                    return {__html: item[4].replace(regex, "<br/>")}; 
+                  };
+
+                  {/* console.log("elementype : ", element.type)
+                  console.log("element : ", element)
+
+                  console.log(foo)
+                  console.log("str : ", str)
+                  console.log("regex : ", regex) */}
+
                   return (
                       <div key={i}>
-                        {console.log(item)}
                           <h2>{item[0]}</h2>
                           <p>{item[1]}</p>
                           <p>{item[2]}</p>
                           <p>{item[3]}</p>
-                          <p className={styles.lastP}>{item[4]}</p>
+                          <p className={styles.lastP} dangerouslySetInnerHTML={testRegex()}></p>
                       </div>
                   );
               })}
-          </Slider>
+          </Slider>’
         </div>
         <Slider
             {...settings}
@@ -120,7 +142,6 @@ export default class GallerySlider extends Component {
             {images.length > 0 && images.map((item, index) => {
                 return (
                     <div key={item}>
-                      {console.log(index)}
                         <img src={item} className={styles.slickImg} alt="#"/>
                     </div>
 
