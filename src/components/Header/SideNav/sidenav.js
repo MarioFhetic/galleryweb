@@ -14,7 +14,7 @@ const SideNaviguation = (props) => {
             onHideNav = {props.onHideNav}
             >
                 {/* <Logo_Header/> */}
-                <SideNavItems/>
+                <SideNavItems {...props}/>
             </SideNav>
         </div>
     )

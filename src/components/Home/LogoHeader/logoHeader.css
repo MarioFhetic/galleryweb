@@ -62,7 +62,7 @@ and (orientation : portrait) {
     .logo_header
     {
         margin: auto;
-        width: 500px;
+        width: 450px;
     }
 }
 
@@ -71,15 +71,17 @@ and (orientation : portrait) {
     .logo_header
     {
         margin: auto;
-        width: 600px;
+        width: 500px;
     }
 }
+
+
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1025px) {
     .logo_header
     {
         margin: auto;
-        width: 400px; 
+        width: 300px; 
     }
 }
 

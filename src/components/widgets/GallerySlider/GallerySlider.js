@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import styles from './slider.css';
 import {Link} from 'react-router-dom';
-import './slick-theme.css';
+import test from'./slick-theme.css';
 
 
 export default class GallerySlider extends Component {
@@ -13,7 +13,6 @@ export default class GallerySlider extends Component {
       nav2: null,
     };
   }
-
   getImageData(){
     let gallery = this.props.gallery;
     let imageData = [];
@@ -38,7 +37,6 @@ export default class GallerySlider extends Component {
     return images;
   }
 
-
   componentWillMount()
   {
     this.setState({
@@ -55,6 +53,33 @@ export default class GallerySlider extends Component {
     });
   }
 
+  SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+
+    return (
+      <button
+       className={className}
+
+        style={{position: "absolute", display: "block", background: "red", zIndex: 1000, top: "50%" }}
+        onClick={onClick}
+
+      />
+    );
+  }
+  
+  SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+
+    return (
+      <button
+        className={className}
+
+        style={{position: "absolute", display: "block", background: "green",zIndex: 1000, top: "50%" }}
+        onClick={onClick}
+
+      />
+    );
+  }
 
   render() {
     let serie = this.props.serie;
@@ -116,10 +141,12 @@ export default class GallerySlider extends Component {
             ref={slider => (this.slider2 = slider)}
             slidesToShow={1}
             centerMode = {false}
-            swipeToSlide={true}
+            swipeToSlide={true} 
             fade = {true}
             dots = {true}
             focusOnSelect={false}
+            nextArrow = {this.SampleNextArrow(this.props)}
+            prevArrow = {this.SamplePrevArrow(this.props)}
         >
             {images.length > 0 && images.map((item, index) => {
                 return (

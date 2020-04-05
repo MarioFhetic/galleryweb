@@ -4,7 +4,7 @@ import style from './sidenav.css'
 import {Link} from 'react-router-dom';
 
 
-const SideNavItems = () => 
+const SideNavItems = (props) => 
 {
 
     const items = [
@@ -51,7 +51,7 @@ const SideNavItems = () =>
     {
         return items.map((item, i) => {
             return(
-                <div key = {i} className = {item.type}>
+                <div onClick = {props.onHideNav} key = {i} className = {item.type}>
                     <Link to = {item.link}>
                         {item.text}
                     </Link>

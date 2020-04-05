@@ -39,6 +39,11 @@ h1, h2 {
         top: 60px;
         
     }
+    .outerGallery
+    {
+        padding-top: 10vh !important;
+    }
+
 
 }
 
