@@ -4,6 +4,28 @@ import styles from './slider.css';
 import {Link} from 'react-router-dom';
 import test from'./slick-theme.css';
 
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      className={styles.arrow}
+      style={{position: "absolute", top:"50%", left: "-10%", transform: "rotate(-45deg)", WebkitTransform: "rotate(-45deg)"}}
+      onClick={onClick}
+    ></button>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      className={styles.arrow}
+      style={{position: "absolute", top:"50%", left: "-12%", transform: "rotate(130deg)", WebkitTransform: "rotate(130deg)"}}
+      onClick={onClick}
+    ></button>
+  );
+}
+
 
 export default class GallerySlider extends Component {
   constructor(props) {
@@ -53,34 +75,6 @@ export default class GallerySlider extends Component {
     });
   }
 
-  SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-
-    return (
-      <button
-       className={className}
-
-        style={{position: "absolute", display: "block", background: "red", zIndex: 1000, top: "50%" }}
-        onClick={onClick}
-
-      />
-    );
-  }
-  
-  SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-
-    return (
-      <button
-        className={className}
-
-        style={{position: "absolute", display: "block", background: "green",zIndex: 1000, top: "50%" }}
-        onClick={onClick}
-
-      />
-    );
-  }
-
   render() {
     let serie = this.props.serie;
     let imageData = this.getImageData();
@@ -89,6 +83,8 @@ export default class GallerySlider extends Component {
       dots: false,
       arrows: true,
       initialSlide: 0,
+      nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />
     };
 
     //FIX THE SLIDER NOT RENDERING BEFORE FIRST CLICK
@@ -145,8 +141,6 @@ export default class GallerySlider extends Component {
             fade = {true}
             dots = {true}
             focusOnSelect={false}
-            nextArrow = {this.SampleNextArrow(this.props)}
-            prevArrow = {this.SamplePrevArrow(this.props)}
         >
             {images.length > 0 && images.map((item, index) => {
                 return (
