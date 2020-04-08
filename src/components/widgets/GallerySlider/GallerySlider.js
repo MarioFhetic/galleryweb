@@ -8,8 +8,8 @@ function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
     <button
-      className={styles.arrow}
-      style={{position: "absolute", top:"50%", left: "-10%", transform: "rotate(-45deg)", WebkitTransform: "rotate(-45deg)"}}
+      className={styles.arrowNext}
+      style={{position: "absolute", top:"50%", right: "-5%", transform: "rotate(-45deg)", WebkitTransform: "rotate(-45deg)", zIndex: 1000}}
       onClick={onClick}
     ></button>
   );
@@ -19,8 +19,8 @@ function SamplePrevArrow(props) {
   const { className, style, onClick } = props;
   return (
     <button
-      className={styles.arrow}
-      style={{position: "absolute", top:"50%", left: "-12%", transform: "rotate(130deg)", WebkitTransform: "rotate(130deg)"}}
+      className={styles.arrowPrev}
+      style={{position: "absolute", top:"50%", right: "-3%", transform: "rotate(130deg)", WebkitTransform: "rotate(130deg)", zIndex: 1000}}
       onClick={onClick}
     ></button>
   );
@@ -117,12 +117,14 @@ export default class GallerySlider extends Component {
                   };
 
                   return (
-                      <div key={i}>
+                      <div key={i} className = {styles.dataSlider_data}>
                           <h2>{item[0]}</h2>
-                          <p>{item[1]}</p>
-                          <p>{item[2]}</p>
-                          <p>{item[3]}</p>
-                          <p className={styles.lastP} dangerouslySetInnerHTML={testRegex()}></p>
+                          <div className = {styles.secondaryData}>
+                            <p>{item[1]}</p>
+                            <p>{item[2]}</p>
+                            <p>{item[3]}</p>
+                            <p className={styles.lastP} dangerouslySetInnerHTML={testRegex()}></p>
+                          </div>
                       </div>
                   );
               })}

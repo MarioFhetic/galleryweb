@@ -56,8 +56,6 @@ const Principe = () =>
                         </p>
 
                         <p> 
-                            Plusieurs solutions d’encadrement vous sont proposées avant de commander une image.
-                            Contre collé sur aluminium ou Dibond au format de l’image.
                             Caisse américaine en bois, finition noire, blanche ou naturelle. 
                             Plexicollage.
                         </p>

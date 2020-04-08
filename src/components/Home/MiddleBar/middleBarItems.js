@@ -20,32 +20,22 @@ const MiddleBarItems = () =>
 
     {        
         type : style.option,
+        text : 'Still Alive',
+        link : 'gallery/still-alive',
+    },
+
+
+    {        
+        type : style.option,
         text : 'Vestiges',
         link : 'gallery/vestiges',
     },
 
-    {        
-        type : style.option,
-        text : 'Still Alive',
-        link : 'gallery/still-alive',
-    },
 
     {        
         type : style.option,
         text : 'Cinecitta',
         link : 'gallery/cinecitta',
-    },
-
-    {        
-        type : style.option,
-        text : 'New York',
-        link : 'gallery/new-york',
-    },
-
-    {        
-        type : style.option,
-        text : 'Portraits',
-        link : 'gallery/portraits',
     },
 
     {        
@@ -62,13 +52,32 @@ const MiddleBarItems = () =>
 
     {        
         type : style.option,
+        text : 'New York',
+        link : 'gallery/new-york',
+    },
+
+    {        
+        type : style.option,
         text : 'Mexique',
         link : 'gallery/mexique',
     },
+
+    {        
+        type : style.option,
+        text : 'Portraits',
+        link : 'gallery/portraits',
+    },
+
     {        
         type : style.option,
         text : 'Emballages',
         link : 'gallery/emballages',
+    },
+
+    {        
+        type : style.option,
+        text : 'Petits formats',
+        link : 'gallery/petits-formats',
     },
 
     ]

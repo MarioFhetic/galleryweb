@@ -79,10 +79,11 @@ const Bio = () =>
                 <div className = {styles.sectionHeader}>
                     <div className = {styles.leftContent}>
                         <p> <strong>Les recherches plastiques</strong> d’Eric Fayolle commencent véritablement avec des photos peintes, où il fait coexister dans un univers clos, couleurs et noir et blanc, Photos de rien, Emballages, Lambeaux de lieux, il intervient sur ses propres tirages noir et blanc
-                            pour révéler des éléments oubliés par le regard et interroger la réalité de la représentation photographique. Cette première phase, tournée vers des objets du quotidien, des matériaux usés et patinés par le temps, s’achève avec l’obtention d’une bourse de la Villa Médicis qui lui permet d’amorcer une série de voyages en Italie.<br></br> 
+                            pour révéler des éléments oubliés par le regard et interroger la réalité de la représentation photographique. Cette première phase, tournée vers des objets du quotidien, des matériaux usés et patinés par le temps, s’achève avec l’obtention d’une bourse de la Villa Médicis qui lui permet d’amorcer une série de voyages en Italie.<br/><br/> 
                             La deuxième phase de son travail photographique est constituée d’images réalisées en extérieur. Son regard reste attiré par  l’esthétique du banal et de l’abandon, mais il découvre désormais ses sujets au cours de déambulations dans les villes où il réside.
                             Ses photographies, Instances, Foro Italico révèlent les tableaux d’ombres et de matières que portent les murs, ainsi que l’empreinte d’un passé que le regard néglige.
                         </p>
+                        <br/><br/><br/>
                         <p>
                             <strong>Dans la poursuite de ses recherches</strong> sur les jeux du regard, la matière et le passage du temps, Eric Fayolle développe 
                             ensuite une technique de peinture par oxydation sur métal. Ces œuvres mettent en évidence la nature des recherches plastiques 
@@ -90,9 +91,18 @@ const Bio = () =>
                         </p>
                     </div>
                     <div className = {styles.rightContent}>
+                        <div>
                             <img src="../../images/bio/section1carton.jpg" alt="Photographie d'un carton en noir et blanc"/>
+                            <span className = {styles.captionImgOther}>Photos de rien</span>
+                        </div>
+                        <div>
                             <img src="../../images/bio/section1book.jpg" alt="Photographie d'un livre en noir et blanc"/>
+                            <span className = {styles.captionImg}>Emballages</span>
+                        </div>
+                        <div className = {styles.lastChild}>
                             <img src="../../images/bio/section1voiture.jpg" alt="Photographie d'une voiture en noir et blanc"/>
+                            <span className = {styles.captionImg}>Instances</span>
+                        </div>
                     </div>
                 </div>
                 <div className = {styles.sectionMain}>

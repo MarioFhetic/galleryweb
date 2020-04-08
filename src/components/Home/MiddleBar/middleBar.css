@@ -8,7 +8,7 @@
 {
     display: flex;
     flex-wrap: wrap;
-    /* width: 85vw; */
+    width: 85vw; 
     justify-content: center;
     font-family: 'Whitney-Book';
     font-weight: lighter;
@@ -31,9 +31,9 @@
 
 .containerMiddleBar .middleBar :last-child
 {
+    /* margin-top: 1rem;    */
     border-right: 1px solid white;
 }
-
 
 .containerMiddleBar .middleBar div a
 {
@@ -64,24 +64,24 @@ and (min-device-width : 375px)
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) { 
-    .containerMiddleBar .middleBar div:nth-child(3)
+    /* .containerMiddleBar .middleBar div:nth-child(1)
     {
         border-right: none;
     }
-    .containerMiddleBar .middleBar div:nth-child(6)
+    .containerMiddleBar .middleBar div:nth-child(8)
     {
         border-right: none;
     }
-    .containerMiddleBar .middleBar div:nth-child(9)
+    .containerMiddleBar .middleBar div:nth-child(10)
     {
         border-right: none;
-    }
+    } */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)
 and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation:portrait)
 {
-    .containerMiddleBar .middleBar div:nth-child(2)
+    /* .containerMiddleBar .middleBar div:nth-child(2)
     {
         border-right: none;
     }
@@ -95,8 +95,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
     }
     .containerMiddleBar .middleBar div:nth-child(9)
     {
-        border-right: none;
-    }
+    } */
 }
 
 /* 6 7 8 */
@@ -104,7 +103,7 @@ and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orient
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
 and (orientation : portrait) { 
-    .containerMiddleBar .middleBar div:nth-child(3)
+    /* .containerMiddleBar .middleBar div:nth-child(3)
     {
         border-right: none;
     }
@@ -114,8 +113,7 @@ and (orientation : portrait) {
     }
     .containerMiddleBar .middleBar div:nth-child(9)
     {
-        border-right: none;
-    }
+    } */
 }
 
 /* 6 7 8 PLUS */
@@ -123,7 +121,7 @@ and (orientation : portrait) {
 and (min-device-width : 414px) 
 and (max-device-width : 736px) 
 and (orientation : portrait) { 
-    .containerMiddleBar .middleBar div:nth-child(3)
+    /* .containerMiddleBar .middleBar div:nth-child(2)
     {
         border-right: none;
     }
@@ -131,7 +129,7 @@ and (orientation : portrait) {
     {
         border-right: 1px solid grey;
     }
-    .containerMiddleBar .middleBar div:nth-child(7)
+    .containerMiddleBar .middleBar div:nth-child(5)
     {
         border-right: none;
     }
@@ -139,10 +137,14 @@ and (orientation : portrait) {
     {
         border-right: 1px solid grey;
     }
-    .containerMiddleBar .middleBar div:nth-child(10)
+    .containerMiddleBar .middleBar div:nth-child(8)
     {
         border-right: none;
     }
+    .containerMiddleBar .middleBar div:nth-child(11)
+    {
+        border-right: none;
+    } */
  }
 
 
@@ -151,7 +153,11 @@ and (orientation : portrait) {
 and (min-device-width : 768px) 
 and (max-device-width : 1023px) 
 and (orientation : portrait) { 
-    .containerMiddleBar .middleBar div:nth-child(7)
+    .containerMiddleBar .middleBar div:nth-child(5)
+    {
+        border-right: none;
+    }
+    .containerMiddleBar .middleBar div:nth-child(11)
     {
         border-right: none;
     }
@@ -164,8 +170,19 @@ and (orientation : portrait) {
 and (min-device-width : 1024px) 
 and (max-device-width : 1366px) 
 and (orientation : portrait) { 
-    .containerMiddleBar .middleBar div:nth-child(9)
+    .containerMiddleBar .middleBar div:nth-child(7)
     {
         border-right: none;
     }
+    .containerMiddleBar .middleBar :nth-child(12)
+    {
+        border-right: none;
+    }
+
+
 }
+
+.containerMiddleBar .middleBar :nth-last-child(-n+2)
+{
+    margin-top: 0rem !important;
+} 
