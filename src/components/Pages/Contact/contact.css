@@ -1,0 +1,47 @@
+a
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+.bigImg
+{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("contact.jpg"); 
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+.bigImg .containerText
+{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    font-family: "AvenirNextLTPro-Regular";
+    font-size: 15px;
+    color: white;
+    line-height: 180%;
+}
+
+.bigImg .containerText .containerLogos
+{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 1rem; */
+}
+
+.bigImg .containerText .containerLogos img
+{
+
+    width: 30px;
+
+}
+

@@ -84,7 +84,8 @@ export default class GallerySlider extends Component {
       arrows: true,
       initialSlide: 0,
       nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />
+      prevArrow: <SamplePrevArrow />,
+      slidesToShow: 1
     };
 
     //FIX THE SLIDER NOT RENDERING BEFORE FIRST CLICK
@@ -97,8 +98,7 @@ export default class GallerySlider extends Component {
         <div className={styles.dataSlider}>
 
           <div className = {styles.dataSlider_title}>
-            <h1>Série</h1>
-            <h1>{serie}</h1>
+            <h1><span> Série</span> | {serie}</h1>
           </div>
           <Slider
             dots={false}
@@ -106,14 +106,15 @@ export default class GallerySlider extends Component {
             swipe = {false}
             fade = {true}
             focusOnSelect = {false}
+            slidesToShow={1}
             asNavFor={this.slider2}
             ref={slider => (this.slider1 = slider)}
           >
               {imageData.length > 0 && imageData.map((item, i)=> {
 
-                  function testRegex() { 
+                  function testRegex() {
                     let regex = /(-)(?= )/gm;
-                    return {__html: item[4].replace(regex, "<br/>")}; 
+                    return {__html: item[4].replace(regex, "<br/>")};
                   };
 
                   return (
@@ -139,7 +140,7 @@ export default class GallerySlider extends Component {
             ref={slider => (this.slider2 = slider)}
             slidesToShow={1}
             centerMode = {false}
-            swipeToSlide={true} 
+            swipeToSlide={true}
             fade = {true}
             dots = {true}
             focusOnSelect={false}

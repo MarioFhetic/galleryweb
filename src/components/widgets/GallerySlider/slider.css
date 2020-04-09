@@ -1,4 +1,4 @@
-/* 
+/*
 .featured_item
 {
     position: relative;
@@ -15,9 +15,13 @@
 
 } */
 
+p
+{
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+}
 
-
-.innerGallery 
+.innerGallery
 {
     display: flex;
     flex-flow: row nowrap;
@@ -28,26 +32,25 @@
 
 .dataSlider,
 .dataSlider .slick-slider {
-    /* align-self: flex-end;  */
-    overflow: hidden; 
-    /* margin-top: 20%; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-end; */
-    
+    overflow: hidden;
+}
+
+.dataSlider {
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  align-self: flex-end;
+
+}
+
+.dataSlider .dataSlider_title span
+{
+    color:#660000;
 }
 
 .dataSlider h1
-{
-
-    font-family: 'AvenirNextLTPro-Medium';
-    font-size: 1.2rem;
-    font-weight: inherit;
-    margin-bottom: 1rem;
-
-}
-
-.dataSlider_title :last-child
 {
 
     font-family: 'AvenirNextLTPro-Regular';
@@ -55,6 +58,32 @@
     font-weight: inherit;
 }
 
+.dataSlider h1 :last-child
+{
+
+    font-family: 'AvenirNextLTPro-Medium';
+    font-size: 1.2rem;
+    font-weight: inherit;
+}
+
+.dataSlider_title
+{
+
+    font-family: 'AvenirNextLTPro-Regular';
+    font-size: 1.2rem;
+    font-weight: inherit;
+
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+
+
+.dataSlider_data {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: bottom;
+}
 
 .dataSlider p
 {
@@ -66,35 +95,15 @@
 }
 
 .dataSlider h2 {
-    /* margin-top: 2%;  */
     font-family: 'AvenirNextLTPro-UltLtIt';
     font-size: 1.1rem;
-    color: #666666; 
+    color: #666666;
+
+    /* Je sais pas mieux faire que ça, sinon il faut déplacer le h2 pour le mettre avec h1 */
+    margin-bottom: 17vh;
+
+    align-self: center;
 }
-
-
-.dataSlider .dataSlider_title h1
-{
-    display: inline;
-    /* display: flex;
-    align-content: center;
-    font-family: 'AvenirNextLTPro-Medium';
-    font-size: 1.9rem; */
-}
-
-.dataSlider .dataSlider_title :first-child
-{
-    color:#660000;
-}
-
-.dataSlider .dataSlider_title :first-child::after
-{
-    content: "";
-    position: relative;
-    border-right: 2px solid #660000;
-    margin: 0 0.5em;
-}
-
 
 
 /* .slick-slide p:last-child { */
@@ -113,10 +122,6 @@
     overflow: visible;
 }
 
-.slick-list .slick-track div
-{
-    opacity: 1 !important;
-}
 
 .slickImg {
     width: auto;
@@ -125,7 +130,6 @@
 }
 .imageSlider img {
     margin: 0 auto;
-    opacity: 1 !important;
 }
 
 .slick-arrow {
@@ -146,7 +150,7 @@
 
 /* .secondaryData
 {
-  margin-top: 15%; 
+  margin-top: 15%;
 }
               */
 
@@ -154,7 +158,7 @@
 @media only screen and (min-width : 320px) and (max-width: 812px)
 {
 
-    .innerGallery 
+    .innerGallery
     {
         display: flex;
         flex-direction: column;
@@ -237,7 +241,7 @@
 {
     display: block;
     margin-top: auto !important;
-} 
+}
 
 @media only screen and (min-width : 813px){
     /* .dataSlider_title
@@ -253,7 +257,7 @@
     } */
 
 
-    
+
 }
 
 @media only screen and (min-width : 700px) and (max-width: 1250px)

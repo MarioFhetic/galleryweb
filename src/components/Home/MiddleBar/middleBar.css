@@ -24,8 +24,8 @@
     border-right: 1px solid grey;
     padding-right: 1.3em;
     padding-left: 1.3em;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     letter-spacing: 1px;
 }
 
@@ -181,8 +181,18 @@ and (orientation : portrait) {
 
 
 }
-
-.containerMiddleBar .middleBar :nth-last-child(-n+2)
+/* .containerMiddleBar .middleBar :nth-last-child(-n+2)
 {
     margin-top: 0rem !important;
 } 
+
+
+@media only screen 
+and (min-device-width : 1600px)
+{
+    .containerMiddleBar .middleBar :nth-last-child(-n+2)
+    {
+        margin-top: 2rem !important;
+    } 
+      
+}  */

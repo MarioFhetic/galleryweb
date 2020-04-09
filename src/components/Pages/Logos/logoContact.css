@@ -1,0 +1,32 @@
+.logo_contact
+{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 200px;
+}
+
+.logo_contact svg
+{
+    position: relative;
+    left: 0%;
+}
+
+.logo_contact text
+{
+    font-family: 'AvenirNextLTPro-UltLt';
+    font-size: 30.95px;
+    fill: #999999;
+}
+
+.logo_contact rect
+{
+    fill: #990000;
+}
+
+.logo_contact path
+{
+    width: 50%;
+    fill: #333333;
+}
+
