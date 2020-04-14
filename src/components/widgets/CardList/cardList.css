@@ -44,7 +44,17 @@ a
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
+    transition: box-shadow .3s;
+
+
 }
+
+.bigContainerCardList .cardListWrapper .cardImg:hover
+{
+    box-shadow: 0 4px 30px 0 rgba(184, 184, 184, 0.2), 0 6px 30px 0 rgba(199, 199, 199, 0.2);
+}
+
+
 
 .bigContainerCardList .cardListWrapper .cardImg .captionImg
 {

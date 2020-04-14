@@ -433,14 +433,20 @@
     }
     .bigContainer .sectionHeader .rightContent
     {
-        width: 100%;
+        /* width: 100%; */
         display: flex;
         flex-wrap: wrap !important;
         /* background-color: papayawhip;  */
     }
+
+    /* .bigContainer .sectionHeader .rightContent :nth-child(2) img
+    {
+        display: none;
+    } */
+
     .bigContainer .sectionHeader .rightContent div
     {
-        margin-bottom: 10%;
+        margin-bottom: 30%;
     }
     /* .bigContainer .sectionHeader .rightContent img
     {    

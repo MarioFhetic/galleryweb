@@ -64,18 +64,11 @@ and (min-device-width : 375px)
 and (max-device-width : 812px) 
 and (-webkit-device-pixel-ratio : 3)
 and (orientation : portrait) { 
-    /* .containerMiddleBar .middleBar div:nth-child(1)
+    .containerMiddleBar .middleBar div
     {
-        border-right: none;
+        /* border-right: none; */
     }
-    .containerMiddleBar .middleBar div:nth-child(8)
-    {
-        border-right: none;
-    }
-    .containerMiddleBar .middleBar div:nth-child(10)
-    {
-        border-right: none;
-    } */
+
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px)
@@ -165,7 +158,7 @@ and (orientation : portrait) {
 
  /* Ipad  Mini */
 
-
+/* 
 @media only screen 
 and (min-device-width : 1024px) 
 and (max-device-width : 1366px) 
@@ -180,7 +173,7 @@ and (orientation : portrait) {
     }
 
 
-}
+} */
 /* .containerMiddleBar .middleBar :nth-last-child(-n+2)
 {
     margin-top: 0rem !important;

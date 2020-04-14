@@ -15,7 +15,7 @@
 
 } */
 
-p
+.dataSlider_data p
 {
     margin-block-start: 0em !important;
     margin-block-end: 0em !important;
@@ -100,7 +100,7 @@ p
     color: #666666;
 
     /* Je sais pas mieux faire que ça, sinon il faut déplacer le h2 pour le mettre avec h1 */
-    margin-bottom: 17vh;
+    margin-bottom: 20vh;
 
     align-self: center;
 }
