@@ -23,6 +23,7 @@ class Gallery extends Component
     {
         // on recupère le nom de l'album
         let name = this.props.match.params.name;
+        console.log(name)
         // On call firebase pour récuperer les data correspondantes à cet album
         firebaseDB.ref(`albums/${name}`).once('value')
         .then((snapshot) =>
