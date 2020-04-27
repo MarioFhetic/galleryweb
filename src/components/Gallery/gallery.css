@@ -5,11 +5,13 @@ h1, h2 {
 
 .slick-track .slick-list:first-child
 {
-    opacity: 1 !important;  
+    opacity: 1 !important;
 }
 
 .outerGallery {
+    width: 100%; height: 100%;
     padding: 7vh 5vw 5vh 5vw;
+    box-sizing: border-box;
 }
 
 .outerGallery .returnArrow
@@ -37,11 +39,14 @@ h1, h2 {
         position: absolute;
         max-width: 25px;
         top: 60px;
-        
+
     }
+    
     .outerGallery
     {
         padding-top: 10vh !important;
+        padding-left: 0vw;
+        padding-right: 0vw;
     }
 
 

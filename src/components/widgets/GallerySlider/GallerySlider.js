@@ -4,35 +4,38 @@ import styles from './slider.css';
 import {Link} from 'react-router-dom';
 import test from'./slick-theme.css';
 
-function SampleNextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <button
-      className={styles.arrowNext}
-      style={{position: "absolute", top:"50%", right: "-5%", transform: "rotate(-45deg)", WebkitTransform: "rotate(-45deg)", zIndex: 1000}}
-      onClick={onClick}
-    ></button>
-  );
-}
+// import {CSSTransition, TransitionGroup} from 'react-transition-group'
+import ReactCSSTransitionGroup from 'react-transition-group/Transition'; // ES6
 
-function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <button
-      className={styles.arrowPrev}
-      style={{position: "absolute", top:"50%", right: "-3%", transform: "rotate(130deg)", WebkitTransform: "rotate(130deg)", zIndex: 1000}}
-      onClick={onClick}
-    ></button>
-  );
-}
+// function SampleNextArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <button
+//       className={styles.arrowNext}
+//       style={{position: "absolute", top:"50%", right: "-5%", transform: "rotate(-45deg)", WebkitTransform: "rotate(-45deg)", zIndex: 1000}}
+//       onClick={onClick}
+//     ></button>
+//   );
+// }
+//
+// function SamplePrevArrow(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <button
+//       className={styles.arrowPrev}
+//       style={{position: "absolute", top:"50%", right: "-3%", transform: "rotate(130deg)", WebkitTransform: "rotate(130deg)", zIndex: 1000}}
+//       onClick={onClick}
+//     ></button>
+//   );
+// }
 
 
 export default class GallerySlider extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
-      nav1: null,
-      nav2: null,
+      visibleIndex: 0
     };
   }
   getImageData(){
@@ -44,6 +47,7 @@ export default class GallerySlider extends Component {
         imageData = [...imageData, foo]
         return imageData;
     });
+
     return imageData;
   }
 
@@ -56,104 +60,129 @@ export default class GallerySlider extends Component {
         images = [...images, `../images/${link}/${item.url}` ]
         return images;
     });
+
     return images;
   }
 
   componentWillMount()
   {
-    this.setState({
-      nav1: this.slider1,
-      nav2: this.slider2,
-    });
+    // this.setState({
+    //   // nav1: this.slider1,
+    //   // nav2: this.slider2,
+    //   serie: this.props && this.props.serie
+    // });
   }
 
   componentDidMount() {
-    //Unecessary tu peux delete :
-    this.setState({
-      nav1: this.slider1,
-      nav2: this.slider2,
-    });
+
+  }
+
+  nextSlide(){
+    let {visibleIndex} = this.state;
+    let limit = this.props.gallery && this.props.gallery.length;
+
+    if (visibleIndex < limit-1) {
+      this.setState({
+        visibleIndex: visibleIndex + 1
+      })
+    } else {
+      this.setState({
+        visibleIndex: 0
+      })
+    }
+  }
+  prevSlide(){
+    let {visibleIndex} = this.state;
+    let limit = this.props.gallery && this.props.gallery.length;
+
+    if (visibleIndex !== 0) {
+      this.setState({
+        visibleIndex: visibleIndex - 1
+      })
+    } else {
+      this.setState({
+        visibleIndex: limit - 1
+      })
+    }
   }
 
   render() {
-    let serie = this.props.serie;
+    let index = this.state.visibleIndex;
     let imageData = this.getImageData();
     let images = this.getImages();
-    const settings = {
-      dots: false,
-      arrows: true,
-      initialSlide: 0,
-      nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
-      slidesToShow: 1
-    };
+
+    // let serie = this.props.serie;
+
+    // const settings = {
+    //   dots: false,
+    //   arrows: true,
+    //   initialSlide: 0,
+    //   nextArrow: <SampleNextArrow />,
+    //   prevArrow: <SamplePrevArrow />,
+    //   slidesToShow: 1
+    // };
 
     //FIX THE SLIDER NOT RENDERING BEFORE FIRST CLICK
-    this.slider2 && this.slider2.slickGoTo(0)
+    // this.slider2 && this.slider2.slickGoTo(0)
 
     return (
+      <div className="wrap">
 
-      <div className={styles.innerGallery}>
 
-        <div className={styles.dataSlider}>
+        <div className={styles.innerGallery}>
 
-          <div className = {styles.dataSlider_title}>
-            <h1><span> Série</span> | {serie}</h1>
-          </div>
-          <Slider
-            dots={false}
-            arrow={false}
-            swipe = {false}
-            fade = {true}
-            focusOnSelect = {false}
-            slidesToShow={1}
-            asNavFor={this.slider2}
-            ref={slider => (this.slider1 = slider)}
-          >
-              {imageData.length > 0 && imageData.map((item, i)=> {
+          <div className={styles.sliderWrap}>
+            {imageData.length > 0 && imageData.map((item, i)=> {
+              function testRegex() {
+                let regex = /(-)(?= )/gm;
+                return {__html: item[4].replace(regex, "<br/>")};
+              };
 
-                  function testRegex() {
-                    let regex = /(-)(?= )/gm;
-                    return {__html: item[4].replace(regex, "<br/>")};
-                  };
-
-                  return (
-                      <div key={i} className = {styles.dataSlider_data}>
-                          <h2>{item[0]}</h2>
-                          <div className = {styles.secondaryData}>
-                            <p>{item[1]}</p>
-                            <p>{item[2]}</p>
-                            <p>{item[3]}</p>
-                            <p className={styles.lastP} dangerouslySetInnerHTML={testRegex()}></p>
-                          </div>
-                      </div>
-                  );
-              })}
-          </Slider>
-        </div>
-        <Slider
-            {...settings}
-            initialSlide = {1}
-            className={styles.imageSlider}
-            asNavFor={this.slider1}
-            adaptiveHeight = {true}
-            ref={slider => (this.slider2 = slider)}
-            slidesToShow={1}
-            centerMode = {false}
-            swipeToSlide={true}
-            fade = {true}
-            dots = {true}
-            focusOnSelect={false}
-        >
-            {images.length > 0 && images.map((item, index) => {
+              if (index === i ) {
                 return (
-                    <div key={item}>
-                        <img src={item} className={styles.slickImg} alt="#"/>
+                  <div key={i} className = {styles.dataWrap}>
+                    <div className = {styles.data_title}>
+                      <h1><span> Série</span> | {this.props.serie}</h1>
+                      <h2>{item[0]}</h2>
                     </div>
-                )
+                    <div className = {styles.dataSubData}>
+                      <p>{item[1]}</p>
+                      <p>{item[2]}</p>
+                      <p>{item[3]}</p>
+                      <p className={styles.lastP} dangerouslySetInnerHTML={testRegex()}></p>
+                    </div>
+                  </div>
+                );
+              }
+              return false;
             })}
-        </Slider>
+
+
+            <div className={styles.imageWrap}>
+              <div className={styles.controls}>
+                <div className = {styles.arrow} onClick={() => {this.prevSlide()}}></div>
+                <div className = {styles.arrow} onClick={() => {this.nextSlide()}}></div>
+              </div>
+
+              <div className = {styles.counterSlide}>
+                <div>{this.state.visibleIndex + 1}</div>
+                <div>/</div>
+                <div>{images.length}</div>
+              </div>
+                {images.length > 0 && images.map((item, i) => {
+                  if (index === i) {
+                    return (
+                        <img key={i} src={item} className={styles.image} alt="#"/>            
+                    );
+                  }
+                  return false;
+                })}
+
+            </div>
+          </div>
+        </div>
       </div>
+
     );
   }
 }

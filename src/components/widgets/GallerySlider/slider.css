@@ -1,91 +1,69 @@
-/*
-.featured_item
-{
-    position: relative;
-    width: 700px;
-}
 
-.featured_image {
-    max-width: 700px;
-    height: 700px;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: center center !important;
-    background-attachment: fixed;
 
-} */
-
-.dataSlider_data p
-{
-    margin-block-start: 0em !important;
-    margin-block-end: 0em !important;
-}
-
-.innerGallery
-{
+.sliderWrap {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    max-height: 66vw;
 }
 
-
-
-.dataSlider,
-.dataSlider .slick-slider {
-    overflow: hidden;
+.imageWrap,
+.dataWrap {
+    height: 100%;
 }
 
-.dataSlider {
+.imageWrap {
+  width: 55%;
+  min-height: 75vh;
+  max-height: 80vh;
+  position: relative;
+}
+.imageWrap img{
+  margin: 0;
+
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+}
+
+.dataWrap {
+  align-self: flex-end;
+  height: 42.5vh;
 
   display: flex;
-  flex-direction: column;
-  height: 100%;
-
-  align-self: flex-end;
-
+  flex-flow: column nowrap;
+  justify-content: flex-end;
 }
 
-.dataSlider .dataSlider_title span
-{
-    color:#660000;
-}
 
-.dataSlider h1
-{
 
+.dataWrap h1
+{
     font-family: 'AvenirNextLTPro-Regular';
     font-size: 1.2rem;
     font-weight: inherit;
 }
 
-.dataSlider h1 :last-child
+.dataWrap h1:last-child
 {
-
     font-family: 'AvenirNextLTPro-Medium';
     font-size: 1.2rem;
     font-weight: inherit;
 }
 
-.dataSlider_title
+.data_title
 {
 
     font-family: 'AvenirNextLTPro-Regular';
     font-size: 1.2rem;
     font-weight: inherit;
-
-    /* margin-top: auto;
-    margin-bottom: auto; */
+    margin-bottom: auto;
 }
+.data_title span{color:#660000;}
 
 
-.dataSlider_data {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: bottom;
-}
 
-.dataSlider p
+.dataWrap p
 {
     font-family: 'AvenirNextLTPro-Regular';
     font-weight: lighter;
@@ -94,19 +72,26 @@
     color: #333333;
 }
 
-.dataSlider h2 {
+.dataWrap h2 {
     font-family: 'AvenirNextLTPro-UltLtIt';
     font-size: 1.1rem;
     color: #666666;
 
     /* Je sais pas mieux faire que ça, sinon il faut déplacer le h2 pour le mettre avec h1 */
-    margin-bottom: 20vh;
+    /* margin-bottom: 100%; */
 
-    align-self: center;
+    /* align-self: center; */
+}
+
+.dataWrap p
+{
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
 }
 
 
-/* .slick-slide p:last-child { */
+
+/*
 .lastP {
     max-width: 25vw;
 }
@@ -114,23 +99,65 @@
 .imageSlider,
 .imageSlider .slick-slider,
 .imageSlider .slick-slide {
-    width: 65%;
+    width: 50%;
     max-height: 80vh;
 }
 .imageSlider .slick-list {
     width: 100%;
     overflow: visible;
-}
+} */
 
-
-.slickImg {
-    width: auto;
-    max-width: 100%;
-    max-height: 80vh;
-}
-.imageSlider img {
+img.image {
     margin: 0 auto;
 }
+
+
+
+
+
+.controls {
+  position: absolute;
+  left: 0%;
+  transform: translateX(-200%) translateY(-100%);
+  top: 50%;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.controls .arrow
+{
+    border: solid #666666;
+    opacity: 0.7;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 10px;
+}
+
+.controls :first-child
+{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.controls :nth-child(2)
+{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.counterSlide {
+    font-family: 'AvenirNextLTPro-UltLtIt';
+    font-size: 0.8rem;
+    color: black;
+    display: flex;
+    position: absolute;
+    transform: translateX(-300%);
+    left: 0%;
+    bottom: 0%;
+    z-index: 9999;
+
+  }
+
 
 .slick-arrow {
     background: red !important;
@@ -158,93 +185,19 @@
 @media only screen and (min-width : 320px) and (max-width: 812px)
 {
 
-    .innerGallery
+    .sliderWrap
     {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-flow: column nowrap;
     }
-    .dataSlider
+    .sliderWrap .imageWrap img
     {
-        width: 100%;
+        padding-left: 3vw;
+        padding-right: 3vw;
     }
-    .dataSlider_title
-    {
-        text-align: center;
-        /* padding-bottom: 5%; */
-    }
-    .imageSlider
-    {
-        width: 100%;
-    }
-    .lastP
-    {
-        max-width: 90%;
-    }
-    .dataSlider h2
-    {
-        text-align: center;
-        max-width: 100%;
-        padding-bottom: 0%;
-        text-transform: none;
-    }
-    .burger
-    {
-        padding-bottom: 10%;
-    }
-    .returnArrow
-    {
-        position: absolute;
-        width: 25px;
-        left: 10px;
-        top: 60px;
-    }
-    .arrowPrev
-    {
-        display: none !important;
-    }
-    .arrowNext
-    {
-        display: none !important;
-    }
-}
-
-.arrowPrev:focus
-{
-    outline-width: 0;
-}
-
-.arrowNext:focus
-{
-    outline-width: 0;
-}
-
-.arrowNext
-{
-    border: solid black;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 8px;
-    cursor: pointer;
-}
-
-.arrowPrev
-{
-    border: solid black;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 8px;
-    cursor: pointer;
-}
-
-.dataSlider .dataSlider_title h1
-{
-    display: block;
-    margin-top: auto !important;
-}
+} 
 
 @media only screen and (min-width : 813px){
-    /* .dataSlider_title
+    /* .dataWraplider_title
     {
         position: absolute;
         top: 50%;
@@ -260,7 +213,7 @@
 
 }
 
-@media only screen and (min-width : 700px) and (max-width: 1250px)
+/* @media only screen and (min-width : 700px) and (max-width: 1250px)
 {
     .arrowPrev
     {
@@ -272,4 +225,23 @@
         top: -6% !important;
         left: 50%;
     }
-}
+} */
+
+
+.example-enter {
+    opacity: 0.01;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .example-leave {
+    opacity: 1;
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
