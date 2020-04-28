@@ -1,11 +1,13 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import Slider from "react-slick";
 import styles from './slider.css';
 import {Link} from 'react-router-dom';
 import test from'./slick-theme.css';
+import { CSSTransition } from "react-transition-group";
+import Fade from 'react-reveal/Fade';
+
 
 // import {CSSTransition, TransitionGroup} from 'react-transition-group'
-import ReactCSSTransitionGroup from 'react-transition-group/Transition'; // ES6
 
 // function SampleNextArrow(props) {
 //   const { className, style, onClick } = props;
@@ -172,7 +174,10 @@ export default class GallerySlider extends Component {
                 {images.length > 0 && images.map((item, i) => {
                   if (index === i) {
                     return (
+                      <Fade duration = {1500} key = {i}>
                         <img key={i} src={item} className={styles.image} alt="#"/>            
+
+                      </Fade>
                     );
                   }
                   return false;
