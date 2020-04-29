@@ -7,31 +7,6 @@ import { CSSTransition } from "react-transition-group";
 import Fade from 'react-reveal/Fade';
 
 
-// import {CSSTransition, TransitionGroup} from 'react-transition-group'
-
-// function SampleNextArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <button
-//       className={styles.arrowNext}
-//       style={{position: "absolute", top:"50%", right: "-5%", transform: "rotate(-45deg)", WebkitTransform: "rotate(-45deg)", zIndex: 1000}}
-//       onClick={onClick}
-//     ></button>
-//   );
-// }
-//
-// function SamplePrevArrow(props) {
-//   const { className, style, onClick } = props;
-//   return (
-//     <button
-//       className={styles.arrowPrev}
-//       style={{position: "absolute", top:"50%", right: "-3%", transform: "rotate(130deg)", WebkitTransform: "rotate(130deg)", zIndex: 1000}}
-//       onClick={onClick}
-//     ></button>
-//   );
-// }
-
-
 export default class GallerySlider extends Component {
 
   constructor(props) {
@@ -64,19 +39,6 @@ export default class GallerySlider extends Component {
     });
 
     return images;
-  }
-
-  componentWillMount()
-  {
-    // this.setState({
-    //   // nav1: this.slider1,
-    //   // nav2: this.slider2,
-    //   serie: this.props && this.props.serie
-    // });
-  }
-
-  componentDidMount() {
-
   }
 
   nextSlide(){
@@ -113,26 +75,9 @@ export default class GallerySlider extends Component {
     let imageData = this.getImageData();
     let images = this.getImages();
 
-    // let serie = this.props.serie;
-
-    // const settings = {
-    //   dots: false,
-    //   arrows: true,
-    //   initialSlide: 0,
-    //   nextArrow: <SampleNextArrow />,
-    //   prevArrow: <SamplePrevArrow />,
-    //   slidesToShow: 1
-    // };
-
-    //FIX THE SLIDER NOT RENDERING BEFORE FIRST CLICK
-    // this.slider2 && this.slider2.slickGoTo(0)
-
     return (
-      <div className="wrap">
-
-
+      <div>
         <div className={styles.innerGallery}>
-
           <div className={styles.sliderWrap}>
             {imageData.length > 0 && imageData.map((item, i)=> {
               function testRegex() {
@@ -159,29 +104,49 @@ export default class GallerySlider extends Component {
               return false;
             })}
 
+            <div className={styles.controls}>
+              <div className = {styles.arrow} onClick={() => {this.prevSlide()}}></div>
+              <div className = {styles.arrow} onClick={() => {this.nextSlide()}}></div>
+            </div>
+
+            <div className = {styles.counterSlide}>
+              <div>{this.state.visibleIndex + 1}</div>
+              <div>/</div>
+              <div>{images.length}</div>
+            </div>
+
 
             <div className={styles.imageWrap}>
-              <div className={styles.controls}>
-                <div className = {styles.arrow} onClick={() => {this.prevSlide()}}></div>
-                <div className = {styles.arrow} onClick={() => {this.nextSlide()}}></div>
-              </div>
-
-              <div className = {styles.counterSlide}>
-                <div>{this.state.visibleIndex + 1}</div>
-                <div>/</div>
-                <div>{images.length}</div>
-              </div>
                 {images.length > 0 && images.map((item, i) => {
                   if (index === i) {
                     return (
-                      <Fade duration = {1500} key = {i}>
-                        <img key={i} src={item} className={styles.image} alt="#"/>            
-
+                      <Fade
+                        disabled
+                        key = {i}>
+                          <img key={i} src={item} className={styles.image} alt={this.props.serie} />
                       </Fade>
                     );
                   }
                   return false;
                 })}
+
+                {/* Alors ce qu'il se passe ici c'est le Fade joue avec CSS transform et
+                on ne peut pas désactiver ça. Soit on change de lib soit on fait avec.
+                Faire avec ça veut dire on a le choix entre :
+                1/ L'image fade in et out mais est alignée en bas comme maintenant.
+                OU
+                2/ L'image est centrée dans tous les cas (screenshot que papa a envoyé
+                sur whatasapp) mais elle ne fade plus...
+
+                Pour mettre 2/ en place il faut :
+                - ajouter 'disabled' dans les param de Fade : <Fade disabled key={i}> etc
+                - aller dans slider.css et dans .imageWrap img, commenter bottom0, et
+                décommenter les 2 lignes suivantes
+
+                Mon opinion : 2/ est mieux. Il y a déjà un fade quand on arrive sur la page
+                et le fade sur les images est chiant car c'est plus long de regarder toutes
+                les images. Pas de fade et image bien centrée c'est mieux !
+                */}
 
             </div>
           </div>

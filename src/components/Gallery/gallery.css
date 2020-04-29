@@ -39,9 +39,9 @@ h1, h2 {
         position: absolute;
         max-width: 25px;
         top: 60px;
-
+        left :8%;
     }
-    
+
     .outerGallery
     {
         padding-top: 10vh !important;

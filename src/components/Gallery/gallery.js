@@ -46,6 +46,10 @@ class Gallery extends Component
         let gallery = this.state.gallery
 
         return(
+        <Fade
+            delay = {500}
+            duration = {1500}
+            big>
             <div className={styles.outerGallery}>
                 <Link to = "/">
                     <img className = {styles.returnArrow} src="../../images/flechehomesvg.svg" alt=""/>
@@ -53,11 +57,11 @@ class Gallery extends Component
 
                 {
                 gallery &&
-                <Fade delay = {800}>
+
                     <GallerySlider serie={serie} link={link} gallery={gallery} />
-                </Fade>
                 }
             </div>
+        </Fade>
         )
     }
 }
