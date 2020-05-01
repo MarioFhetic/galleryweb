@@ -104,7 +104,7 @@ export default class GallerySlider extends Component {
               return false;
             })}
 
-            <div className={styles.controls}>
+            {/* <div className={styles.controls}>
               <div className = {styles.arrow} onClick={() => {this.prevSlide()}}></div>
               <div className = {styles.arrow} onClick={() => {this.nextSlide()}}></div>
             </div>
@@ -113,6 +113,15 @@ export default class GallerySlider extends Component {
               <div>{this.state.visibleIndex + 1}</div>
               <div>/</div>
               <div>{images.length}</div>
+            </div> */}
+
+
+            <div className={styles.containerControls}>
+              <div className = {styles.arrow} onClick={() => {this.prevSlide()}}></div>
+              <div className = {styles.arrow} onClick={() => {this.nextSlide()}}></div>
+              {/* <span>{this.state.visibleIndex + 1}</span>
+              <span>/</span>
+              <span>{images.length}</span> */}
             </div>
 
 
@@ -121,7 +130,6 @@ export default class GallerySlider extends Component {
                   if (index === i) {
                     return (
                       <Fade
-                        disabled
                         key = {i}>
                           <img key={i} src={item} className={styles.image} alt={this.props.serie} />
                       </Fade>
@@ -129,24 +137,6 @@ export default class GallerySlider extends Component {
                   }
                   return false;
                 })}
-
-                {/* Alors ce qu'il se passe ici c'est le Fade joue avec CSS transform et
-                on ne peut pas désactiver ça. Soit on change de lib soit on fait avec.
-                Faire avec ça veut dire on a le choix entre :
-                1/ L'image fade in et out mais est alignée en bas comme maintenant.
-                OU
-                2/ L'image est centrée dans tous les cas (screenshot que papa a envoyé
-                sur whatasapp) mais elle ne fade plus...
-
-                Pour mettre 2/ en place il faut :
-                - ajouter 'disabled' dans les param de Fade : <Fade disabled key={i}> etc
-                - aller dans slider.css et dans .imageWrap img, commenter bottom0, et
-                décommenter les 2 lignes suivantes
-
-                Mon opinion : 2/ est mieux. Il y a déjà un fade quand on arrive sur la page
-                et le fade sur les images est chiant car c'est plus long de regarder toutes
-                les images. Pas de fade et image bien centrée c'est mieux !
-                */}
 
             </div>
           </div>

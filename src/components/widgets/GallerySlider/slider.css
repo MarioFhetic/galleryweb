@@ -23,10 +23,30 @@
 
   position: absolute;
 
-  /* bottom:0; */
+  /* Image centrées */
 
-  top: 50%;
-  transform: translateY(-50%); 
+  /* bottom:0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;  */
+
+  /* Image aligné à gauche et centré verticalement */
+
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+
+
+  /* 
+  
+  */
+
+  /* top: 50%;
+  transform: translateY(-50%);  */
 
   max-height: 100%;
   max-width: 100%;
@@ -98,11 +118,11 @@
 }
 
 
-.controls {
+/* .controls {
   position: absolute;
-  left: 38.2%;
-  transform: translateY(-100%);
-  top: 50%;
+  left: 40%;
+  transform: translateX(-100%);
+  bottom: 0%;
   z-index: 9999;
   cursor: pointer;
 }
@@ -124,8 +144,11 @@
 
 .controls :nth-child(2)
 {
+    position: relative;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+    left: 30px;
+
 }
 
 .counterSlide {
@@ -135,10 +158,55 @@
     display: flex;
     position: absolute;
     left: 40%;
+    transform: translateX(-80%);
+  
     bottom: 0;
-    z-index: 9999;
+  } */
 
+  .containerControls .arrow
+  {
+    border: solid #666666;
+    opacity: 0.7;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
   }
+
+  .containerControls
+  {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 38%;
+    bottom: 0;
+    text-align: center;
+    transform: translateY(-20%);
+  }
+
+  .containerControls span
+  {
+    font-family: 'AvenirNextLTPro-UltLtIt';
+    font-size: 0.8rem;
+    position: relative;
+    left: -50%;
+  }
+
+  .containerControls :first-child
+  {
+      left: 37%;
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+  }
+
+  .containerControls :nth-child(2)
+  {
+      position: relative;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+  }
+
+
 
 
 
@@ -180,9 +248,9 @@
     left: 70%;
     top: 26px;
   }
-  .controls {
+  .containerControls {
     left: 80%;
-    top: 38px;
+    top: 0px;
   }
   .controls .arrow {
     padding: 8px;
@@ -210,3 +278,63 @@
     opacity: 0.01;
     transition: opacity 300ms ease-in;
   } */
+
+
+
+  /* @media only screen and (max-width : 1200px) {
+    .controls {
+      position: absolute;
+      left: 40%;
+      transform: translateX(-100%);
+      bottom: 0%;
+      z-index: 9999;
+      cursor: pointer;
+    }
+    
+    .controls .arrow
+    {
+        border: solid #666666;
+        opacity: 0.7;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 10px;
+    }
+    
+    .controls :first-child
+    {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+    
+    .controls :nth-child(2)
+    {
+        position: relative;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        left: 20px;
+    
+    }
+    
+    .counterSlide {
+        font-family: 'AvenirNextLTPro-UltLtIt';
+        font-size: 0.8rem;
+        color: black;
+        display: flex;
+        position: absolute;
+        left: 36.7%;
+        width: 145px;
+        bottom: 0;
+        z-index: 9999;
+        justify-content: center;
+      }
+    
+  } */
+
+
+  @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px)  {
+  .containerControls {
+    bottom: inherit;
+  }
+}
