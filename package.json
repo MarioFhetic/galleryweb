@@ -1,6 +1,6 @@
 {
-  "name": "testsite",
   "homepage": "http://MarioFhetic.github.io/galleryweb",
+  "name": "testsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
