@@ -6,6 +6,10 @@ import test from'./slick-theme.css';
 import { CSSTransition } from "react-transition-group";
 import Fade from 'react-reveal/Fade';
 
+import { ReactComponent as PrevArrow } from "./flecheprev.svg";
+import { ReactComponent as NextArrow } from "./flechenext.svg";
+
+
 
 export default class GallerySlider extends Component {
 
@@ -89,7 +93,7 @@ export default class GallerySlider extends Component {
                 return (
                   <div key={i} className = {styles.dataWrap}>
                     <div className = {styles.data_title}>
-                      <h1><span> Série</span> | {this.props.serie}</h1>
+                      <h1><span> Série |</span> {this.props.serie}</h1>
                       <h2>{item[0]}</h2>
                     </div>
                     <div className = {styles.dataSubData}>
@@ -104,26 +108,15 @@ export default class GallerySlider extends Component {
               return false;
             })}
 
-            {/* <div className={styles.controls}>
-              <div className = {styles.arrow} onClick={() => {this.prevSlide()}}></div>
-              <div className = {styles.arrow} onClick={() => {this.nextSlide()}}></div>
+            <div className = {styles.containerAllControl}>
+              <PrevArrow onClick={() => {this.prevSlide()}}/>
+              <NextArrow onClick={() => {this.nextSlide()}}/>
+              <div className= {styles.counterSlides}>
+                <span onClick={() => {this.prevSlide()}}>{this.state.visibleIndex + 1}</span>
+                <span>|</span>
+                <span onClick={() => {this.nextSlide()}}>{images.length}</span>
+              </div>
             </div>
-
-            <div className = {styles.counterSlide}>
-              <div>{this.state.visibleIndex + 1}</div>
-              <div>/</div>
-              <div>{images.length}</div>
-            </div> */}
-
-
-            <div className={styles.containerControls}>
-              <div className = {styles.arrow} onClick={() => {this.prevSlide()}}></div>
-              <div className = {styles.arrow} onClick={() => {this.nextSlide()}}></div>
-              {/* <span>{this.state.visibleIndex + 1}</span>
-              <span>/</span>
-              <span>{images.length}</span> */}
-            </div>
-
 
             <div className={styles.imageWrap}>
                 {images.length > 0 && images.map((item, i) => {

@@ -76,8 +76,8 @@ const MiddleBarItems = () =>
 
     {        
         type : style.option,
-        text : 'Petits formats',
-        link : 'gallery/petits-formats',
+        text : 'Pariscovid',
+        link : 'gallery/pariscovid',
     },
 
     ]

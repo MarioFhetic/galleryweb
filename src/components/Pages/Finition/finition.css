@@ -177,13 +177,13 @@ h2
 
 .bigContainer .bigImg
 {
-    max-width: 100vw;
+    width: 100vw;
 }
 
 .bigContainer .bigImg img
 {
     width: auto;
-    max-width: 100%;
+    width: 100%;
 }
 
 @media only screen and (min-width : 320px) and (max-width: 1024px)

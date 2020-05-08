@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import GallerySlider from '../widgets/GallerySlider/GallerySlider';
 import Fade from 'react-reveal/Fade';
 // import '../widgets/GallerySlider/slick-theme.css';
+import {ReactComponent as ReturnHomeArrow} from './flechehome.svg'
 
 
 
@@ -52,7 +53,7 @@ class Gallery extends Component
             big>
             <div className={styles.outerGallery}>
                 <Link to = "/">
-                    <img className = {styles.returnArrow} src="../../images/flechehomesvg.svg" alt=""/>
+                    <ReturnHomeArrow className = {styles.returnHomeArrow}/>
                 </Link>
 
                 {

@@ -1,7 +1,7 @@
 {
   "albums" : {
     "chute-de-pierre" : {
-      "cover" : "01.jpg",
+      "cover" : "02.jpg",
       "gallery" : [ {
         "name" : "Delphoi n°10",
         "price" : "30 cm x 30 cm - 380 €",
@@ -466,45 +466,55 @@
         "year" : "1992 \b \b Photographie argentique"
       }, {
         "name" : "Homme et chapeau",
-        "price" : "44 cm x 54 cm - 550€",
+        "price" : "54 cm x 54 cm - 550€",
         "size" : "",
         "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
         "url" : "03.jpg",
         "year" : "1992 \b \b Photographie argentique"
       }, {
         "name" : "Carrefour San Cristobal",
-        "price" : "44 cm x 54 cm - 550€",
+        "price" : "54 cm x 54 cm - 550€",
         "size" : "",
         "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
         "url" : "04.jpg",
         "year" : "1992 \b \b Photographie argentique"
       }, {
         "name" : "Jeune fille à la natte",
-        "price" : "44 cm x 54 cm - 550€",
+        "price" : "54 cm x 54 cm - 550€",
         "size" : "",
         "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
         "url" : "05.jpg",
         "year" : "1992 \b \b Photographie argentique"
-      }, {
+      },
+      {
         "name" : "Homme et poteau",
-        "price" : "44 cm x 54 cm - 550€",
+        "price" : "54 cm x 54 cm - 550€",
         "size" : "",
         "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
         "url" : "06.jpg",
         "year" : "1992 \b \b Photographie argentique"
-      }, {
-        "name" : "Paleteria San Cristobal",
-        "price" : "44 cm x 54 cm - 550€",
+      },
+      {
+        "name" : "La dame au tablier",
+        "price" : "54 cm x 54 cm - 550€",
         "size" : "",
         "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
         "url" : "07.jpg",
         "year" : "1992 \b \b Photographie argentique"
-      }, {
-        "name" : "Sans titre",
-        "price" : "44 cm x 54 cm - 550€",
+      },
+      {
+        "name" : "Paleteria San Cristobal",
+        "price" : "54 cm x 54 cm - 550€",
         "size" : "",
         "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
         "url" : "08.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "Sans titre",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "09.jpg",
         "year" : "1992 \b \b Photographie argentique"
       } ],
       "id" : 90,
@@ -765,6 +775,94 @@
       "id" : 40,
       "link" : "vestiges",
       "serie" : "Vestiges"
+    },
+    "pariscovid" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Concordavirus",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "01.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Copéravirus",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "02.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Concordavirus 2",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "03.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Colonel Fabien",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "04.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Stalingrad",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "05.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Janine",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "06.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Pigalle",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "07.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Saint-Maur",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "08.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Batignoles",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "09.jpg",
+        "year" : "2020"
+      },
+      {
+        "name" : "Jaurès",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "10.jpg",
+        "year" : "2020"
+      }
+    ],
+      
+      "id" : 120,
+      "link" : "pariscovid",
+      "serie" : "Pariscovid"
     }
   }
 }

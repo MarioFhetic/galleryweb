@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7eaf3e4.chunk.css",
-    "main.js": "/static/js/main.d36cfb21.chunk.js",
-    "main.js.map": "/static/js/main.d36cfb21.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c15f8a85.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c15f8a85.js.map",
-    "static/js/2.154b8c82.chunk.js": "/static/js/2.154b8c82.chunk.js",
-    "static/js/2.154b8c82.chunk.js.map": "/static/js/2.154b8c82.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.694ac310d2219afd817c41d6732064d3.js": "/precache-manifest.694ac310d2219afd817c41d6732064d3.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f7eaf3e4.chunk.css.map": "/static/css/main.f7eaf3e4.chunk.css.map",
-    "static/media/index.css": "/static/media/Whitney-Medium.f70842d2.eot",
-    "static/media/contact.css": "/static/media/contact.a6d3122c.jpg"
+    "main.css": "/galleryweb/static/css/main.ad45f7a3.chunk.css",
+    "main.js": "/galleryweb/static/js/main.d2bd6151.chunk.js",
+    "main.js.map": "/galleryweb/static/js/main.d2bd6151.chunk.js.map",
+    "runtime-main.js": "/galleryweb/static/js/runtime-main.c3a3b7d9.js",
+    "runtime-main.js.map": "/galleryweb/static/js/runtime-main.c3a3b7d9.js.map",
+    "static/js/2.44dc6c1e.chunk.js": "/galleryweb/static/js/2.44dc6c1e.chunk.js",
+    "static/js/2.44dc6c1e.chunk.js.map": "/galleryweb/static/js/2.44dc6c1e.chunk.js.map",
+    "index.html": "/galleryweb/index.html",
+    "precache-manifest.fffeb8d2cd97e133f73dcdfa2c106401.js": "/galleryweb/precache-manifest.fffeb8d2cd97e133f73dcdfa2c106401.js",
+    "service-worker.js": "/galleryweb/service-worker.js",
+    "static/css/main.ad45f7a3.chunk.css.map": "/galleryweb/static/css/main.ad45f7a3.chunk.css.map",
+    "static/media/index.css": "/galleryweb/static/media/Whitney-Medium.f70842d2.eot",
+    "static/media/contact.css": "/galleryweb/static/media/contact.a6d3122c.jpg",
+    "static/media/flechehome.5a7c1dd5.svg": "/galleryweb/static/media/flechehome.5a7c1dd5.svg",
+    "static/media/flechenext.1477c860.svg": "/galleryweb/static/media/flechenext.1477c860.svg",
+    "static/media/flecheprev.c3a8dc7f.svg": "/galleryweb/static/media/flecheprev.c3a8dc7f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c15f8a85.js",
-    "static/js/2.154b8c82.chunk.js",
-    "static/css/main.f7eaf3e4.chunk.css",
-    "static/js/main.d36cfb21.chunk.js"
+    "static/js/runtime-main.c3a3b7d9.js",
+    "static/js/2.44dc6c1e.chunk.js",
+    "static/css/main.ad45f7a3.chunk.css",
+    "static/js/main.d2bd6151.chunk.js"
   ]
 }
