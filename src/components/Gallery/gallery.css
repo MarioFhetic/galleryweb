@@ -13,14 +13,39 @@ h1, h2 {
     padding: 7vh 5vw 5vh 5vw;
     box-sizing: border-box;
 }
-
+/* 
 .outerGallery .returnHomeArrow 
 {
    position: absolute;
    cursor: pointer;
    width: 50px;
    z-index: 6;
+} */
+
+.containerHomeArrow
+{
+    position: absolute;
+    width: 60px;
+    z-index: 100;
 }
+
+.containerHomeArrow svg
+{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    transform: translate(-25%, -10%);
+}
+
+
+
+/* .outerGallery .returnHomeArrow 
+{
+   position: absolute;
+   cursor: pointer;
+   width: 50px;
+   z-index: 6;
+} */
 
 /* .outerGallery .containerReturnArrow
 {
@@ -34,13 +59,12 @@ h1, h2 {
 @media only screen and (min-width : 320px) and (max-width: 812px)
 {
 
-    .outerGallery .returnArrow
+    .outerGallery .containerHomeArrow
     {
-        position: absolute;
-        max-width: 25px;
-        top: 60px;
-        left :8%;
-    }
+        width: 30px;
+        left: 10%;
+        top: 7%;
+    } 
 
     .outerGallery
     {
@@ -55,11 +79,11 @@ h1, h2 {
 @media only screen and (min-width : 768px) and (max-width: 1023px)
 {
 
-    .outerGallery .returnArrow
+    .outerGallery .containerHomeArrow
     {
-        position: absolute;
-        max-width: 25px;
-        top: 90px;
-    }
+        width: 40px;
+
+    } 
+
 
 }

@@ -53,7 +53,9 @@ class Gallery extends Component
             big>
             <div className={styles.outerGallery}>
                 <Link to = "/">
-                    <ReturnHomeArrow className = {styles.returnHomeArrow}/>
+                    <div className = {styles.containerHomeArrow}>
+                        <ReturnHomeArrow className = {styles.returnHomeArrow}/>
+                    </div>
                 </Link>
 
                 {
