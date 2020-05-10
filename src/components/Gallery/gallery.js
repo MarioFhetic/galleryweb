@@ -1,11 +1,10 @@
 import React, {Component} from 'react'
 import styles from './gallery.css'
-import {firebaseLooper, firebaseDB} from '../../firebase'
+import {firebaseDB} from '../../firebase'
 import {Link} from 'react-router-dom';
 
 import GallerySlider from '../widgets/GallerySlider/GallerySlider';
 import Fade from 'react-reveal/Fade';
-// import '../widgets/GallerySlider/slick-theme.css';
 import {ReactComponent as ReturnHomeArrow} from './flechehome.svg'
 
 

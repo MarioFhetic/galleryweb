@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/galleryweb/static/css/main.057099ee.chunk.css",
-    "main.js": "/galleryweb/static/js/main.804c7f54.chunk.js",
-    "main.js.map": "/galleryweb/static/js/main.804c7f54.chunk.js.map",
-    "runtime-main.js": "/galleryweb/static/js/runtime-main.c3a3b7d9.js",
-    "runtime-main.js.map": "/galleryweb/static/js/runtime-main.c3a3b7d9.js.map",
-    "static/js/2.2af4c09b.chunk.js": "/galleryweb/static/js/2.2af4c09b.chunk.js",
-    "static/js/2.2af4c09b.chunk.js.map": "/galleryweb/static/js/2.2af4c09b.chunk.js.map",
-    "index.html": "/galleryweb/index.html",
-    "precache-manifest.302554da8327d9db6a6023e1d7d37440.js": "/galleryweb/precache-manifest.302554da8327d9db6a6023e1d7d37440.js",
-    "service-worker.js": "/galleryweb/service-worker.js",
-    "static/css/main.057099ee.chunk.css.map": "/galleryweb/static/css/main.057099ee.chunk.css.map",
-    "static/media/index.css": "/galleryweb/static/media/Whitney-Medium.f70842d2.eot",
-    "static/media/contact.css": "/galleryweb/static/media/contact.a6d3122c.jpg",
-    "static/media/flechehome.5a7c1dd5.svg": "/galleryweb/static/media/flechehome.5a7c1dd5.svg",
-    "static/media/flechenext.1477c860.svg": "/galleryweb/static/media/flechenext.1477c860.svg",
-    "static/media/flecheprev.c3a8dc7f.svg": "/galleryweb/static/media/flecheprev.c3a8dc7f.svg"
+    "main.css": "/static/css/main.4b2a0348.chunk.css",
+    "main.js": "/static/js/main.e849196d.chunk.js",
+    "main.js.map": "/static/js/main.e849196d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c15f8a85.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c15f8a85.js.map",
+    "static/js/2.925c4a44.chunk.js": "/static/js/2.925c4a44.chunk.js",
+    "static/js/2.925c4a44.chunk.js.map": "/static/js/2.925c4a44.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9d803cb62eb49eadf332ba16ca01d776.js": "/precache-manifest.9d803cb62eb49eadf332ba16ca01d776.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4b2a0348.chunk.css.map": "/static/css/main.4b2a0348.chunk.css.map",
+    "static/media/index.css": "/static/media/Whitney-Medium.f70842d2.eot",
+    "static/media/contact.css": "/static/media/contact.a6d3122c.jpg",
+    "static/media/flechehome.5a7c1dd5.svg": "/static/media/flechehome.5a7c1dd5.svg",
+    "static/media/flechenext.1477c860.svg": "/static/media/flechenext.1477c860.svg",
+    "static/media/flecheprev.c3a8dc7f.svg": "/static/media/flecheprev.c3a8dc7f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3a3b7d9.js",
-    "static/js/2.2af4c09b.chunk.js",
-    "static/css/main.057099ee.chunk.css",
-    "static/js/main.804c7f54.chunk.js"
+    "static/js/runtime-main.c15f8a85.js",
+    "static/js/2.925c4a44.chunk.js",
+    "static/css/main.4b2a0348.chunk.css",
+    "static/js/main.e849196d.chunk.js"
   ]
 }
