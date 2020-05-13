@@ -7,7 +7,7 @@ const Navbar = () =>
 
 
     return(
-        <Fade delay = {1400}>
+        <Fade delay = {700}>
             <NavbarItems/>
         </Fade>
     )

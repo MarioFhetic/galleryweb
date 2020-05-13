@@ -1,14 +1,15 @@
 import React, {useEffect } from "react"
-import styles from './logoBio.css';
+import styles from './impression.css'
 
 import { motion, useAnimation } from "framer-motion"
 import {useInView} from "react-intersection-observer"
 
 
-const LogoBio = () =>
-{
+const ImpressionHeader = () => {
+
+
     const animation = useAnimation();
-    const [logoBioRef, inView] = useInView({
+    const [sectionHeaderRef, inView] = useInView({
         triggerOnce: true, // renvoi que une seule fois false puis que des true
         rootMargin: '0px' 
 
@@ -24,9 +25,10 @@ const LogoBio = () =>
 
     }, [animation, inView]) // on met une dépendance comme ça dès que inView est true ça trigger notre useEffect
 
-    return(
-        <motion.div className = {styles.logo_bio}
-        ref = {logoBioRef}
+
+    return (
+        <motion.div 
+        ref = {sectionHeaderRef}
         animate = {animation}
         initial = "hidden" // initial est set à hidden donc il sera caché avec un y de 72 à la base
         variants = {{
@@ -37,23 +39,24 @@ const LogoBio = () =>
         },
             hidden: {
                 opacity: 0,
-                y: -72,
+                y: 72,
             }
         
         }}
         >
-            <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 260.74 68.69">
-                <text transform="translate(66.13 58.94) scale(1.04 1)">
-                    BIO
-                </text>
-                <rect x="31.24" y="31.4" width="27.5" height="27.5"/>
-                <path d="M49.3,118.11A29.36,29.36,0,1,1,78.66,88.75H49.3Z" transform="translate(-19.94 -59.4)"/>
-            </svg>
-        </motion.div>
+        <div className ={styles.containerHeader}>
+            <div className = {styles.header}>
+                <p>
+                    Le processus photographique est composé de deux moments de création à part entière : la prise de vue et le tirage. 
+                    Le regard, l’intention de la prise de vue se réalisent et s’expriment lors du tirage. 
+                    Après de longues années de tirages argentiques dans mon laboratoire, 
+                    il m’est difficile de confier une impression numérique à d’autres ; ne pas maîtriser le tirage me donnant 
+                    l’impression de m’arrêter en chemin.
+                </p>
+            </div>
+        </div>
+        </motion.div> 
     )
 }
 
-
-export default LogoBio;
+export default ImpressionHeader;
