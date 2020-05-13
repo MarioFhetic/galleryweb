@@ -6,12 +6,12 @@
 
 rect
 {
-    fill: #660000;
+    fill: #A60C0C;
 }
 
 .webContainer :nth-child(n+13)
 {
-    fill: #660000;
+    fill: #A60C0C;
 }
 /* 
 
@@ -52,7 +52,7 @@ and (orientation : portrait) {
     .logo_header
     {
         margin: auto;
-        width: 400px; 
+        width: 300px; 
     }
 
 }
@@ -62,7 +62,7 @@ and (orientation : portrait) {
     .logo_header
     {
         margin: auto;
-        width: 450px;
+        width: 400px;
     }
 }
 
@@ -71,7 +71,7 @@ and (orientation : portrait) {
     .logo_header
     {
         margin: auto;
-        width: 500px;
+        width: 400px;
     }
 }
 

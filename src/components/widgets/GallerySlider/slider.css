@@ -91,7 +91,7 @@
     font-weight: inherit;
     margin-bottom: auto;
 }
-.data_title span{color:#660000; opacity: 1 !important;}
+.data_title span{color:#A60C0C; opacity: 1 !important;}
 
 
 
@@ -264,7 +264,7 @@
 .containerAllControl .counterSlides :nth-child(2)
 {
   padding: 0 2.5px;
-  color:#660000 !important;
+  color:#A60C0C !important;
 }
 
 @media only screen and (max-width : 813px){

@@ -1,7 +1,7 @@
 a
 {
     text-decoration: none;
-    color: white;
+    color: #cccccc;
     margin-top: 1rem;
 
 }
@@ -9,7 +9,7 @@ a
 .bigImg
 {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-image: url("contact.jpg"); 
     background-size: cover !important;
@@ -22,12 +22,12 @@ a
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 70%;
-    left: 60%;
+    top: 60%;
+    left: 48%;
     font-family: "AvenirNextLTPro-Regular";
-    font-size: 15px;
-    color: white;
+    font-size: 13px;
     line-height: 180%;
+    color: #cccccc;
 }
 
 .bigImg .containerText .containerLogos
@@ -40,9 +40,7 @@ a
 
 .bigImg .containerText .containerLogos img
 {
-
-    width: 30px;
-
+    width: 25px;
 }
 
  /* ----------- iPhone 4 and 4S ----------- */

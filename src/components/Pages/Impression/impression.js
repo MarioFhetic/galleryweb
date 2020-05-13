@@ -6,7 +6,8 @@ import Fade from 'react-reveal/Fade';
 
 
 const Impression = () =>
-    (
+{
+    return(
         <Fade duration = {2500}>
 
             <div className = {styles.bigContainer}>
@@ -80,5 +81,7 @@ const Impression = () =>
         </Fade>
 
     )
+}
+
 
 export default Impression

@@ -1,0 +1,17 @@
+.infoCopyright
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    color: #000000;
+    font-family: 'AvenirNextLTPro-Regular';
+    font-family: 1rem;
+    margin-bottom: 1rem;
+}
+
+.infoCopyright .divider
+{
+    color: #A60C0C;
+}

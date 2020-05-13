@@ -3,7 +3,7 @@ import React from 'react';
 import Logo_Header from './LogoHeader/logoHeader';
 import MiddleBar from './MiddleBar/middleBar';
 import CardList from '../../components/widgets/CardList/cardList';
-
+import Footer from '../Footer/footer';
 
 const Home = () =>
 {
@@ -14,6 +14,7 @@ const Home = () =>
                 <CardList
                 type = "card"
                 />
+                <Footer/>
             </div>
 
         )

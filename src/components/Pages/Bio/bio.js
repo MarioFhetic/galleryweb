@@ -4,9 +4,13 @@ import styles from './bio.css'
 import LogoBio from '../Logos/logoBio';
 import Fade from 'react-reveal/Fade';
 
+import { motion, useAnimation } from "framer-motion"
+import {useInView} from "react-intersection-observer"
 
 const Bio = () =>
-    (
+{
+    return(
+            (
         <Fade duration = {2500}>
             <div className = {styles.bigContainer}>
                 <LogoBio/>
@@ -168,5 +172,8 @@ const Bio = () =>
             </div>
         </Fade>
     )
+    )
+}
+
 
 export default Bio
