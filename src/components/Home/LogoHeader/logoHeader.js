@@ -2,19 +2,76 @@ import React from 'react';
 import style from './logoHeader.css';
 import Fade from 'react-reveal/Fade';
 
+import {motion} from 'framer-motion';
+
+const icon = {
+    hidden: {
+      opacity: 0,
+      pathLength: 0,
+      fill: "rgba(255, 255, 255, 0)"
+    },
+    visible: {
+      opacity: 1,
+      pathLength: 1,
+      fill: "rgba(0, 0, 0, 1)"
+    }
+  }
+
 
 const Logo_header = () =>
     (
-        <Fade delay = {600}>
-            <div className = {style.logo_header}>
-                <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <Fade delay = {1200}>
+        <div className = {style.logo_header}>
+                <motion.svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             viewBox="0 0 390.41 179.45" styles="enable-background:new 0 0 390.41 179.45;" xmlSpace="preserve">
+
+                        <g id="XMLID_57_">
+                            {/* ANIMATION */}
+                            <motion.rect 
+                            id="XMLID_59_" 
+                            x="56.89" y="75.7" 
+                            className="st1" 
+                            width="27.5" 
+                            height="27.5"
+                            
+
+                            variants={icon}
+                            initial="hidden"
+                            animate="visible"  
+                            transition={{
+                            default: { delay: 1.2, duration: 2, ease: "easeInOut" },
+                            fill: { delay: 1.2, duration: 2, ease: [1, 0, 0.8, 1] }
+                            }} 
+                            />
+
+
+                            <motion.path 
+                            id="XMLID_58_" 
+                            className="st0" stroke = "black" 
+                            stroke-width = "1"  
+                            d="M55.01,103.01c-16.21,0-29.36-13.14-29.36-29.36c0-16.21,13.14-29.35,29.36-29.35
+                                c16.21,0,29.36,13.14,29.36,29.35H55.01V103.01z"
+                            variants={icon}
+                            initial="hidden"
+                            animate="visible"  
+                            transition={{
+                            default: { duration: 1.5, ease: "easeInOut", delay: 1.2 },
+                            fill: { delay: 1.2, duration: 1.5, ease: [1, 0, 0.8, 1] }
+                            }}  
+                            />
+                        </g>
                     <g id="XMLID_68_">
                         <g>
                             <g className = {style.webContainer}>
-                                <path className="st0" d="M97.06,123.87h-1.38v4.66h-1.1v-11.04h2.74c2.23,0,3.62,1.12,3.62,3.1
+                                <motion.path 
+                                className="st0" d="M97.06,123.87h-1.38v4.66h-1.1v-11.04h2.74c2.23,0,3.62,1.12,3.62,3.1
                                     C100.93,122.76,99.32,123.87,97.06,123.87z M97.24,118.46h-1.55v4.43h1.42c1.68,0,2.71-0.74,2.71-2.27
-                                    C99.81,119.2,98.92,118.46,97.24,118.46z"/>
+                                    C99.81,119.2,98.92,118.46,97.24,118.46z"
+
+
+
+                                />
+
                                 <path className="st0" d="M118.9,128.53v-5.28h-6.13v5.28h-1.1v-11.04h1.1v4.77h6.13v-4.77h1.1v11.04H118.9z"/>
                                 <path className="st0" d="M135.97,128.73c-2.95,0-4.96-2.34-4.96-5.71c0-3.39,2.05-5.75,4.99-5.75c2.98,0,4.98,2.34,4.98,5.71
                                     C140.98,126.37,138.95,128.73,135.97,128.73z M135.99,118.27c-2.32,0-3.84,1.92-3.84,4.72c0,2.83,1.54,4.75,3.86,4.75
@@ -44,11 +101,7 @@ const Logo_header = () =>
                                     C354.88,123.9,353.8,123.2,352.08,123.2z"/>
                             </g>
                         </g>
-                        <g id="XMLID_57_">
-                            <rect id="XMLID_59_" x="56.89" y="75.7" className="st1" width="27.5" height="27.5"/>
-                            <path id="XMLID_58_" className="st0" d="M55.01,103.01c-16.21,0-29.36-13.14-29.36-29.36c0-16.21,13.14-29.35,29.36-29.35
-                                c16.21,0,29.36,13.14,29.36,29.35H55.01V103.01z"/>
-                        </g>
+                        {/* ERIC FAYOLLE */}
                         <g>
                             <path className="st0" d="M94.58,103.69V76.07h16.07v0.78H95.4v12.13h14.35v0.78H95.4v13.14h15.87v0.78H94.58z"/>
                             <path className="st0" d="M135.22,103.69l-8.35-13.92h-6.47v13.92h-0.86V76.07h7.64c4.1,0,8.66,1.25,8.66,6.83
@@ -70,10 +123,10 @@ const Logo_header = () =>
                             <path className="st0" d="M340.2,101.19h14.78v2.5h-17.59V76.07h17.12v2.5H340.2v9.52h13.38v2.46H340.2V101.19z"/>
                         </g>
                     </g>
-                    </svg>
-
+                    </motion.svg>
             </div>
         </Fade>
+            
     )
 
 export default Logo_header

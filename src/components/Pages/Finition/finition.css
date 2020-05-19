@@ -1,288 +1,290 @@
-h1
-{
-    font-family: 'Whitney-Medium';
-    font-size: 1.3rem;
-    font-weight: lighter;
-    letter-spacing: 0.4px;
-    color: #313136;
+* {
+  box-sizing: border-box !important;
 }
 
-h2
-{
-    max-width: 30vw;
-    color: #851314;
-    text-transform: uppercase;
-    font-family: 'Whitney-Medium';
-    font-size: 1.2rem;
+h1 {
+  font-family: "Whitney-Medium";
+  font-size: 1.3rem;
+  font-weight: lighter;
+  letter-spacing: 0.4px;
+  color: #333333;
 }
 
-.bigContainer p
-{
-    font-family: 'Whitney-Book';
-    font-size: 1.2rem;  
-    line-height: 150%;
-    text-align: justify;
+h2 {
+  /* max-width: 30vw; */
+  color: #993300;
+  text-transform: uppercase;
+  font-family: "Whitney-Medium";
+  font-size: 1.2rem;
 }
 
-.containerHeader .header
-{
+.bigContainer p {
+  font-family: "Whitney-Light";
+  font-size: 1.2rem;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.bigContainer .titleSection {
+  padding: 1.5vw 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.bigContainer .titleSection h2 {
+  margin-left: 10%;
+}
+
+.containerHeader .header {
+  margin: auto;
+  width: 80vw;
+  text-align: center;
+}
+
+.containerHeader .header h1 {
+  margin-bottom: 4vw;
+}
+
+/* FIRST SECTION */
+
+.bigContainer .section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 80%;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.bigContainer .section .leftContent p {
+  max-width: 40vw;
+}
+
+.bigContainer .section .containerImg {
+  width: 40vw;
+  /* width: 30vw; */
+  max-height: 80vh;
+}
+
+.bigContainer .section .containerImg img {
+  width: auto;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.bigContainer .section .rightContent {
+  /* width: 19vw; */
+  width: 25vw;
+  max-height: 80vh;
+  text-align: center;
+  margin-bottom: 3vw;
+}
+
+.bigContainer .section .rightContent img {
+  width: auto;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.bigContainer .infoSection p {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Whitney-Medium" !important;
+  color: #333333;
+}
+
+.bigContainer .infoSectionBigImg p {
+  margin-left: 10%;
+  font-family: "Whitney-Medium" !important;
+  font-size: 0.7rem !important;
+  font-weight: 900 !important;
+  color: #333333 !important;
+}
+
+.firstImgContainer {
+  /* position: relative; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/finitions/firstbigimgfirstsection.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+}
+
+.secondImgContainer {
+  /* position: relative; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/finitions/secondimgfirstsection.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+/* SECOND SECTION */
+
+.bigContainer .section .rightContentSecond {
+  width: 35vw;
+  max-height: 80vh;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bigContainer .section .rightContentSecond img {
+  width: auto;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.bigContainer .section .containerImgSecond {
+  width: 40vw;
+  max-height: 80vh;
+  text-align: center;
+}
+
+.bigContainer .section .containerImgSecond img {
+  width: auto;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.bigContainer .section .leftContentSecond p {
+  max-width: 37vw;
+}
+
+.thirdImgContainer {
+  /* position: relative; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/finitions/firstsecondbigimg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+}
+
+.fourthImgContainer {
+  /* position: relative; */
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/finitions/secondsecondbigimg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+}
+
+/* THIRD SECTION */
+
+.containerPlexicollage {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  width: 80vw;
+  margin-left: 10%;
+}
+
+.leftSectionPlexicollage {
+  width: 50%;
+}
+
+.rightSectionPlexicollage {
+  width: 50%;
+  text-align: center;
+}
+
+.rightSectionPlexicollage img {
+  max-width: 80%;
+}
+
+.lastImgContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/finitions/lastimgcontainer.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+.secondLastImgContainer {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/finitions/secondlastimgcontainer.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .bigContainer .containerHeader {
+    padding: 5% 0;
+  }
+  .bigContainer .section .leftContent {
+    flex-direction: column;
+  }
+
+  .bigContainer .section .containerImg {
+    width: 50vw;
     margin: auto;
+  }
+
+  .bigContainer .section .containerImgSecond {
     width: 80vw;
-    border-top: 1px solid #DFE0E1;
-    border-bottom: 1px solid #DFE0E1;
-}
+    margin: auto;
+  }
 
-.containerHeader .header h1
-{
-    padding: 2% 0rem;
-}
-
-.bigContainer .section
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 80%;
-    flex-wrap: wrap;
-    margin-left: 10%;
-    margin-top: 2%;
-}
-
-.bigContainer .section .leftContent p
-{
-    max-width: 30vw;
-}
-
-.bigContainer .section .containerImg
-{
-    width: 30vw;
-    max-height: 80vh;
-}
-
-.bigContainer .section .containerImg img
-{
-    width: auto;
-    max-width: 100%;
-    max-height: 80vh;
-}
-
-.bigContainer .section .rightContent
-{
-    width: 35vw;
-    max-height: 80vh;
-}
-
-.bigContainer .section .rightContent img
-{
-    width: auto;
-    max-width: 100%;
-    max-height: 80vh;
-}
-
-.bigContainer .sectionAmericaine
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 100%;
-    flex-wrap: wrap;
-    margin-left: 10%;
-    margin-top: 2%;
-}
-
-.bigContainer .sectionAmericaine .leftContent p
-{
-    max-width: 30vw;
-}
-
-.bigContainer .sectionAmericaine .containerImg
-{
-    width: 30vw;
-    max-height: 80vh;
-}
-
-.bigContainer .sectionAmericaine .containerImg img
-{
-    width: auto;
-    max-width: 100%;
-    max-height: 80vh;
-}
-
-.bigContainer .sectionAmericaine .rightContent
-{
-    width: 35vw;
-    max-height: 80vh;
-}
-
-.bigContainer .sectionAmericaine .rightContent img
-{
-    width: auto;
-    max-width: 100%;
-    max-height: 80vh;
-}
-
-.bigContainer .sectionPlexicollage
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 80%;
-    flex-wrap: wrap;
-    margin-left: 10%;
-    margin-top: 2%;
-}
-
-.bigContainer .sectionPlexicollage .leftContent p
-{
-    max-width: 30vw;
-}
-
-.bigContainer .sectionPlexicollage .leftContent .testContainer
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.bigContainer .sectionPlexicollage .leftContent .testContainer .captionImg p
-{
-    max-width: 10vw;
-}
-
-.bigContainer .sectionPlexicollage .containerImg
-{
-    width: 15vw;
-    max-height: 80vh;
-}
-
-.bigContainer .sectionPlexicollage .containerImg img
-{
-    width: auto;
-    max-width: 100%;
-    max-height: 80vh;
-}
-
-.bigContainer .sectionPlexicollage .rightContent
-{
-    width: 35vw;
-    max-height: 80vh;
-}
-
-.bigContainer .sectionPlexicollage .rightContent img
-{
-    width: auto;
-    max-width: 100%;
-    max-height: 80vh;
-}
-
-.bigContainer .bigImg
-{
-    width: 100vw;
-}
-
-.bigContainer .bigImg img
-{
-    width: auto;
+  .bigContainer .section .leftContent h2 {
+    max-width: 80vw;
+  }
+  .bigContainer .section .leftContent p {
+    max-width: 80vw;
+  }
+  .bigContainer .section .leftContentSecond p {
+    max-width: 80vw;
+  }
+  .bigContainer .section .rightContent {
+    width: 80vw;
+    text-align: center;
+  }
+  .bigContainer .section .rightContentSecond {
+    width: 80vw;
+    text-align: center;
+  }
+  .bigContainer .sectionBottom {
+    flex-direction: column;
+    max-width: 90vw !important;
+  }
+  .bigContainer .sectionBottom .leftContent {
+    max-width: 80vw;
+    margin-left: 0%;
+  }
+  .bigContainer .sectionBottom .leftContent h2 {
+    max-width: 80vw;
+  }
+  .bigContainer .sectionBottom .leftContent p {
+    max-width: 80vw;
+  }
+  .bigContainer .sectionBottom .rightContent {
+    width: 80vw;
+  }
+  .bigContainer .sectionBottom .textEnd h2 {
+    max-width: 80vw;
+  }
+  .bigContainer .sectionBottom .textEnd p {
+    max-width: 80vw;
+  }
+  .containerPlexicollage .leftSectionPlexicollage {
     width: 100%;
-}
-
-@media only screen and (min-width : 320px) and (max-width: 1024px)
-{
-    .bigContainer .containerHeader
-    {
-        padding: 5% 0;
-    }
-
-    .bigContainer .containerHeader .header
-    {
-        padding: 3% 0;
-    }
-
-    .bigContainer .section
-    {
-        flex-direction: column;
-        align-items: unset;
-    }
-
-    .bigContainer .section .leftContent h2
-    {
-        max-width: 80vw;
-    }
-
-    .bigContainer .section .leftContent p
-    {
-        max-width: 80vw;
-    }
-
-    .bigContainer .section .containerImg
-    {
-        width: 80vw;
-    }
-
-    .bigContainer .section .rightContent
-    {
-        width: 80vw;
-    }
-
-    .bigContainer .sectionAmericaine
-    {
-        flex-direction: column;
-        align-items: unset;
-    }
-
-    .bigContainer .sectionAmericaine .leftContent h2
-    {
-        max-width: 80vw;
-    }
-
-    .bigContainer .sectionAmericaine .leftContent p
-    {
-        max-width: 80vw;
-    }
-
-    .bigContainer .sectionAmericaine .containerImg
-    {
-        width: 80vw;
-    }
-
-    .bigContainer .sectionAmericaine .rightContent
-    {
-        margin-left: auto;
-        width: 80vw;
-    }
-
-    .bigContainer .sectionPlexicollage
-    {
-        flex-direction: column;
-        align-items: unset;
-    }
-
-    .bigContainer .sectionPlexicollage .leftContent p
-    {
-        max-width: 80vw;
-    }
-
-    .bigContainer .sectionPlexicollage .testContainer
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: unset;
-        justify-content: unset;
-    }
-
-    .bigContainer .sectionPlexicollage .testContainer .containerImg
-    {
-        width: 37vw;
-    }
-
-    .bigContainer .sectionPlexicollage .testContainer .captionImg p
-    {
-        max-width: 80vw !important;
-    }
-
-    .bigContainer .sectionPlexicollage .rightContent
-    {
-        margin-left: auto;
-        width: 80vw;
-    }
+  }
+  .containerPlexicollage .rightSectionPlexicollage {
+    width: 100%;
+  }
 }

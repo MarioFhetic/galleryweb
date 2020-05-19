@@ -1,9 +1,5 @@
 import React, { Component, useState } from "react";
-import Slider from "react-slick";
 import styles from './slider.css';
-import {Link} from 'react-router-dom';
-import test from'./slick-theme.css';
-import { CSSTransition } from "react-transition-group";
 import Fade from 'react-reveal/Fade';
 
 import { ReactComponent as PrevArrow } from "./flecheprev.svg";

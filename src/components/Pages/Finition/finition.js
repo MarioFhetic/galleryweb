@@ -1,84 +1,205 @@
-import React from 'react';
-import styles from './finition.css'
+import React from "react";
+import styles from "./finition.css";
 
-import LogoFinition from '../Logos/logoFinition';
+import LogoFinition from "../Logos/logoFinition";
 
-import Fade from 'react-reveal/Fade';
+const Finitionn = () => {
+  return (
+    <div className={styles.bigContainer}>
+      <LogoFinition />
+      <div className={styles.containerHeader}>
+        <div className={styles.header}>
+          <h1>
+            Plusieurs solutions de finition vous sont proposées avant de
+            commander une image.
+          </h1>
+        </div>
+      </div>
+      <div className={styles.titleSection}>
+        <h2>CONTRE COLLÉ ET CHASSIS ALUMINIUM</h2>
+      </div>
+      <div className={styles.section}>
+        <div className={styles.leftContent}>
+          <p>
+            La photographie est contrecollée de façon permanente sur une plaque
+            rigide de Dibond™ de 3 mm d’épaisseur au format exact de l'image,
+            sur laquelle est collé au dos un châssis en aluminium de 2 cm
+            d'épaisseur, rentrant de 5 cm.
+          </p>
+          <div className={styles.containerImg}>
+            <img
+              src="../../images/finitions/section1left.png"
+              alt="Photographie faite en contre collé et chassis alumminium"
+            />
+          </div>
+        </div>
+        <div className={styles.rightContent}>
+          <img
+            src="../../images/finitions/section1right.png"
+            alt="Photographie faite en contre collé et chassis alumminium"
+          />
+        </div>
+      </div>
+      <div className={styles.infoSection}>
+        <p>
+          Cette finition garantie une excellente rigidité et permet une accroche
+          décollée du mur.
+        </p>
+      </div>
+      <div className={styles.firstImgContainer}>
+        {/* <div className={styles.overlayImgContainer}></div> */}
+        {/* <div className={styles.infoBigImg}>
+          <p>contrecollage dibond et chassis</p>
+        </div> */}
+      </div>
+      <div className={styles.infoSectionBigImg}>
+        <p>CONTRECOLLÉ DIBOND ET CHASSIS</p>
+      </div>
+      <div className={styles.secondImgContainer}></div>
+      <div className={styles.infoSectionBigImg}>
+        <p>CONTRECOLLAGE ALUMINIUM ET CHASSIS</p>
+      </div>
 
+      {/* SECOND SECTION */}
 
-const Finition = () =>
-    (
-        <Fade duration = {2500}>
-            <div className = {styles.bigContainer}>
-                <LogoFinition/>
-                <div className ={styles.containerHeader}>
-                    <div className = {styles.header}>
-                        <h1>Plusieurs solutions de finition vous sont proposées avant de commander une image.</h1>
-                    </div>
-                </div>
-                <div className = {styles.section}>
-                    <div className = {styles.leftContent}>
-                        <h2>CONTRE COLLÉ ET CHASSIS ALUMINIUM</h2>
-                        <p>  
-                            La photographie est contrecollée de façon permanente sur une plaque rigide de Dibond™ de 3 mm d’épaisseur
-                            au format exact de l'image, sur laquelle est collé au dos un châssis en aluminium de 2 cm d'épaisseur, rentrant de 5 cm.
-                        </p>
-                        <div className = {styles.containerImg}>
-                            <img src="../../images/finitions/section1left.jpg" alt="Photographie faite en contre collé et chassis alumminium"/>
-                        </div>
-                        <p>Cette finition garantie une excellente rigidité et permet une accroche décollée du mur.</p>
-                    </div>
-                    <div className = {styles.rightContent}>
-                        <img src="../../images/finitions/section1right.png" alt="Photographie faite en contre collé et chassis alumminium"/>
-                    </div>
-                </div>
-                <div className = {styles.sectionAmericaine}>
-                    <div className = {styles.leftContent}>
-                        <h2>CAISSE AMÉRICAINE</h2>
-                        <p>  
-                            Le tirage est contrecollé sur une plaque rigide de Dibond™ de 2 mm d'épaisseur au format exact de l'image. 
-                            L’ensemble est intégré dans un cadre en bois naturel, noir ou blanc. Largeur de la bordure du cadre, 9 mm, profondeur 35 mm.
-                        </p>
-                        <div className = {styles.containerImg}>
-                            <img src="../../images/finitions/section2left.jpg" alt="Tirage est contrecollé sur une plaque rigide de Dibond"/>
-                        </div>
-                        <p>Un cadre sans verre, sobre et élégant qui met en valeur le grain du papier sans aucun reflet.</p>
-                    </div>
-                    <div className = {styles.rightContent}>
-                        <img src="../../images/finitions/section2right.png" alt="Tirage est contrecollé sur une plaque rigide de Dibond"/>
-                    </div>
-                </div>
-                <div className = {styles.sectionPlexicollage}>
-                    <div className = {styles.leftContent}>
-                        <h2>PLEXICOLLAGE </h2>
-                        <p>  
-                            Le tirage est contre collé sur une plaque d'aluminium de 1 mm. Une plaque de 3 mm d'épaisseur de verre acrylique transparent est posée sur la face image de l'original.
-                            L'adhérence est réalisée sans colle par la réaction chimique entre deux composants liquides. Le système est totalement dépourvu de poussière, de bulles d'air et de traces de colle.
-                            Une netteté d'image inégalée, le contraste des couleurs est accentué et l'image acquiert une nouvelle profondeur sur toute la surface et la protège à 99,7% contre les rayons UV.
-                        </p>
-                        <div className = {styles.testContainer}>
-                            <div className = {styles.containerImg}>
-                                <img src="../../images/finitions/section3left.png" alt="Photographie sur un tirage contre collé sur une plaque d'aluminium de 1 mm "/>
-                            </div>
-                            <div className = {styles.captionImg}>
-                                <p>
-                                    Au dos, un chassis alu de 2 cm d'épaisseur, rentrant par rapport au format du tirage, offre une excellente rigidité et une accroche décollée du mur.
-                                </p>
-                            </div>
-                        </div>
-                        <p>Cette finition garantie une excellente rigidité et permet une accroche décollée du mur.</p>
-                    </div>
-                    <div className = {styles.rightContent}>
-                        <img src="../../images/finitions/section3right.png" alt="Photographie sur un tirage contre collé sur une plaque d'aluminium de 1 mm"/>
-                    </div>
-                </div>
-                <div className = {styles.bigImg}>
-                    <img src="../../images/finitions/bigImg.jpg" alt="Photographie d'un salon avec des tableaux sur les murs"/>
-                </div>
+      <div className={styles.titleSection}>
+        <h2>CONTRECOLLAGE + CAISSE AMÉRICAINE</h2>
+      </div>
+      <div className={styles.section}>
+        <div className={styles.leftContentSecond}>
+          <p>
+            La photographie est contrecollée de façon permanente sur une plaque
+            rigide de Dibond™ de 3 mm d’épaisseur au format exact de l'image
+          </p>
+          <div className={styles.containerImgSecond}>
+            <img
+              src="../../images/finitions/firstimgsection2left.jpg"
+              alt="Photographie faite en contre collé et chassis alumminium"
+            />
+          </div>
+          <p>
+            L’ensemble est intégré dans un cadre en bois naturel, noir ou blanc.
+            Largeur de la bordure du cadre, 9 mm, profondeur 35 mm.
+          </p>
+        </div>
+        <div className={styles.rightContentSecond}>
+          <img
+            src="../../images/finitions/secondimgsection2right.png"
+            alt="Photographie faite en contre collé et chassis alumminium"
+          />
+        </div>
+      </div>
+      <div className={styles.infoSection}>
+        <p>
+          UN CADRE SANS VERRE, SOBRE ET ELEGANT QUI MET EN VALEUR LE GRAIN DU
+          PAPIER SANS AUCUN REFLET.
+        </p>
+      </div>
+      <div className={styles.thirdImgContainer}>
+        {/* <div className={styles.overlayImgContainer}></div> */}
+        {/* <div className={styles.infoBigImg}>
+          <p>contrecollage dibond et chassis</p>
+        </div> */}
+      </div>
+      <div className={styles.infoSectionBigImg}>
+        <p>CAISSE AMÉRICAINE ET CONTRECOLLÉ DIBOND</p>
+      </div>
+      <div className={styles.fourthImgContainer}></div>
+      {/* <div className={styles.infoSectionBigImg}>
+        <p>CONTRECOLLAGE ALUMINIUM ET CHASSIS</p>
+      </div> */}
 
-            </div>
-         </Fade>
+      {/* THIRD SECTION */}
 
-    )
+      <div className={styles.titleSection}>
+        <h2>PLEXICOLLAGE</h2>
+      </div>
+      <div className={styles.containerPlexicollage}>
+        <div className={styles.leftSectionPlexicollage}>
+          <p>
+            Impression de l’image sur papier photo brillant Fuji 240g. Ce papier
+            restitue des noirs profonds et détaillés ainsi que des blancs
+            éclatants.
+          </p>
+          <p>
+            L’image est ensuite contrecollé sous un verre acrylique transparent
+            de 4 mm. L'adhérence est réalisée sans colle par la réaction
+            chimique entre deux composants liquides. Le système est totalement
+            dépourvu de poussière, de bulles d'air et de traces de colle.
+          </p>
+          <p>
+            Une plaque d’Alu Dibond est appliquée au dos du tirage ainsi qu’un
+            châssis rentrant qui offre un excellente rigidité et une accroche
+            décollée du mur.
+          </p>
+          <p>
+            Une netteté d'image inégalée, le contraste des couleurs est accentué
+            et l'image acquiert une nouvelle profondeur sur toute la surface et
+            la protège à 99,7% contre les rayons UV.
+          </p>
+        </div>
+        <div className={styles.rightSectionPlexicollage}>
+          <img src="../../images/finitions/firstimgthirdsection.jpg" alt="" />
+        </div>
+      </div>
+      <div className={styles.infoSection}>
+        <p>
+          Le plexicollage donne aux images une brillance intense et un effect de
+          profondeur unique.
+        </p>
+      </div>
+      {/* <div className={styles.section}>
+        <div className={styles.leftContentThird}> */}
+      {/* <p>
+            Impression de l’image sur papier photo brillant Fuji 240g. Ce papier
+            restitue des noirs profonds et détaillés ainsi que des blancs
+            éclatants.
+          </p>
+          <p>
+            L’image est ensuite contrecollé sous un verre acrylique transparent
+            de 4 mm. L'adhérence est réalisée sans colle par la réaction
+            chimique entre deux composants liquides. Le système est totalement
+            dépourvu de poussière, de bulles d'air et de traces de colle.
+          </p>
+          <p>
+            Une plaque d’Alu Dibond est appliquée au dos du tirage ainsi qu’un
+            châssis rentrant qui offre un excellente rigidité et une accroche
+            décollée du mur.
+          </p>
+          <p>
+            Une netteté d'image inégalée, le contraste des couleurs est accentué
+            et l'image acquiert une nouvelle profondeur sur toute la surface et
+            la protège à 99,7% contre les rayons UV.
+          </p> */}
+      {/* </div> */}
+      {/* <div className={styles.rightContentThird}>
+          <img
+            src="../../images/finitions/firstimgthirdsection.jpg"
+            alt="Photographie faite en contre collé et chassis alumminium"
+          />
+        </div> */}
+      {/* </div> */}
+      {/* <div className={styles.infoSection}>
+        <p>
+          LE PLEXICOLLAGE DONNE AUX IMAGES UNE BRILLANCE INTENSE ET UN EFFET DE
+          PROFONDEUR UNIQUE.
+        </p>
+      </div> */}
+      <div className={styles.lastImgContainer}>
+        {/* <div className={styles.overlayImgContainer}></div> */}
+        {/* <div className={styles.infoBigImg}>
+          <p>contrecollage dibond et chassis</p>
+        </div> */}
+      </div>
+      <div className={styles.infoSectionBigImg}>
+        <p>PLEXICOLLAGE ET CONTRECOLLAGE SUR ALU DIBOND</p>
+      </div>
+      <div className={styles.secondLastImgContainer}></div>
+      <div className={styles.infoSectionBigImg}>
+        <p>OPTION CHASSIS EN BOIS DE 6 CM DE PROFONDEUR</p>
+      </div>
+    </div>
+  );
+};
 
-export default Finition
+export default Finitionn;

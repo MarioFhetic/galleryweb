@@ -5,6 +5,7 @@ import MiddleBar from './MiddleBar/middleBar';
 import CardList from '../../components/widgets/CardList/cardList';
 import Footer from '../Footer/footer';
 
+
 const Home = () =>
 {
         return(
