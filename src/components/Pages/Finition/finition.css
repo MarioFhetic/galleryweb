@@ -27,8 +27,8 @@ h2 {
 
 .bigContainer .titleSection {
   padding: 1.5vw 0;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
 }
 
 .bigContainer .titleSection h2 {
@@ -105,21 +105,26 @@ h2 {
 
 .firstImgContainer {
   /* position: relative; */
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-image: url("/images/finitions/firstbigimgfirstsection.jpg");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: top center !important;
 }
 
-.secondImgContainer {
-  /* position: relative; */
+.firstbigimgimg {
   width: 100vw;
   height: 100vh;
+}
+
+.secondImgContainer {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
   background-image: url("/images/finitions/secondimgfirstsection.jpg");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -161,7 +166,7 @@ h2 {
   width: 100vw;
   height: 100vh;
   background-image: url("/images/finitions/firstsecondbigimg.jpg");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: top center !important;
@@ -172,7 +177,7 @@ h2 {
   width: 100vw;
   height: 100vh;
   background-image: url("/images/finitions/secondsecondbigimg.jpg");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: top center !important;
@@ -207,7 +212,7 @@ h2 {
   width: 100vw;
   height: 100vh;
   background-image: url("/images/finitions/lastimgcontainer.jpg");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -217,7 +222,7 @@ h2 {
   width: 100vw;
   height: 100vh;
   background-image: url("/images/finitions/secondlastimgcontainer.jpg");
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: center center !important;
