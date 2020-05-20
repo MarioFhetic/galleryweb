@@ -102,7 +102,7 @@ const Finition = () => {
       <ParallaxLayer offset={2.999} speed={6}>
         <div className={styles.fourthImgContainer}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={3.1} speed={0.01}>
+      <ParallaxLayer offset={3.1} speed={1}>
         <div className={styles.bigContainer}>
           <div className={styles.titleSection}>
             <h2>PLEXICOLLAGE</h2>
@@ -147,10 +147,10 @@ const Finition = () => {
           </div>
         </div>
       </ParallaxLayer>
-      <ParallaxLayer offset={4}>
+      <ParallaxLayer offset={4} speed={1}>
         <div className={styles.lastImgContainer}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={5}>
+      <ParallaxLayer offset={5} speed={1}>
         <div className={styles.secondLastImgContainer}></div>
       </ParallaxLayer>
     </Parallax>
