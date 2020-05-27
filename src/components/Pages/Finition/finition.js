@@ -7,8 +7,8 @@ import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 const Finition = () => {
   const parallax = useRef(null);
   return (
-    <Parallax ref={parallax} pages={6}>
-      <ParallaxLayer offset={0}>
+    <Parallax ref={parallax} pages={9.5}>
+      <ParallaxLayer offset={0} factor={1}>
         <div className={styles.bigContainer}>
           <LogoFinition />
           <div className={styles.containerHeader}>
@@ -52,13 +52,13 @@ const Finition = () => {
           </div>
         </div>
       </ParallaxLayer>
-      <ParallaxLayer offset={1} speed={0.8}>
+      <ParallaxLayer offset={1.5}>
         <div className={styles.firstImgContainer}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={1.999} speed={1}>
+      <ParallaxLayer offset={2.5}>
         <div className={styles.secondImgContainer}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={2} speed={1.5}>
+      <ParallaxLayer offset={3.5}>
         <div className={styles.bigContainer}>
           <div className={styles.titleSection}>
             <h2>CONTRECOLLAGE + CAISSE AMÉRICAINE</h2>
@@ -96,13 +96,13 @@ const Finition = () => {
           </div>
         </div>
       </ParallaxLayer>
-      <ParallaxLayer offset={2.999} speed={2.1}>
+      <ParallaxLayer offset={4.5}>
         <div className={styles.thirdImgContainer}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={2.999} speed={6}>
+      <ParallaxLayer offset={5.5}>
         <div className={styles.fourthImgContainer}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={3.1} speed={1}>
+      <ParallaxLayer offset={6.5}>
         <div className={styles.bigContainer}>
           <div className={styles.titleSection}>
             <h2>PLEXICOLLAGE</h2>
@@ -147,10 +147,10 @@ const Finition = () => {
           </div>
         </div>
       </ParallaxLayer>
-      <ParallaxLayer offset={4} speed={1}>
+      <ParallaxLayer offset={7.5}>
         <div className={styles.lastImgContainer}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={5} speed={1}>
+      <ParallaxLayer offset={8.5}>
         <div className={styles.secondLastImgContainer}></div>
       </ParallaxLayer>
     </Parallax>
