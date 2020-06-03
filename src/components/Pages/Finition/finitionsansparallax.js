@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "./finition.css";
 
 import LogoFinition from "../Logos/logoFinition";
 
-const Finitionn = () => {
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+
+const Finition = () => {
+  const animation = useAnimation();
+  const [sectionBottomRef, inView] = useInView({
+    triggerOnce: true, // renvoi que une seule fois false puis que des true
+    rootMargin: "-180px",
+  });
+
+  useEffect(() => {
+    // si inView est set to true on run la variant "visible"
+    if (inView) animation.start("visible");
+  }, [animation, inView]); // on met une dépendance comme ça dès que inView est true ça trigger notre useEffect
+
   return (
     <div className={styles.bigContainer}>
       <LogoFinition />
@@ -47,18 +61,33 @@ const Finitionn = () => {
         </p>
       </div>
       <div className={styles.firstImgContainer}>
-        {/* <div className={styles.overlayImgContainer}></div> */}
-        {/* <div className={styles.infoBigImg}>
-          <p>contrecollage dibond et chassis</p>
-        </div> */}
+        <motion.div
+          className={styles.overlayImgContainer}
+          ref={sectionBottomRef}
+          animate={animation}
+          initial="hidden" // initial est set à hidden donc il sera caché avec un y de 72 à la base
+          variants={{
+            visible: {
+              width: "0%",
+              transition: { duration: 1, ease: [0.6, 0.05, -0.01, 0.9] },
+            },
+            hidden: {
+              width: "100%",
+            },
+          }}
+        ></motion.div>
       </div>
+      <div className={styles.infoSectionBigImg}>
+        <p>CONTRECOLLAGE DIBOND ET CHASSIS</p>
+      </div>
+
       {/* <div className={styles.infoSectionBigImg}>
         <p>CONTRECOLLÉ DIBOND ET CHASSIS</p>
       </div> */}
       <div className={styles.secondImgContainer}></div>
-      {/* <div className={styles.infoSectionBigImg}>
+      <div className={styles.infoSectionBigImg}>
         <p>CONTRECOLLAGE ALUMINIUM ET CHASSIS</p>
-      </div> */}
+      </div>
 
       {/* SECOND SECTION */}
 
@@ -202,4 +231,4 @@ const Finitionn = () => {
   );
 };
 
-export default Finitionn;
+export default Finition;

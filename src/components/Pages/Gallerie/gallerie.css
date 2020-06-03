@@ -1,0 +1,99 @@
+.firstImg {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/galeriepage/01.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  margin-bottom: 0.4vw;
+}
+
+.leftContentImg {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/galeriepage/02.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+.rightContentImg {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/galeriepage/03.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+.containerSecondImg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerSecondImg .leftContentImg {
+  width: 49.8vw;
+}
+
+.containerSecondImg .rightContentImg {
+  width: 49.8vw;
+}
+
+.secondImg {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/galeriepage/04.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  margin-top: 0.4vw;
+  margin-bottom: 0.4vw;
+}
+
+.thirdImg {
+  /* position: relative; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/galeriepage/05.jpg");
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+}
+
+/* ANIMATION */
+
+.overlayFirstImg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: #faf9f8;
+}
+
+.overlayLeftContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #faf9f8;
+}
+
+.overlayRightContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: #faf9f8;
+}

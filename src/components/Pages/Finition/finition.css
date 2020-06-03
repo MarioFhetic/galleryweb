@@ -26,12 +26,22 @@ h2 {
 }
 
 .bigContainer .titleSection {
-  padding: 1.5vw 0;
+  /* padding: 1.5vw 0; */
+  padding-top: 2vw;
   /* border-top: 1px solid black;
   border-bottom: 1px solid black; */
 }
 
+.titleSectionPlexicollage {
+  padding-top: 0vw !important;
+  padding-bottom: 2vw;
+}
+
 .bigContainer .titleSection h2 {
+  margin-left: 10%;
+}
+
+.titleSectionPlexicollage h2 {
   margin-left: 10%;
 }
 
@@ -114,6 +124,15 @@ h2 {
   background-position: center center !important;
 }
 
+.overlayImgContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  left: 0;
+}
+
 .firstbigimgimg {
   width: 100vw;
   height: 100vh;
@@ -122,7 +141,7 @@ h2 {
 .secondImgContainer {
   /* position: relative; */
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-image: url("/images/finitions/lost.jpg");
   /* background-attachment: fixed; */
   background-size: cover;
@@ -187,15 +206,18 @@ h2 {
 
 .containerPlexicollage {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
-  align-items: center;
+  /* align-items: center; */
   position: relative;
   width: 80vw;
   margin-left: 10%;
 }
 
 .leftSectionPlexicollage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 50%;
 }
 
@@ -228,10 +250,27 @@ h2 {
   background-position: center center !important;
 }
 
+.infoSectionPlexicollage {
+  padding-top: 2vw;
+}
+
+.infoSectionPlexicollage p {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Whitney-Medium" !important;
+  color: #333333;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .bigContainer .containerHeader {
     padding: 5% 0;
   }
+
+  .infoSection {
+    padding: 0 5%;
+  }
+
   .bigContainer .section .leftContent {
     flex-direction: column;
   }
@@ -291,5 +330,55 @@ h2 {
   }
   .containerPlexicollage .rightSectionPlexicollage {
     width: 100%;
+  }
+}
+
+/* @media screen and (min-width: 1400px) {
+  .bigContainer .section .leftContent p {
+    max-width: 23vw;
+  }
+  .bigContainer .section .rightContentSecond {
+    text-align: right;
+  }
+  .bigContainer .section .leftContentSecond p {
+    max-width: 23vw;
+  }
+  .leftSectionPlexicollage p {
+    max-width: 25vw;
+  }
+} */
+
+@media screen and (min-width: 1600px) {
+  .bigContainer .section .leftContent p {
+    max-width: 23vw;
+  }
+  .bigContainer .section .containerImgSecond {
+    text-align: initial !important;
+  }
+
+  .rightContentSecond {
+    text-align: right;
+  }
+
+  .bigContainer .section .leftContentSecond p {
+    max-width: 23vw;
+  }
+  .leftSectionPlexicollage p {
+    max-width: 25vw;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .bigContainer .section .leftContent p {
+    max-width: 23vw;
+  }
+  .bigContainer .section .rightContentSecond {
+    text-align: right;
+  }
+  .bigContainer .section .leftContentSecond p {
+    max-width: 23vw;
+  }
+  .leftSectionPlexicollage p {
+    max-width: 25vw;
   }
 }

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import styles from "./finition.css";
 
 import LogoFinition from "../Logos/logoFinition";
@@ -102,9 +102,9 @@ const Finition = () => {
       <ParallaxLayer offset={2.999} speed={3}>
         <div className={styles.fourthImgContainer}></div>
       </ParallaxLayer>
-      <ParallaxLayer offset={3.1} speed={1.5}>
+      <ParallaxLayer offset={3} speed={1}>
         <div className={styles.bigContainer}>
-          <div className={styles.titleSectionPlexicollage}>
+          <div className={styles.titleSection}>
             <h2>PLEXICOLLAGE</h2>
           </div>
           <div className={styles.containerPlexicollage}>
@@ -139,7 +139,7 @@ const Finition = () => {
               />
             </div>
           </div>
-          <div className={styles.infoSectionPlexicollage}>
+          <div className={styles.infoSection}>
             <p>
               Le plexicollage donne aux images une brillance intense et un
               effect de profondeur unique.
@@ -148,10 +148,10 @@ const Finition = () => {
         </div>
       </ParallaxLayer>
       <ParallaxLayer offset={3.999} speed={1}>
-        <div className={styles.secondLastImgContainer}></div>
+        <div className={styles.lastImgContainer}></div>
       </ParallaxLayer>
       <ParallaxLayer offset={3.999} speed={3}>
-        <div className={styles.lastImgContainer}></div>
+        <div className={styles.secondLastImgContainer}></div>
       </ParallaxLayer>
     </Parallax>
   );
