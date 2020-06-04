@@ -1,19 +1,23 @@
-.logo_header
-{
-    margin: auto;
-    width: 400px; 
+.logo_header {
+  margin: auto;
+  width: 400px;
 }
 
-rect
-{
-    fill: #A60C0C;
+rect {
+  fill: #a60c0c;
 }
 
-.webContainer :nth-child(n+13)
-{
-    fill: #A60C0C;
+.webContainer {
+  fill: #404040;
 }
 
+.webContainer :nth-child(n + 13) {
+  fill: #a60c0c;
+}
+
+.fayollePathContainer path {
+  fill: #404040;
+}
 
 /* 
 
@@ -21,93 +25,63 @@ rect
 
 
 Iphone 6 7 8 */
-@media only screen  
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) 
-{
-    .sidenavContainer .logo_header
-    {
-        width: 250px;
-        margin-top: 30%;
-    }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .sidenavContainer .logo_header {
+    width: 250px;
+    margin-top: 30%;
+  }
 }
 
 /* iPhone 5 */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) { 
-    .sidenavContainer .logo_header
-    {
-
-        width: 100px;
-        margin-top: 30%;
-    }
-    .logo_header
-    {
-        margin: auto;
-        width: 300px; 
-    }
- }
-
- @media only screen and (min-width : 1224px)
- {
-    .logo_header
-    {
-        margin: auto;
-        width: 300px; 
-    }
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  .sidenavContainer .logo_header {
+    width: 100px;
+    margin-top: 30%;
+  }
+  .logo_header {
+    margin: auto;
+    width: 300px;
+  }
 }
 
-@media only screen and (min-width : 1500px)
-{
-    .logo_header
-    {
-        margin: auto;
-        width: 400px;
-    }
+@media only screen and (min-width: 1224px) {
+  .logo_header {
+    margin: auto;
+    width: 300px;
+  }
 }
 
-@media only screen and (min-width : 1600px)
-{
-    .logo_header
-    {
-        margin: auto;
-        width: 400px;
-    }
+@media only screen and (min-width: 1500px) {
+  .logo_header {
+    margin: auto;
+    width: 400px;
+  }
 }
 
-
-
-@media only screen and (min-device-width : 768px) and (max-device-width : 1025px) {
-    .logo_header
-    {
-        margin: auto;
-        width: 300px; 
-    }
+@media only screen and (min-width: 1600px) {
+  .logo_header {
+    margin: auto;
+    width: 400px;
+  }
 }
 
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) 
-and (orientation : portrait) {
-    .logo_header
-    {
-        margin: auto;
-        width: 300px; 
-    }
- }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1025px) {
+  .logo_header {
+    margin: auto;
+    width: 300px;
+  }
+}
 
- @media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) { 
-    .logo_header
-    {
-        margin: auto;
-        width: 300px; 
-    }
- }
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  .logo_header {
+    margin: auto;
+    width: 300px;
+  }
+}
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .logo_header {
+    margin: auto;
+    width: 300px;
+  }
+}

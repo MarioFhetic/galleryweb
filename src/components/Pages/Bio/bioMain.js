@@ -4,6 +4,8 @@ import styles from "./bio.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
+import MediaQuery from "react-responsive";
+
 const BioMain = () => {
   const animation = useAnimation();
   const [sectionMainRef, inView] = useInView({
@@ -67,29 +69,31 @@ const BioMain = () => {
           sous-tendent l’ensemble de ses travaux.
         </p>
       </div>
-      <div className={styles.rightContent}>
-        <div>
-          <img
-            src="../../images/bio/section1carton.jpg"
-            alt="Photographie d'un carton en noir et blanc"
-          />
-          <span className={styles.captionImgOther}>Photos de rien</span>
+      <MediaQuery query="(min-device-width: 1025px)">
+        <div className={styles.rightContent}>
+          <div>
+            <img
+              src="../../images/bio/section1carton.jpg"
+              alt="Photographie d'un carton en noir et blanc"
+            />
+            <span className={styles.captionImgOther}>Photos de rien</span>
+          </div>
+          <div>
+            <img
+              src="../../images/bio/section1book.jpg"
+              alt="Photographie d'un livre en noir et blanc"
+            />
+            <span className={styles.captionImg}>Emballages</span>
+          </div>
+          <div className={styles.lastChild}>
+            <img
+              src="../../images/bio/section1voiture.jpg"
+              alt="Photographie d'une voiture en noir et blanc"
+            />
+            <span className={styles.captionImg}>Instances</span>
+          </div>
         </div>
-        <div>
-          <img
-            src="../../images/bio/section1book.jpg"
-            alt="Photographie d'un livre en noir et blanc"
-          />
-          <span className={styles.captionImg}>Emballages</span>
-        </div>
-        <div className={styles.lastChild}>
-          <img
-            src="../../images/bio/section1voiture.jpg"
-            alt="Photographie d'une voiture en noir et blanc"
-          />
-          <span className={styles.captionImg}>Instances</span>
-        </div>
-      </div>
+      </MediaQuery>
     </motion.div>
   );
 };

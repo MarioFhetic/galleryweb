@@ -68,7 +68,7 @@ h2 {
 }
 
 .bigContainer .section .leftContent p {
-  max-width: 40vw;
+  max-width: 38vw;
 }
 
 .bigContainer .section .containerImg {
@@ -350,7 +350,7 @@ h2 {
 
 @media screen and (min-width: 1600px) {
   .bigContainer .section .leftContent p {
-    max-width: 23vw;
+    max-width: 36vw;
   }
   .bigContainer .section .containerImgSecond {
     text-align: initial !important;
@@ -361,7 +361,7 @@ h2 {
   }
 
   .bigContainer .section .leftContentSecond p {
-    max-width: 23vw;
+    max-width: 39vw;
   }
   .leftSectionPlexicollage p {
     max-width: 25vw;
@@ -370,13 +370,13 @@ h2 {
 
 @media screen and (min-width: 1900px) {
   .bigContainer .section .leftContent p {
-    max-width: 23vw;
+    max-width: 34vw;
   }
   .bigContainer .section .rightContentSecond {
     text-align: right;
   }
   .bigContainer .section .leftContentSecond p {
-    max-width: 23vw;
+    max-width: 37vw;
   }
   .leftSectionPlexicollage p {
     max-width: 25vw;

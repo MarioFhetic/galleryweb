@@ -54,15 +54,31 @@ const BioEnd = () => {
           />
         </div>
       </div>
-      <div className={styles.centeredImg}>
-        <img
-          src="../../images/bio/sectionfooter01.jpg"
-          alt="Timbre de la ville de Paris réalisés par Éric Fayolle"
-        />
-        <img
-          src="../../images/bio/sectionfooter02.jpg"
-          alt="Timbre de la ville de Paris réalisés par Éric Fayolle"
-        />
+      <div className={styles.containerLastImg}>
+        <div className={styles.leftContent}>
+          <img
+            src="../../images/bio/lastleft01.jpg"
+            alt="Design architectural réalisés par Éric Fayolle"
+          />
+          <img
+            src="../../images/bio/lastleft02.jpg"
+            alt="Design architectural réalisés par Éric Fayolle"
+          />
+        </div>
+        <div className={styles.rightContent}>
+          <img
+            src="../../images/bio/athletisme.png"
+            alt="Design architectural réalisés par Éric Fayolle"
+          />
+          <img
+            src="../../images/bio/sectionfooter01.png"
+            alt="Design architectural réalisés par Éric Fayolle"
+          />
+          <img
+            src="../../images/bio/sectionfooter02.png"
+            alt="Design architectural réalisés par Éric Fayolle"
+          />
+        </div>
       </div>
     </motion.div>
   );

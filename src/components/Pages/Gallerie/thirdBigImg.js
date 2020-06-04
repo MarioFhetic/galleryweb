@@ -28,7 +28,7 @@ const ThirdBigImg = () => {
             visible: {
               height: "0%",
               transition: {
-                delay: 0.5,
+                delay: 0,
                 duration: 1.3,
                 ease: [0.6, 0.05, -0.01, 0.9],
               },

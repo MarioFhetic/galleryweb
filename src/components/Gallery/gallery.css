@@ -1,17 +1,26 @@
-h1, h2 {
-    margin: 0;
-    text-transform: none !important;
+h1,
+h2 {
+  margin: 0;
+  text-transform: none !important;
 }
 
-.slick-track .slick-list:first-child
-{
-    opacity: 1 !important;
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.slick-track .slick-list:first-child {
+  opacity: 1 !important;
 }
 
 .outerGallery {
-    width: 100%; height: 100%;
-    padding: 7vh 5vw 5vh 5vw;
-    box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 7vh 5vw 5vh 5vw;
+  box-sizing: border-box;
 }
 /* 
 .outerGallery .returnHomeArrow 
@@ -22,22 +31,18 @@ h1, h2 {
    z-index: 6;
 } */
 
-.containerHomeArrow
-{
-    position: absolute;
-    width: 60px;
-    z-index: 100;
+.containerHomeArrow {
+  position: absolute;
+  width: 60px;
+  z-index: 100;
 }
 
-.containerHomeArrow svg
-{
-    position: relative;
-    left: 0px;
-    width: 100%;
-    transform: translate(-25%, -10%);
+.containerHomeArrow svg {
+  position: relative;
+  left: 0px;
+  width: 100%;
+  transform: translate(-25%, -10%);
 }
-
-
 
 /* .outerGallery .returnHomeArrow 
 {
@@ -56,34 +61,35 @@ h1, h2 {
     cursor: pointer;
 } */
 
-@media only screen and (min-width : 320px) and (max-width: 812px)
-{
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .outerGallery .containerHomeArrow {
+    width: 30px;
+    left: 10%;
+    top: 7%;
+  }
 
-    .outerGallery .containerHomeArrow
-    {
-        width: 30px;
-        left: 10%;
-        top: 7%;
-    } 
-
-    .outerGallery
-    {
-        padding-top: 10vh !important;
-        padding-left: 0vw;
-        padding-right: 0vw;
-    }
-
-
+  .outerGallery {
+    padding-top: 10vh !important;
+    padding-left: 0vw;
+    padding-right: 0vw;
+  }
 }
 
-@media only screen and (min-width : 768px) and (max-width: 1023px)
-{
-
-    .outerGallery .containerHomeArrow
-    {
-        width: 40px;
-
-    } 
-
-
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .outerGallery .containerHomeArrow {
+    width: 40px;
+    left: 5%;
+    top: 15%;
+  }
 }
+
+/* Une juste pour les ipad ou on a besoin du padding  */
+/* Une juste pour les ipad ou on a besoin du padding  */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .outerGallery {
+    padding: 0 0 5vh 5vw;
+  }
+}
+
+/* ContainerHomeArrow - en dessous de 814 - 1024 */

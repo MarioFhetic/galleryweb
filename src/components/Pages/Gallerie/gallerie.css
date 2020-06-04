@@ -18,7 +18,7 @@
   /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
-  background-position: center center !important;
+  background-position: right !important;
 }
 
 .rightContentImg {
@@ -29,7 +29,7 @@
   /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
-  background-position: center center !important;
+  background-position: top !important;
 }
 
 .containerSecondImg {
