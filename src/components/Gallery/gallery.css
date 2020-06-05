@@ -61,30 +61,38 @@ img {
     cursor: pointer;
 } */
 
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 600px) {
   .outerGallery .containerHomeArrow {
     width: 30px;
-    left: 10%;
+    left: 5%;
     top: 7%;
   }
 
+  /* Le padding top 10vh pose probleme sur mobile car il gère mal les vh */
   .outerGallery {
     padding-top: 10vh !important;
-    padding-left: 0vw;
-    padding-right: 0vw;
+    /* padding-left: 0vw;
+    padding-right: 0vw; */
   }
 }
 
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .outerGallery {
+    padding-top: 10vh !important;
+    /* padding-left: 0vw;
+    padding-right: 0vw; */
+  }
+}
+
+/* IPAD */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .outerGallery .containerHomeArrow {
     width: 40px;
     left: 5%;
-    top: 15%;
+    top: 7%;
   }
 }
-
-/* Une juste pour les ipad ou on a besoin du padding  */
-/* Une juste pour les ipad ou on a besoin du padding  */
+/* IPAD */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .outerGallery {

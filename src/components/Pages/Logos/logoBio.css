@@ -1,32 +1,26 @@
-.logo_bio
-{
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 200px;
+.logo_bio {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 200px;
 }
 
-.logo_bio svg
-{
-    position: relative;
-    left: 25%;
+.logo_bio svg {
+  position: relative;
+  left: 25%;
 }
 
-.logo_bio text
-{
-    font-family: 'AvenirNextLTPro-UltLt';
-    font-size: 30.95px;
-    fill: #999999;
+.logo_bio text {
+  font-family: "AvenirNextLTPro-UltLt";
+  font-size: 30.95px;
+  fill: #999999;
 }
 
-.logo_bio rect
-{
-    fill: #990000;
+.logo_bio rect {
+  fill: #990000;
 }
 
-.logo_bio path
-{
-    width: 50%;
-    fill: #333333;
+.logo_bio path {
+  width: 50%;
+  fill: #404040;
 }
-

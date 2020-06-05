@@ -38,10 +38,27 @@
 }
 
 .bigContainer .section .rightContent {
+  position: relative;
   /* display: flex; */
   /* justify-content: flex-end; */
   width: 50vw;
   max-height: 80vh;
+}
+
+.captionImg {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  font-size: 0.9rem;
+  font-family: "AvenirNextLTPro-Regular";
+}
+
+.captionImgOther {
+  font-size: 0.9rem;
+  font-family: "AvenirNextLTPro-Regular";
+  position: absolute;
+  bottom: 18%;
+  left: 5%;
 }
 
 .bigContainer .section .rightContent img {
@@ -81,6 +98,7 @@
 }
 
 .bigContainer .sectionBottom .leftContentBottom {
+  position: relative;
   width: 50vw;
   max-height: 80vh;
 }

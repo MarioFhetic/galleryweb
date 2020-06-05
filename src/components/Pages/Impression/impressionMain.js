@@ -55,6 +55,7 @@ const ImpressionMain = () => {
         </p>
       </div>
       <div className={styles.rightContent}>
+        <span className={styles.captionImg}>© Olivia Gay</span>
         <img
           src="../../images/impression/section1right.jpg"
           alt="Photophraphie d'une femme regardant une image imprimée sur papier"

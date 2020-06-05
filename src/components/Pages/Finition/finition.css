@@ -382,3 +382,62 @@ h2 {
     max-width: 25vw;
   }
 }
+
+@media screen and (min-width: 2100px) {
+  .bigContainer .section .leftContent p {
+    max-width: 31vw;
+  }
+  .bigContainer .section .rightContentSecond {
+    text-align: right;
+  }
+  .bigContainer .section .leftContentSecond p {
+    max-width: 33vw;
+  }
+  .leftSectionPlexicollage p {
+    max-width: 25vw;
+  }
+}
+@media screen and (min-width: 2300px) {
+  .bigContainer .section .leftContent p {
+    max-width: 29vw;
+  }
+  .bigContainer .section .rightContentSecond {
+    text-align: right;
+  }
+  .bigContainer .section .leftContentSecond p {
+    max-width: 30vw;
+  }
+  .leftSectionPlexicollage p {
+    max-width: 25vw;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .bigContainer .section .leftContent p {
+    max-width: 27vw;
+  }
+  .bigContainer .section .rightContentSecond {
+    text-align: right;
+  }
+  .bigContainer .section .leftContentSecond p {
+    max-width: 29vw;
+  }
+  .leftSectionPlexicollage p {
+    max-width: 25vw;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .bigContainer .section .leftContent p {
+    max-width: 27vw;
+  }
+  .bigContainer .section .rightContentSecond {
+    text-align: right;
+  }
+  .bigContainer .section .leftContentSecond p {
+    max-width: 29vw;
+  }
+  .leftSectionPlexicollage p {
+    max-width: 25vw;
+  }
+}

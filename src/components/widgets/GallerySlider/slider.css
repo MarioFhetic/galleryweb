@@ -82,7 +82,7 @@
   margin-bottom: auto;
 }
 .data_title span {
-  color: #a60c0c;
+  color: #990000;
   opacity: 1 !important;
 }
 
@@ -238,6 +238,11 @@
   color: #a60c0c !important;
 }
 
+.imageWrap,
+.dataWrap {
+  /* height: 100%; */
+}
+
 @media only screen and (max-width: 813px) {
   .sliderWrap {
     height: 100%;
@@ -245,14 +250,18 @@
     justify-content: flex-start;
   }
 
-  .imageWrap,
-  .dataWrap {
-    /* height: 100%; */
-  }
-
   .imageWrap {
     width: 100%;
   }
+
+  /* Je met une margin top au dataWrap pour que l'on puisse le voir sur mobile */
+  /* dans gallery.css - .outerGallery on a mit un padding top 10vh qui ne marche pas sur mobile 
+  d'ou le margin top sur le dataWrap pour que l'on puisse le voir
+  */
+  .dataWrap {
+    /* margin-top: 88%; */
+  }
+
   .imageWrap img {
     transform: none;
     position: relative;
@@ -260,8 +269,8 @@
   }
 
   .dataWrap {
-    height: 400px;
-    width: 90%;
+    height: 100%;
+    width: 100%;
   }
   .data_title {
     margin-bottom: 50px;
@@ -272,6 +281,13 @@
 
   .containerAllControl {
     left: 65% !important;
-    top: 25%;
+    top: 60%;
   }
 }
+/* 
+@media only screen and (min-width: 813px) and (max-width: 1024px) {
+  .containerAllControl {
+    left: 65% !important;
+    top: 40%;
+  }
+} */

@@ -50,7 +50,7 @@ const Finition = () => {
                 </div>
                 <div className={styles.rightContentSecond}>
                   <img
-                    src="../../images/finitions/secondimgsection2right.png"
+                    src="../../images/finitions/section2right.png"
                     alt="Photographie faite en contre collé et chassis alumminium"
                   />
                 </div>

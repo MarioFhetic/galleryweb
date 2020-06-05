@@ -1,31 +1,24 @@
-.logo_finition
-{
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 200px;
+.logo_finition {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 200px;
 }
 
-.logo_finition svg
-{
-
+.logo_finition svg {
 }
 
-.logo_finition text
-{
-    font-family: 'AvenirNextLTPro-UltLt';
-    font-size: 30.95px;
-    fill: #999999;
+.logo_finition text {
+  font-family: "AvenirNextLTPro-UltLt";
+  font-size: 30.95px;
+  fill: #999999;
 }
 
-.logo_finition rect
-{
-    fill: #990000;
+.logo_finition rect {
+  fill: #990000;
 }
 
-.logo_finition path
-{
-    width: 50%;
-    fill: #333333;
+.logo_finition path {
+  width: 50%;
+  fill: #404040;
 }
-

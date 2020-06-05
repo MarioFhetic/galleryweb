@@ -19,6 +19,15 @@
   color: #851314;
   text-transform: uppercase !important;
 }
+.refCitation {
+  position: relative;
+  top: 5px;
+  display: block;
+  width: 100%;
+  text-align: end;
+  font-family: "Whitney-Light" !important;
+  font-size: 0.8rem !important;
+}
 
 .section li {
   padding-right: 0.5rem;
@@ -157,6 +166,7 @@
 
 .bigContainer .sectionHeader .rightContent img {
   height: 100% !important;
+  width: 100% !important;
   margin-top: 5%;
   margin-left: 5%;
 }
