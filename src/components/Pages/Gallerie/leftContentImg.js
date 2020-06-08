@@ -27,13 +27,13 @@ const LeftContentImg = () => {
           visible: {
             height: "0%",
             transition: {
-              delay: 0,
-              duration: 1,
+              delay: 0.7,
+              duration: 1.5,
               ease: [0.6, 0.05, -0.01, 0.9],
             },
           },
           hidden: {
-            height: "50%",
+            height: "100%",
           },
         }}
       ></motion.div>

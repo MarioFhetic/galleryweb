@@ -46,19 +46,25 @@
 }
 
 .captionImg {
-  position: absolute;
-  bottom: 10%;
-  right: 10%;
+  position: relative;
+  display: inline-block;
+
+  bottom: -10px;
+  left: 80%;
+  /* width: 100%; */
   font-size: 0.9rem;
   font-family: "AvenirNextLTPro-Regular";
 }
 
 .captionImgOther {
+  display: inline-block;
+
+  position: relative;
+  bottom: -10px;
+  left: 10px;
+  /* width: 100%; */
   font-size: 0.9rem;
   font-family: "AvenirNextLTPro-Regular";
-  position: absolute;
-  bottom: 18%;
-  left: 5%;
 }
 
 .bigContainer .section .rightContent img {
@@ -161,5 +167,11 @@
   }
   .bigContainer .sectionBottom .rightContentBottom h2 {
     max-width: 80vw;
+  }
+}
+
+@media only screen and (min-width: 1966px) {
+  .captionImg {
+    bottom: -103%;
   }
 }

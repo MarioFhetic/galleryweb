@@ -35,10 +35,13 @@ const BioHeader = () => {
     >
       <div className={styles.containerHeader}>
         <div className={styles.header}>
-          <h1> " Faire l’expérience de la beauté d’un objet, </h1>
-          <h1 className={styles.secondQuote}>
-            cela signifie que l’expérience est nécessairement faussée "
-          </h1>
+          <div className={styles.containerHeaderTitle}>
+            <h1> " Faire l’expérience de la beauté d’un objet, </h1>
+            <h1 className={styles.secondQuote}>
+              cela signifie que l’expérience est nécessairement faussée "
+            </h1>
+          </div>
+
           <span className={styles.refCitation}>Nietzsche</span>
 
           <p>

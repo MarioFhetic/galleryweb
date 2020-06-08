@@ -41,12 +41,11 @@ const ImpressionBottom = () => {
         garantissent une qualité optimale en termes de rendu et de conservation.
       </p>
       <div className={styles.leftContentBottom}>
-        <span className={styles.captionImgOther}>© Olivia Gay</span>
-
         <img
           src="../../images/impression/section2left.jpg"
-          alt="Photographie d'une femme mettant un papier dans une imprimante"
+          alt="Photophraphie d'une femme regardant une image imprimée sur papier"
         />
+        <span className={styles.captionImgOther}>© Olivia Gay</span>
       </div>
       <div className={styles.rightContentBottom}>
         <h2>LES TIRAGES NUMÉRIQUES PIGMENTAIRES FINE ART</h2>

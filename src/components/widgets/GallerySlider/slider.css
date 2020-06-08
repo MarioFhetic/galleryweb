@@ -281,7 +281,7 @@
 
   .containerAllControl {
     left: 65% !important;
-    top: 60%;
+    top: 40%;
   }
 }
 /* 
@@ -291,3 +291,20 @@
     top: 40%;
   }
 } */
+
+@media only screen and (min-width: 813px) and (max-width: 1024px) {
+  .imageWrap {
+    min-height: 50vh !important;
+    max-height: none;
+    height: 50vh;
+  }
+  .imageWrap img {
+    margin: 0;
+    top: auto;
+    bottom: 0;
+  }
+  /* .containerAllControl {
+    left: 33% !important;
+    top: 94% !important;
+  } */
+}

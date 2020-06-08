@@ -375,6 +375,10 @@ h2 {
   .bigContainer .section .rightContentSecond {
     text-align: right;
   }
+
+  .bigContainer .section .rightContent {
+    width: 23vw;
+  }
   .bigContainer .section .leftContentSecond p {
     max-width: 37vw;
   }
