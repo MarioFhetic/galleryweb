@@ -57,14 +57,14 @@ const ImpressionMain = () => {
       <div className={styles.rightContent}>
         <img
           src="../../images/impression/section1right.jpg"
-          alt="Photophraphie d'une femme regardant une image imprimée sur papier"
+          alt="Photographie d'Olivia Gay imprimant du papier"
         />
         <span className={styles.captionImg}>© Olivia Gay</span>
       </div>
       <div className={styles.logoLabelImage}>
         <img
           src="../../images/impression/logolabelimage.png"
-          alt="Logo Label Image"
+          alt="Logo Label"
         />
       </div>
     </motion.div>

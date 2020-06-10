@@ -43,7 +43,7 @@ const ImpressionBottom = () => {
       <div className={styles.leftContentBottom}>
         <img
           src="../../images/impression/section2left.jpg"
-          alt="Photophraphie d'une femme regardant une image imprimée sur papier"
+          alt="Photophraphie d'Olivia Gay qui imprime du papier"
         />
         <span className={styles.captionImgOther}>© Olivia Gay</span>
       </div>

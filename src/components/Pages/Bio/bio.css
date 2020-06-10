@@ -357,7 +357,8 @@
 }
 
 .bigContainer .sectionEnd .containerLastImg .leftContent img {
-  width: 47%;
+  /* width: 47%; */
+  width: 18vw;
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent {
