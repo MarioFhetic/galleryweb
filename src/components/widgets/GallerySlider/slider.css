@@ -112,92 +112,9 @@
   max-width: 25vw;
 }
 
-/* .controls {
-  position: absolute;
-  left: 40%;
-  transform: translateX(-100%);
-  bottom: 0%;
-  z-index: 9999;
-  cursor: pointer;
-}
-
-.controls .arrow
-{
-    border: solid #666666;
-    opacity: 0.7;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 10px;
-}
-
-.controls :first-child
-{
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-}
-
-.controls :nth-child(2)
-{
-    position: relative;
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-    left: 30px;
-
-}
-
-.counterSlide {
-    font-family: 'AvenirNextLTPro-UltLtIt';
-    font-size: 0.8rem;
-    color: black;
-    display: flex;
-    position: absolute;
-    left: 40%;
-    transform: translateX(-80%);
-  
-    bottom: 0;
-  } */
-
-.containerControls .arrow {
-  border: solid #666666;
-  opacity: 0.7;
-  border-width: 0 1px 1px 0;
-  display: inline-block;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.containerControls {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  left: 38%;
-  bottom: 0;
-  text-align: center;
-  transform: translateY(-20%);
-}
-
-.containerControls span {
-  font-family: "AvenirNextLTPro-UltLtIt";
-  font-size: 0.8rem;
-  position: relative;
-  left: -50%;
-}
-
-.containerControls :first-child {
-  left: 37%;
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
-.containerControls :nth-child(2) {
-  position: relative;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-}
-
 .containerAllControl {
   position: absolute;
-  left: 35%;
+  left: 32%;
   width: 100px;
   height: 20px;
   bottom: 0;
@@ -243,6 +160,12 @@
   /* height: 100%; */
 }
 
+@media only screen and (max-width: 1024px) {
+  .data_title {
+    margin-top: auto;
+  }
+}
+
 @media only screen and (max-width: 813px) {
   .sliderWrap {
     height: 100%;
@@ -259,7 +182,7 @@
   d'ou le margin top sur le dataWrap pour que l'on puisse le voir
   */
   .dataWrap {
-    /* margin-top: 88%; */
+    /* margin-top: 100%; */
   }
 
   .imageWrap img {
@@ -307,4 +230,60 @@
     left: 33% !important;
     top: 94% !important;
   } */
+}
+
+/* iPad Pro - Portrait */
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .data_title {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+/* Ipad mode paysage */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .data_title {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .dataWrap {
+    margin-top: 100%;
+  }
+  .sliderWrap {
+    margin-top: 1.5rem;
+  }
+  .containerAllControl {
+    top: 70%;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .containerAllControl {
+    top: 65%;
+  }
+}
+
+/* iPad - Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .imageWrap {
+    padding-right: 5vw;
+  }
+
+  .dataWrap {
+    margin-top: 2rem;
+  }
+  .containerAllControl {
+    top: 61%;
+  }
 }

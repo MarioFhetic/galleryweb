@@ -170,8 +170,23 @@
   }
 }
 
-@media only screen and (min-width: 1966px) {
+@media only screen and (min-width: 1968px) {
   .captionImg {
     bottom: -103%;
+  }
+}
+
+@media only screen and (min-width: 1975px) and (max-width: 2062px) {
+  .captionImgOther {
+    display: inline-block;
+    position: relative;
+    left: -87%;
+    bottom: -25px;
+  }
+}
+
+@media only screen and (min-width: 2062px) {
+  .captionImgOther {
+    display: none;
   }
 }

@@ -387,9 +387,19 @@ h2 {
   }
 }
 
+@media screen and (min-width: 2000px) {
+  .bigContainer .section .rightContent {
+    width: 21.5vw;
+  }
+}
+
 @media screen and (min-width: 2100px) {
   .bigContainer .section .leftContent p {
     max-width: 31vw;
+  }
+
+  .bigContainer .section .rightContent {
+    width: 21vw;
   }
   .bigContainer .section .rightContentSecond {
     text-align: right;

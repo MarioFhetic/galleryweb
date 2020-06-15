@@ -63,14 +63,14 @@ img {
 
 @media only screen and (min-width: 320px) and (max-width: 780px) {
   .outerGallery .containerHomeArrow {
-    width: 30px;
+    width: 30px !important;
     left: 5%;
     top: 7%;
   }
 
   /* Le padding top 10vh pose probleme sur mobile car il gère mal les vh */
   .outerGallery {
-    padding-top: 10vh !important;
+    /* padding-top: 10vh !important; */
     /* padding-left: 0vw;
     padding-right: 0vw; */
   }
@@ -78,21 +78,20 @@ img {
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .outerGallery {
-    padding-top: 10vh !important;
+    padding-top: 10vw !important;
     /* padding-left: 0vw;
     padding-right: 0vw; */
   }
 }
 
-/* IPAD */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .outerGallery .containerHomeArrow {
     width: 40px;
     left: 5%;
-    top: 7%;
+    top: 7% !important;
   }
 }
-/* IPAD */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .outerGallery {
@@ -100,4 +99,28 @@ img {
   }
 }
 
-/* ContainerHomeArrow - en dessous de 814 - 1024 */
+/* Ipad mode paysage */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .outerGallery .containerHomeArrow {
+    width: 30px;
+    left: 5%;
+    top: 19%;
+  }
+}
+
+/* iPad Pro - Portrait */
+
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .outerGallery .containerHomeArrow {
+    width: 40px;
+    left: 5%;
+    top: 14%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .outerGallery .containerHomeArrow {
+    width: 40px;
+  }
+}
