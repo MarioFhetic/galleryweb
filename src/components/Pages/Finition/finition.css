@@ -411,6 +411,13 @@ h2 {
     max-width: 25vw;
   }
 }
+
+@media screen and (min-width: 2200px) {
+  .bigContainer .section .rightContent {
+    width: 20vw;
+  }
+}
+
 @media screen and (min-width: 2300px) {
   .bigContainer .section .leftContent p {
     max-width: 29vw;
@@ -423,6 +430,10 @@ h2 {
   }
   .leftSectionPlexicollage p {
     max-width: 25vw;
+  }
+
+  .bigContainer .section .rightContent {
+    width: 19vw;
   }
 }
 
@@ -438,6 +449,9 @@ h2 {
   }
   .leftSectionPlexicollage p {
     max-width: 25vw;
+  }
+  .bigContainer .section .rightContent {
+    width: 18vw;
   }
 }
 
