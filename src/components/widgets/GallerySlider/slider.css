@@ -261,7 +261,7 @@
     margin-top: 1.5rem;
   }
   .containerAllControl {
-    top: 70%;
+    top: 80%;
   }
 }
 
@@ -270,12 +270,13 @@
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .containerAllControl {
-    top: 65%;
+    top: 75%;
   }
 }
 
 /* iPad - Portrait */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+/* 1023px car sinon ça effectue la media queries sur l'iPad Pro aussi alors qu'on ne veut pas ça */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
   .imageWrap {
     padding-right: 5vw;
   }
@@ -284,6 +285,6 @@
     margin-top: 2rem;
   }
   .containerAllControl {
-    top: 61%;
+    top: 30%;
   }
 }
