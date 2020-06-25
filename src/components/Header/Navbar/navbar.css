@@ -1,12 +1,11 @@
-.navbar
-{
-    display: flex;
-    align-items: center;
-    height: 2.625rem;
-    font-family: 'Whitney-Book';
-    font-weight: lighter;
-    border-bottom: 1px solid #DFE0E1;
-    max-width: 100vw;
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 2.625rem;
+  font-family: "Whitney-Book";
+  font-weight: lighter;
+  border-bottom: 1px solid #dfe0e1;
+  max-width: 100vw;
 }
 /* 
 .navbar :nth-child(5)
@@ -17,27 +16,23 @@
     display: none;
 } */
 
-.navbar :nth-child(6)
-{
-    margin-left: auto;
+.navbar :nth-child(6) {
+  margin-left: auto;
 }
 
-.option a
-{
-    text-transform: uppercase;
-    padding: 0 1rem;
-    color: grey;
-    font-size: 1rem; 
-    text-decoration: none;
+.option a {
+  text-transform: uppercase;
+  padding: 0 1rem;
+  color: grey;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
-.option a:hover
-{
-    color: black;
-    transition: color 1s ease 0s;
+.option a:hover {
+  color: black;
+  transition: color 1s ease 0s;
 }
 
-.option .active
-{
-    color: black;
+.option .active {
+  color: black;
 }

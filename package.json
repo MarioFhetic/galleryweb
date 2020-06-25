@@ -145,5 +145,7 @@
       "react-app"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "compression-webpack-plugin": "^4.0.0"
+  }
 }
