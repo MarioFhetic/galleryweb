@@ -34,24 +34,26 @@ const BioEnd = () => {
         },
       }}
     >
-      <div className={styles.containerImg}>
-        <div className={styles.cardImgOther}>
-          <img
-            src="../../images/bio/sectionend01.jpg"
-            alt="Design architectural réalisés par Éric Fayolle"
-          />
-        </div>
-        <div className={styles.cardImg}>
-          <img
-            src="../../images/bio/sectionend02.jpg"
-            alt="Design architectural réalisés par Éric Fayolle"
-          />
-        </div>
-        <div className={styles.cardImg}>
-          <img
-            src="../../images/bio/sectionend03.jpg"
-            alt="Design architectural réalisés par Éric Fayolle"
-          />
+      <div>
+        <div className={styles.containerImg}>
+          <div className={styles.cardImgOther}>
+            <img
+              src="../../images/bio/sectionend01.jpg"
+              alt="Design architectural réalisés par Éric Fayolle"
+            />
+          </div>
+          <div className={styles.cardImg}>
+            <img
+              src="../../images/bio/sectionend02.jpg"
+              alt="Design architectural réalisés par Éric Fayolle"
+            />
+          </div>
+          <div className={styles.cardImg}>
+            <img
+              src="../../images/bio/sectionend03.jpg"
+              alt="Design architectural réalisés par Éric Fayolle"
+            />
+          </div>
         </div>
       </div>
       <div className={styles.containerLastImg}>

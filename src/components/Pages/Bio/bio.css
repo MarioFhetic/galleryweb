@@ -359,7 +359,7 @@
 
 .bigContainer .sectionEnd .containerLastImg .leftContent img {
   /* width: 47%; */
-  max-width: 18vw;
+  width: 18vw;
   height: unset;
 
   /* height: 52vh; */
@@ -378,19 +378,19 @@
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :first-child {
-  max-width: 100%;
+  width: 100%;
   /* height: 22vh; */
   height: unset;
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :nth-child(2) {
-  max-width: 50%;
+  width: 50%;
   /* height: 30vh; */
   height: unset;
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :nth-child(3) {
-  max-width: 30%;
+  width: 30%;
   /* height: 30vh; */
   height: unset;
 }
