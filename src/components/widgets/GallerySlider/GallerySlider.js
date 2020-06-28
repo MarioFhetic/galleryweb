@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import styles from "./slider.css";
 import Fade from "react-reveal/Fade";
 
+import MediaQuery from "react-responsive";
+
 import { ReactComponent as PrevArrow } from "./flecheprev.svg";
 import { ReactComponent as NextArrow } from "./flechenext.svg";
 
@@ -87,22 +89,34 @@ export default class GallerySlider extends Component {
 
                 if (index === i) {
                   return (
-                    <div key={i} className={styles.dataWrap}>
-                      <div className={styles.data_title}>
-                        <h1>
-                          <span> Série |</span> {this.props.serie}
-                        </h1>
-                        <h2>{item[0]}</h2>
-                      </div>
-                      <div className={styles.dataSubData}>
-                        <p>{item[1]}</p>
-                        <p>{item[2]}</p>
-                        <p>{item[3]}</p>
-                        <p
-                          className={styles.lastP}
-                          dangerouslySetInnerHTML={testRegex()}
-                        ></p>
-                      </div>
+                    <div key={i}>
+                      <MediaQuery query="(max-device-width: 450px)">
+                        <div key={i} className={styles.data_title}>
+                          <h1>
+                            <span> Série |</span> {this.props.serie}
+                          </h1>
+                          <h2>{item[0]}</h2>
+                        </div>
+                      </MediaQuery>
+                      <MediaQuery query="(min-device-width: 768px)">
+                        <div key={i} className={styles.dataWrap}>
+                          <div className={styles.data_title}>
+                            <h1>
+                              <span> Série |</span> {this.props.serie}
+                            </h1>
+                            <h2>{item[0]}</h2>
+                          </div>
+                          <div className={styles.dataSubData}>
+                            <p>{item[1]}</p>
+                            <p>{item[2]}</p>
+                            <p>{item[3]}</p>
+                            <p
+                              className={styles.lastP}
+                              dangerouslySetInnerHTML={testRegex()}
+                            ></p>
+                          </div>
+                        </div>
+                      </MediaQuery>
                     </div>
                   );
                 }

@@ -3,7 +3,8 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  max-height: 66vw;
+  /* max-height: 66vw; */
+  max-height: 100vh !important;
 }
 
 .imageWrap,
@@ -62,14 +63,14 @@
   justify-content: flex-end;
 }
 
-.dataWrap h1 {
+.data_title h1 {
   font-family: "AvenirNextLTPro-Regular";
   font-size: 1.2rem;
   font-weight: inherit;
   color: #808080;
 }
 
-.dataWrap h1:last-child {
+.data_title h1:last-child {
   font-family: "AvenirNextLTPro-Medium";
   font-size: 1.2rem;
   font-weight: inherit;
@@ -80,6 +81,7 @@
   font-size: 1.2rem;
   font-weight: inherit;
   margin-bottom: auto;
+  margin-top: auto;
 }
 .data_title span {
   color: #990000;
@@ -95,7 +97,7 @@
   opacity: 0.5;
 }
 
-.dataWrap h2 {
+.data_title h2 {
   font-family: "AvenirNextLTPro-UltLtIt";
   font-size: 1rem;
   margin-top: 0.5rem;
@@ -157,7 +159,7 @@
 
 .imageWrap,
 .dataWrap {
-  /* height: 100%; */
+  height: 100%;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -250,6 +252,13 @@
   }
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .containerAllControl {
+    /* top: 10% !important; */
+    top: 15% !important;
+  }
+}
+
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
 /* Portrait and Landscape */
@@ -257,11 +266,15 @@
   /* .dataWrap {
     margin-top: 100%;
   } */
+  .dataWrap {
+    /* height: 100vh !important; */
+  }
   .sliderWrap {
     margin-top: 1.5rem;
   }
   .containerAllControl {
-    top: 80%;
+    /* top: 10% !important; */
+    top: 9% !important;
   }
 }
 

@@ -347,21 +347,26 @@
   justify-content: space-between;
   margin-top: 2%;
   max-width: 85%;
+  max-height: 100%;
   margin-bottom: 100px;
 }
 
 .bigContainer .sectionEnd .containerLastImg .leftContent {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  max-width: 50%;
 }
 
 .bigContainer .sectionEnd .containerLastImg .leftContent img {
   /* width: 47%; */
-  width: 18vw;
+  max-width: 18vw;
   height: unset;
 
   /* height: 52vh; */
+}
+
+.bigContainer .sectionEnd .containerLastImg .leftContent :first-child {
+  padding-right: 0px;
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent {
@@ -369,23 +374,23 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
-  width: 43%;
+  max-width: 43%;
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :first-child {
-  width: 100%;
+  max-width: 100%;
   /* height: 22vh; */
   height: unset;
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :nth-child(2) {
-  width: 50%;
+  max-width: 50%;
   /* height: 30vh; */
   height: unset;
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :nth-child(3) {
-  width: 30%;
+  max-width: 30%;
   /* height: 30vh; */
   height: unset;
 }
