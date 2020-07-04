@@ -1,6 +1,8 @@
 import React, { Suspense, lazy, Component } from "react";
 import { Route, Switch } from "react-router-dom";
 
+import styles from "./routes.css";
+
 // import Home from "./components/Home/home";
 import Layout from "./hoc/Layout/layout";
 import Gallery from "./components/Gallery/gallery";
@@ -19,7 +21,7 @@ class Routes extends Component {
 
     return (
       <Layout>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<div className={styles.loaderPage}></div>}>
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/bio" component={Bio} />

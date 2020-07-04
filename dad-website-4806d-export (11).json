@@ -1,0 +1,851 @@
+{
+  "albums" : {
+    "chute-de-pierre" : {
+      "cover" : "02.jpg",
+      "gallery" : [ {
+        "name" : "Delphoi n°10",
+        "price" : "30 cm x 30 cm - 400 €",
+        "size" : "",
+        "text" : "Papier Hanhemülhe rag 308g. mat - Plexicollage et chassis alu 650 € - Edition limitée à 15 exemplaires",
+        "url" : "01.jpg",
+        "year" : "2017"
+      }, {
+        "name" : "Delphoi n°3",
+        "price" : "30 cm x 30 cm - 400 €",
+        "size" : "",
+        "text" : "Papier Hanhemülhe rag 308g. mat - Plexicollage et chassis alu 650 € - Edition limitée à 15 exemplaires",
+        "url" : "02.jpg",
+        "year" : "2017"
+      }, {
+        "name" : "Delphoi n°10",
+        "price" : "30 cm x 30 cm - 400 €",
+        "size" : "",
+        "text" : "Papier Hanhemülhe rag 308g. mat - Plexicollage et chassis alu 650 € - Edition limitée à 15 exemplaires",
+        "url" : "03.jpg",
+        "year" : "2017"
+      }, {
+        "name" : "Delphoi n°2",
+        "price" : "30 cm x 30 cm - 400 €",
+        "size" : "",
+        "text" : "Papier Hanhemülhe rag 308g. mat - Plexicollage et chassis alu 650 € - Edition limitée à 15 exemplaires",
+        "url" : "04.jpg",
+        "year" : "2017"
+      } ],
+      "id" : 20,
+      "link" : "chute-de-pierre",
+      "serie" : "Chute de pierre"
+    },
+    "cinecitta" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Vietato l’accesso alle persone none autorizzate.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "01.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Teatro 14",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "02.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Herbes et tubes d’acier.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "03.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Coulée de gravats et cellulose.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "04.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Décor du Nom de la rose.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "05.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Île et piscine.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "06.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "La ville au bord de l’eau.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "07.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Papier maché et cyclo.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "08.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Cyclo entre ciel et terre.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "09.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Entre ciel et ciel.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "10.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Barque et herbes folles.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "11.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Résine polyestère sur socle.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "12.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "En péril. ",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "13.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Bibliothèque du 'Nom de la rose'",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "14.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Polystyrène et tôles ondulées.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "15.jpg",
+        "year" : "1990 Photographie argentique "
+      }, {
+        "name" : "Matière première.",
+        "price" : "40 cm x 40 cm - 300 €",
+        "size" : "",
+        "text" : "Fine art Hahnemulhe Baryté satin - - 70 cm x 70 cm 600 € - Caisse américaine 850 € - Fine art Hahnemulhe 308 g mat",
+        "url" : "16.jpg",
+        "year" : "1990 Photographie argentique "
+      } ],
+      "id" : 50,
+      "link" : "cinecitta",
+      "serie" : "Cinecitta"
+    },
+    "emballages" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Emballage 1",
+        "price" : "54 cm x 54 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - Caisse américaine et contrecollé 800 € - - 84 cm x 84 cm 800 € - Contrecollé alu + chassis 900 € - Caisse américaine et contrecollé 1100 € - Fine art paper Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "01.jpg",
+        "year" : "1982"
+      }, {
+        "name" : "Emballage 2",
+        "price" : "54 cm x 54 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - Caisse américaine et contrecollé 800 € - - 84 cm x 84 cm 800 € - Contrecollé alu + chassis 900 € - Caisse américaine et contrecollé 1100 € - Fine art paper Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "02.jpg",
+        "year" : "1982"
+      }, {
+        "name" : "Emballage 3",
+        "price" : "69 cm x 54 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 700 € - Caisse américaine et contrecollé 850 € - Papier baryté satiné 330 gr - Edition limitée à 15 exemplaires",
+        "url" : "03.jpg",
+        "year" : "1982"
+      }, {
+        "name" : "Emballage 4",
+        "price" : "84 cm x 104 cm - 800 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 950 € - Caisse américaine et contrecollé 1100 € - Fine art paper Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "04.jpg",
+        "year" : "1982"
+      }, {
+        "name" : "Emballage recto",
+        "price" : "69 cm x 54 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 700 € - Caisse américaine et contrecollé 850 € - Papier baryté satiné 330 gr - Edition limitée à 15 exemplaires",
+        "url" : "05.jpg",
+        "year" : "1982"
+      }, {
+        "name" : "Emballage verso",
+        "price" : "69 cm x 54 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 700 € - Caisse américaine et contrecollé 850 € - Papier baryté satiné 330 gr - Edition limitée à 15 exemplaires",
+        "url" : "06.jpg",
+        "year" : "1982"
+      }, {
+        "name" : "Emballage 5",
+        "price" : "54 cm x 54 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - Caisse américaine et contrecollé 800 € - - 84 cm x 84 cm 800 € - Contrecollé alu + chassis 900 € - Caisse américaine et contrecollé 1100 € - Fine art paper Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "07.jpg",
+        "year" : "1982"
+      } ],
+      "id" : 110,
+      "link" : "emballages",
+      "serie" : "Emballages"
+    },
+    "foro-italico" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Rome 1.01 a.m.",
+        "price" : "49 cm x 60 cm - 550 € ",
+        "size" : "",
+        "text" : "Contrecollé 650 € - - 85 cm x 100 cm 850 € - Contrecollé 1000 € - Caisse américaine 1250 € - Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin - Edition limitée à 15 exemplaires.",
+        "url" : "01.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 1.32 a.m.",
+        "price" : "49 cm x 60 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé 650 € - - 85 cm x 100 cm 850 € - Contrecollé 1000 € - Caisse américaine 1250 € - Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin - Edition limitée à 15 exemplaires.",
+        "url" : "02.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 1.43 a.m.",
+        "price" : "60 cm x 60 cm - 600 €",
+        "size" : "",
+        "text" : "Contre collé 750 € - - 100 cm x 100 cm 900 € - Contre collé 1100 € - Caisse américaine 1350 € - Papier Fine art paper 308g mat ou Barité satin 330g - Edition limitée à 15 exemplaires.",
+        "url" : "03.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 2.04 a.m.",
+        "price" : "49 cm x 60 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé 650 € - - 85 cm x 100 cm 850 € - Contrecollé 1000 € - Caisse américaine 1250 € - Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin - Edition limitée à 15 exemplaires.",
+        "url" : "04.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 2.25 a.m.",
+        "price" : "60 cm x 60 cm - 600 €",
+        "size" : "",
+        "text" : "Contre collé 750 € - - 100 cm x 100 cm 900 € - Contre collé 1100 € - Caisse américaine 1350 € - Papier Fine art paper 308g mat ou Barité satin 330g - Edition limitée à 15 exemplaires.",
+        "url" : "05.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 2.36 a.m.",
+        "price" : "49 cm x 60 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé 650 € - - 85 cm x 100 cm 850 € - Contrecollé 1000 € - Caisse américaine 1250 € - Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin - Edition limitée à 15 exemplaires.",
+        "url" : "06.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 2.57 a.m.",
+        "price" : "60 cm x 60 cm - 600 €",
+        "size" : "",
+        "text" : "Contre collé 750 € - - 100 cm x 100 cm 900 € - Contre collé 1100 € - Caisse américaine 1350 € - Papier Fine art paper 308g mat ou Barité satin 330g - Edition limitée à 15 exemplaires.",
+        "url" : "07.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 3.08 a.m.",
+        "price" : "60 cm x 60 cm - 600 €",
+        "size" : "",
+        "text" : "Contre collé 750 € - - 100 cm x 100 cm 900 € - Contre collé 1150 € - Caisse américaine 1350 € - Papier Fine art paper 308g mat ou Barité satin 330g - Edition limitée à 15 exemplaires.",
+        "url" : "08.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 3.29 a.m.",
+        "price" : "45 cm x 60 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé 650 € - - 100 cm x 134 cm 1050 € - Contrecollé 1250 € - Caisse américaine 1450 € - Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin - Edition limitée à 15 exemplaires.   ",
+        "url" : "09.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 4.10 a.m.",
+        "price" : "45 cm x 60 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé 650 € - - 85 cm x 100 cm 850 € - Contrecollé 1000 € - Caisse américaine 1250 € - Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin - Edition limitée à 15 exemplaires.  ",
+        "url" : "10.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 4.11 a.m.",
+        "price" : "60 cm x 60 cm - 600 €",
+        "size" : "",
+        "text" : "Contre collé 750 € - - 100 cm x 100 cm 900 € - Contre collé 1100 € - Caisse américaine 1350 € - Papier Fine art paper 308g mat ou Barité satin 330g - Edition limitée à 15 exemplaires.   ",
+        "url" : "11.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      }, {
+        "name" : "Rome 4.12 a.m.",
+        "price" : "49 cm x 60 cm - 550 €",
+        "size" : "",
+        "text" : " Contrecollé 650 € - - 85 cm x 100 cm 850 € - Contrecollé 1000 € - Caisse américaine 1250 € - Fine art Hahnemulhe 308 g mat ou Hahnemulhe Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "12.jpg",
+        "year" : "1988 \b \b Photographie argentique"
+      } ],
+      "id" : 70,
+      "link" : "foro-italico",
+      "serie" : "Foro-italico"
+    },
+    "italie" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Downtown Napoli.",
+        "price" : "50 cm x 50 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - - 80 cm x 80 cm 750 € - Contrecollé + chassis alu 870 € - Caisse américaine et contrecollé 1100 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "01.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Napoli.",
+        "price" : "50 cm x 50 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - - 80 cm x 80 cm 750 € - Contrecollé + chassis alu 870 € - Caisse américaine et contrecollé 1100 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "02.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Naples quai n° 2.",
+        "price" : "50 cm x 50 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - - 80 cm x 80 cm 750 € - Contrecollé + chassis alu 870 € - Caisse américaine et contrecollé 1100 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "03.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Rome - Incrustations.",
+        "price" : "50 cm x 50 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - - 80 cm x 80 cm 750 € - Contrecollé + chassis alu 870 € - Caisse américaine et contrecollé 1100 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "04.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Venise - Blackbird.",
+        "price" : "60 cm x 60 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond et chassis alu 750 € - Caisse américaine et contrecollé 850 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "05.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Petite Venise.",
+        "price" : "44 cm x 44 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond+chassis alu 650 € - Caisse américaine et contrecollé 780 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "06.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Deux croix.",
+        "price" : "60 cm x 60 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond et chassis alu 750 € - Caisse américaine et contrecollé 850 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "07.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Cercle et croix.",
+        "price" : "60 cm x 60 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond et chassis alu 750 € - Caisse américaine et contrecollé 850 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "08.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Cinquecento.",
+        "price" : "50 cm x 50 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - - 80 cm x 80 cm 750 € - Contrecollé + chassis alu 870 € - Caisse américaine et contrecollé 1100 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "09.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Naples - le sourire.",
+        "price" : "50 cm x 50 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - - 80 cm x 80 cm 750 € - Contrecollé + chassis alu 870 € - Caisse américaine et contrecollé 1100 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "10.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Naples - Santa Chiara.",
+        "price" : "50 cm x 50 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - - 80 cm x 80 cm 750 € - Contrecollé + chassis alu 870 € - Caisse américaine et contrecollé 1100 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "11.jpg",
+        "year" : "1985"
+      }, {
+        "name" : "Eminence.",
+        "price" : "85 cm x 104 cm - 850 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond + chassis alu 950 € - Caisse américaine et contrecollé 1200 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "12.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Sur le fil.",
+        "price" : "50 cm x 50 cm - 550 €",
+        "size" : "",
+        "text" : "Contrecollé + chassis alu 650 € - - 80 cm x 80 cm 750 € - Contrecollé + chassis alu 870 € - Caisse américaine et contrecollé 1100 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "13.jpg",
+        "year" : "1984"
+      }, {
+        "name" : "Pié di marmo.",
+        "price" : "100 cm x 134 cm - 1100 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond+chassis alu 1300 € - Caisse américaine et contrecollé 1500 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "14.jpg",
+        "year" : "1986"
+      }, {
+        "name" : "Naples.",
+        "price" : "150 cm x 100 cm - 1200 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond+chassis alu 1400 € - Caisse américaine et contrecollé 1600 € - Fine art Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires ",
+        "url" : "15.jpg",
+        "year" : "1986"
+      } ],
+      "id" : 60,
+      "link" : "italie",
+      "serie" : "Italie"
+    },
+    "lost-in-abstraction" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Sans-titre 1",
+        "price" : "30 x 36 cm - 400 €",
+        "size" : "",
+        "text" : "Format final 42 cm x 59,4 cm - Fine art paper 350 g mat 100% coton - Légèrement texturé, bords frangés sur les 4 côtés. - Édition limitée à 15 exemplaires.",
+        "url" : "01.jpg",
+        "year" : "2019"
+      }, {
+        "name" : "Sans-titre 2",
+        "price" : "30 x 36 cm - 400 €",
+        "size" : "",
+        "text" : "Format final 42 cm x 59,4 cm - Fine art paper 350 g mat 100% coton - Légèrement texturé, bords frangés sur les 4 côtés. - Édition limitée à 15 exemplaires.",
+        "url" : "02.jpg",
+        "year" : "2019"
+      }, {
+        "name" : "Sans-titre 3",
+        "price" : "30 x 36 cm - 400 €",
+        "size" : "",
+        "text" : "Format final 42 cm x 59,4 cm - Fine art paper 350 g mat 100% coton - Légèrement texturé, bords frangés sur les 4 côtés. - Edition limitée à 15 exemplaires.",
+        "url" : "03.jpg",
+        "year" : "2019"
+      }, {
+        "name" : "Sans-titre 4",
+        "price" : "30 x 36 cm - 400 €",
+        "size" : "",
+        "text" : "Format final 42 cm x 59,4 cm - Fine art paper 350 g mat 100% coton - Légèrement texturé, bords frangés sur les 4 côtés. - Edition limitée à 15 exemplaires.",
+        "url" : "04.jpg",
+        "year" : "2019"
+      } ],
+      "id" : 10,
+      "link" : "lost-in-abstraction",
+      "serie" : "Lost in abstraction"
+    },
+    "mexique" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "San Cristobal de las casas",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "01.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "Femme au châle",
+        "price" : "44 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 68 cm x 84 cm 750 € - Contrecollé 870 € - Caisse américaine 980 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires.",
+        "url" : "02.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "Homme et chapeau",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "03.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "Carrefour San Cristobal",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "04.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "Jeune fille à la natte",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "05.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "Homme et poteau",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "06.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "La dame au tablier",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "07.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "Paleteria San Cristobal",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "08.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      }, {
+        "name" : "Sans titre",
+        "price" : "54 cm x 54 cm - 550€",
+        "size" : "",
+        "text" : "Contrecollé 650 € - Caisse américaine 800 € - - 84 cm x 84 cm 800 € - Contrecollé 950 € - Caisse américaine 1150 € - Fine art Hahnemulhe 308 g mat ou Baryté satin - Edition limitée à 15 exemplaires. ",
+        "url" : "09.jpg",
+        "year" : "1992 \b \b Photographie argentique"
+      } ],
+      "id" : 90,
+      "link" : "mexique",
+      "serie" : "Mexique"
+    },
+    "new-york" : {
+      "cover" : "08.jpg",
+      "gallery" : [ {
+        "name" : "Brooklyn window.",
+        "price" : "",
+        "size" : "",
+        "text" : "Plexicollage 50 cm x 50 cm - Contrecollé alu + chassis rentrant 700 € - Limitée à 10 exemplaires",
+        "url" : "01.jpg",
+        "year" : "2008"
+      }, {
+        "name" : "Brooklyn stone",
+        "price" : "30cm x 30cm - 300 €",
+        "size" : "",
+        "text" : "Fine art baryta satin 330g - Limitée à 15 exemplaires  ",
+        "url" : "02.jpg",
+        "year" : "2008"
+      }, {
+        "name" : "Brooklyn.",
+        "price" : "50cm x 50cm - 550 €",
+        "size" : "",
+        "text" : "80 cm x 80 cm 750 € - Fine art baryta satin 330 g - - Plexicollage 50 cm x 50 cm 700 € - Limitée à 15 exemplaires ",
+        "url" : "03.jpg",
+        "year" : "2008  "
+      }, {
+        "name" : "New york dripping.",
+        "price" : "",
+        "size" : "",
+        "text" : " Photographie argentique - 50cm x 50cm \b \b  550 € - Contrecollé Dibond+chassis alu 650 € - Fine art paper 308 g mat - Limitée à 15 exemplaires",
+        "url" : "04.jpg",
+        "year" : "1979  "
+      }, {
+        "name" : "Looking for trouble.",
+        "price" : "",
+        "size" : "",
+        "text" : " Photographie argentique - 50cm x 50cm \b \b  550 € - 80 cm x 80 cm 800 € - Fine art baryta satin 330 g - Limitée à 15 exemplaires",
+        "url" : "05.jpg",
+        "year" : "1979  "
+      }, {
+        "name" : "Doorman.",
+        "price" : "",
+        "size" : "",
+        "text" : " Photographie argentique - 50cm x 50cm \b \b  550 € - 80 cm x 80 cm 800 € - Fine art baryta satin 330 g - Limitée à 15 exemplaires",
+        "url" : "06.jpg",
+        "year" : "1979   "
+      }, {
+        "name" : "Blindman.",
+        "price" : "",
+        "size" : "",
+        "text" : " Photographie argentique - 50cm x 50cm \b \b  550 € - 80 cm x 80 cm 800 € - Fine art baryta satin 330 g - Limitée à 15 exemplaires",
+        "url" : "07.jpg",
+        "year" : "1979   "
+      }, {
+        "name" : "Manhattan.",
+        "price" : "",
+        "size" : "",
+        "text" : " Photographie argentique - 50cm x 50cm \b \b  550 € - 80 cm x 80 cm 800 € - Fine art baryta satin 330 g - Limitée à 15 exemplaires",
+        "url" : "08.jpg",
+        "year" : "1979   "
+      } ],
+      "id" : 80,
+      "link" : "new-york",
+      "serie" : "New-york"
+    },
+    "pariscovid" : {
+      "cover" : "01.jpg",
+      "gallery" : [ {
+        "name" : "Concordavirus",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "01.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Copéravirus",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "02.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Concordavirus 2",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "03.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Colonel Fabien",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "04.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Stalingrad",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "05.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Janine",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "06.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Pigalle",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "07.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Saint-Maur",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "08.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Batignolles",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "09.jpg",
+        "year" : "2020"
+      }, {
+        "name" : "Jaurès",
+        "price" : "",
+        "size" : "",
+        "text" : "",
+        "url" : "10.jpg",
+        "year" : "2020"
+      } ],
+      "id" : 120,
+      "link" : "pariscovid",
+      "serie" : "Pariscovid"
+    },
+    "portraits" : {
+      "cover" : "02.jpg",
+      "gallery" : [ {
+        "name" : "Fellini numero uno.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 44 cm x 44 cm \b \b 400 € - Contrecollé + chassis alu 490 € - Caisse américaine et contrecollé 600 € - Fine art Hanhemülhe Baryté satin - Edition limitée à 15 exemplaires",
+        "url" : "01.jpg",
+        "year" : "1987"
+      }, {
+        "name" : "Federico Fellini.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 44 cm x 44 cm \b \b 400 € - Contrecollé + chassis alu 490 € - Caisse américaine et contrecollé 600 € - Fine art Hanhemülhe Baryté satin - Edition limitée à 15 exemplaires",
+        "url" : "02.jpg",
+        "year" : "1987"
+      }, {
+        "name" : "Alberto Moravia.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 44 cm x 44 cm \b \b 400 € - Contrecollé + chassis alu 490 € - Caisse américaine et contrecollé 600 € - Fine art Hanhemülhe Baryté satin - Edition limitée à 15 exemplaires",
+        "url" : "03.jpg",
+        "year" : "1987"
+      }, {
+        "name" : "Lina Wertmuller.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 44 cm x 44 cm \b \b 400 € - Contrecollé + chassis alu 490 € - Caisse américaine et contrecollé 600 € - Fine art Hanhemülhe Baryté satin - Edition limitée à 15 exemplaires",
+        "url" : "04.jpg",
+        "year" : "1987"
+      }, {
+        "name" : "Enrico Job.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 44 cm x 44 cm \b \b 400 € - Contrecollé + chassis alu 490 € - Caisse américaine et contrecollé 600 € - Fine art Hanhemülhe Baryté satin - Edition limitée à 15 exemplaires",
+        "url" : "05.jpg",
+        "year" : "1987"
+      }, {
+        "name" : "Sri Lanka.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 54 cm x 54 cm \b \b 550 € - Contrecollé + chassis alu 490 € - Caisse américaine et contrecollé 600 € - Fine art Hanhemülhe Baryté satin - Edition limitée à 15 exemplaires",
+        "url" : "06.jpg",
+        "year" : "1987"
+      }, {
+        "name" : "Mère et enfant. Ouganda",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 54 cm x 54 cm \b \b  550 € - Contrecollé + chassis alu 650 € - Caisse américaine et contrecollé 750 € - Fine art Hanhemülhe Baryté satin - Edition limitée à 15 exemplaires",
+        "url" : "07.jpg",
+        "year" : "1990"
+      }, {
+        "name" : "Femme et enfant. Ouganda",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 54 cm x 54 cm \b \b  550 € - Contrecollé + chassis alu 650 € - Caisse américaine et contrecollé 750 € - Fine art Hanhemülhe Baryté satin - Edition limitée à 15 exemplaires",
+        "url" : "08.jpg",
+        "year" : "1990"
+      }, {
+        "name" : "Reine.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 50 cm x 50 cm \b \b  550 € - 80 cm x 80 cm 800 € - Fine art baryta satin 330 g - Limitée à 15 exemplaires",
+        "url" : "09.jpg",
+        "year" : "1996"
+      }, {
+        "name" : "René Colbert.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 50 cm x 50 cm \b \b 550 € - 80 cm x 80 cm \b \b 800 € - Fine art baryta satin 330 g - Limitée à 15 exemplaires",
+        "url" : "10.jpg",
+        "year" : "1996"
+      }, {
+        "name" : "Potier.",
+        "price" : "",
+        "size" : "",
+        "text" : "Photographie argentique - 48 cm x 60 cm \b \b 600 € - 69 cm x 85 cm \b \b 750 € - Fine art baryta satin 330 g - Limitée à 15 exemplaires",
+        "url" : "11.jpg",
+        "year" : "1996"
+      } ],
+      "id" : 100,
+      "link" : "portraits",
+      "serie" : "Portraits"
+    },
+    "still-alive" : {
+      "cover" : "06.jpg",
+      "gallery" : [ {
+        "name" : "Bouteille et flacons.",
+        "price" : "",
+        "size" : "",
+        "text" : "65 cm x 42 cm  Tirage seul  550 € - Papier Hanhemülhe rag 308g. mat - - Plexicollage sur verre acrylique - de 4 mm et chassis alu 700 € - Tirage limité à 10 exemplaires",
+        "url" : "01.jpg",
+        "year" : "2010"
+      }, {
+        "name" : "Moule et citrons.",
+        "price" : "",
+        "size" : "",
+        "text" : "65 cm x 42 cm  Tirage seul  550 € - Papier Hanhemülhe rag 308g. mat - - Plexicollage sur verre acrylique - de 4 mm et chassis alu 700 € - Tirage limité à 10 exemplaires",
+        "url" : "02.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Gant, graine.",
+        "price" : "",
+        "size" : "",
+        "text" : "65 cm x 42 cm  Tirage seul  550 € - Papier Hanhemülhe rag 308g. mat - - Plexicollage sur verre acrylique - de 4 mm et chassis alu 700 € - Tirage limité à 10 exemplaires",
+        "url" : "03.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Citron et carton.",
+        "price" : "54 cm x 77 cm - 580 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond 670 € - Papier Hanhemülhe rag 308g. mat - Tirage limité à 10 exemplaires",
+        "url" : "04.jpg",
+        "year" : "2010"
+      }, {
+        "name" : "Triangle de coings.",
+        "price" : "58 cm x 77 cm - 600 €",
+        "size" : "",
+        "text" : "Contrecollé Dibond et chassis alu 700 € - Papier Hanhemülhe rag 308g. mat - Tirage limité à 10 exemplaires",
+        "url" : "05.jpg",
+        "year" : "2010"
+      }, {
+        "name" : "Coins coings",
+        "price" : "73 cm x 60 cm - 780 €",
+        "size" : "",
+        "text" : "Papier brillant Fuji collé sur alu. et - Plexicollage sur verre acrylique de 4 mm - Limitée à 10 exemplaires ",
+        "url" : "06.jpg",
+        "year" : "2010"
+      } ],
+      "id" : 30,
+      "link" : "still-alive",
+      "serie" : "Still Alive"
+    },
+    "vestiges" : {
+      "cover" : "03.jpg",
+      "gallery" : [ {
+        "name" : "Vestiges n°1",
+        "price" : "100 cm x 130 cm - 950 €",
+        "size" : "",
+        "text" : "Contrecollé et chassis alu 1200 € - Caisse américaine 1400 € - Papier Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "01.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Vestiges n°2",
+        "price" : "100 cm x 130 cm - 950 €",
+        "size" : "",
+        "text" : "Contrecollé et chassis alu 1200 € - Caisse américaine 1400 € - Papier Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "02.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Vestiges n°3",
+        "price" : "100 cm x 100 cm - 900 €",
+        "size" : "",
+        "text" : "Contrecollé et chassis alu 1100 € - Caisse américaine 1300 € - Papier Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "03.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Vestiges n°4",
+        "price" : "100 cm x 100 cm - 900 €",
+        "size" : "",
+        "text" : "Contrecollé et chassis alu 1100 € - Caisse américaine 1300 € - Papier Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "04.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Vestiges n°5",
+        "price" : "150 cm x 118 cm - 1100 €",
+        "size" : "",
+        "text" : "Contrecollé et chassis alu 1350 € - Caisse américaine 1600 € - Papier Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "05.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Vestiges n°6",
+        "price" : "130 cm x 100 cm - 950 €",
+        "size" : "",
+        "text" : "Contrecollé et chassis alu 1200 € - Caisse américaine 1400 € - Papier Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "06.jpg",
+        "year" : "2009"
+      }, {
+        "name" : "Vestiges n°7",
+        "price" : "80 cm x 100 cm - 800 €",
+        "size" : "",
+        "text" : "Contrecollé et chassis alu 950 € - Caisse américaine 1100 € - Papier Hanhemülhe rag 308g. mat - Edition limitée à 15 exemplaires",
+        "url" : "07.jpg",
+        "year" : "2009"
+      } ],
+      "id" : 40,
+      "link" : "vestiges",
+      "serie" : "Vestiges"
+    }
+  }
+}

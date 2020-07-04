@@ -347,20 +347,20 @@
   justify-content: space-between;
   margin-top: 2%;
   max-width: 85%;
-  max-height: 100%;
+  /* max-height: 100%; */
   margin-bottom: 100px;
 }
 
 .bigContainer .sectionEnd .containerLastImg .leftContent {
   display: flex;
   justify-content: space-between;
-  max-width: 50%;
+  width: 50%;
 }
 
 .bigContainer .sectionEnd .containerLastImg .leftContent img {
   /* width: 47%; */
   width: 18vw;
-  height: unset;
+  /* height: unset; */
 
   /* height: 52vh; */
 }
@@ -380,19 +380,19 @@
 .bigContainer .sectionEnd .containerLastImg .rightContent :first-child {
   width: 100%;
   /* height: 22vh; */
-  height: unset;
+  /* height: unset; */
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :nth-child(2) {
   width: 50%;
   /* height: 30vh; */
-  height: unset;
+  /* height: unset; */
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :nth-child(3) {
   width: 30%;
   /* height: 30vh; */
-  height: unset;
+  /* height: unset; */
 }
 
 /* .bigContainer .sectionEnd .centeredImg :first-child {
@@ -404,6 +404,15 @@
   width: 10vw;
   height: 15vw;
 } */
+
+.containerImgMobile {
+  padding: 10px 10px;
+  float: left;
+}
+.containerImgMobile img {
+  width: auto;
+  max-width: 100%;
+}
 
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
   .bigContainer .sectionHeader {
