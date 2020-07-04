@@ -11,7 +11,6 @@ h1 {
 }
 
 h2 {
-  /* max-width: 30vw; */
   color: #993300;
   text-transform: uppercase;
   font-family: "Whitney-Medium";
@@ -26,10 +25,7 @@ h2 {
 }
 
 .bigContainer .titleSection {
-  /* padding: 1.5vw 0; */
   padding-top: 2vw;
-  /* border-top: 1px solid black;
-  border-bottom: 1px solid black; */
 }
 
 .titleSectionPlexicollage {
@@ -73,7 +69,7 @@ h2 {
 
 .bigContainer .section .containerImg {
   width: 40vw;
-  /* width: 30vw; */
+
   max-height: 80vh;
 }
 
@@ -84,7 +80,6 @@ h2 {
 }
 
 .bigContainer .section .rightContent {
-  /* width: 19vw; */
   width: 25vw;
   max-height: 80vh;
   text-align: center;
@@ -114,11 +109,9 @@ h2 {
 }
 
 .firstImgContainer {
-  /* position: relative; */
   width: 100%;
   height: 100vh;
   background-image: url("/images/finitions/palmier.jpg");
-  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -139,11 +132,9 @@ h2 {
 }
 
 .secondImgContainer {
-  /* position: relative; */
   width: 100%;
   height: 100vh;
   background-image: url("/images/finitions/lost.jpg");
-  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -181,22 +172,18 @@ h2 {
 }
 
 .thirdImgContainer {
-  /* position: relative; */
   width: 100vw;
   height: 100vh;
   background-image: url("/images/finitions/firstsecondbigimg.jpg");
-  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: top center !important;
 }
 
 .fourthImgContainer {
-  /* position: relative; */
   width: 100vw;
   height: 100vh;
   background-image: url("/images/finitions/secondsecondbigimg.jpg");
-  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: top center !important;
@@ -206,9 +193,7 @@ h2 {
 
 .containerPlexicollage {
   display: flex;
-  /* justify-content: space-between; */
   flex-wrap: wrap;
-  /* align-items: center; */
   position: relative;
   width: 80vw;
   margin-left: 10%;
@@ -234,7 +219,6 @@ h2 {
   width: 100vw;
   height: 100vh;
   background-image: url("/images/finitions/plexi1.jpg");
-  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -244,7 +228,6 @@ h2 {
   width: 100vw;
   height: 100vh;
   background-image: url("/images/finitions/plexi2.jpg");
-  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat !important;
   background-position: center center !important;
@@ -276,11 +259,9 @@ h2 {
   }
   .thirdImgContainer {
     height: 32vh;
-    /* background-size: contain; */
   }
   .fourthImgContainer {
     height: 32vh;
-    /* background-size: contain; */
   }
   .lastImgContainer {
     height: 32vh;
@@ -303,11 +284,9 @@ h2 {
   }
   .thirdImgContainer {
     height: 26vh;
-    /* background-size: contain; */
   }
   .fourthImgContainer {
     height: 26vh;
-    /* background-size: contain; */
   }
   .lastImgContainer {
     height: 26vh;
@@ -326,6 +305,10 @@ h2 {
 
   .infoSection {
     padding: 0 5%;
+  }
+
+  .infoSection p {
+    text-transform: none !important;
   }
 
   .bigContainer .section .leftContent {
@@ -389,21 +372,6 @@ h2 {
     width: 100%;
   }
 }
-
-/* @media screen and (min-width: 1400px) {
-  .bigContainer .section .leftContent p {
-    max-width: 23vw;
-  }
-  .bigContainer .section .rightContentSecond {
-    text-align: right;
-  }
-  .bigContainer .section .leftContentSecond p {
-    max-width: 23vw;
-  }
-  .leftSectionPlexicollage p {
-    max-width: 25vw;
-  }
-} */
 
 @media screen and (min-width: 1600px) {
   .bigContainer .section .leftContent p {

@@ -158,14 +158,26 @@ export default class GallerySlider extends Component {
                 images.map((item, i) => {
                   if (index === i) {
                     return (
-                      <Fade key={i}>
-                        <img
-                          key={i}
-                          src={item}
-                          className={styles.image}
-                          alt={this.props.serie}
-                        />
-                      </Fade>
+                      <div key={i}>
+                        <MediaQuery query="(min-device-width: 1025px)">
+                          <Fade key={i}>
+                            <img
+                              key={i}
+                              src={item}
+                              className={styles.image}
+                              alt={this.props.serie}
+                            />
+                          </Fade>
+                        </MediaQuery>
+                        <MediaQuery key={i} query="(max-device-width: 1024px)">
+                          <img
+                            key={i}
+                            src={item}
+                            className={styles.image}
+                            alt={this.props.serie}
+                          />
+                        </MediaQuery>
+                      </div>
                     );
                   }
                   return false;

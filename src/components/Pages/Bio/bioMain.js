@@ -50,6 +50,20 @@ const BioMain = () => {
           Médicis qui lui permet d’amorcer une série de voyages en Italie.
           <br />
           <br />
+        </p>
+        <MediaQuery query="(max-device-width: 850px)">
+          <div className={styles.containerImgMobile}>
+            <img
+              src="../../images/bio/section1carton.jpg"
+              alt="Photographie d'un carton en noir et blanc"
+            />
+            <img
+              src="../../images/bio/section1book.jpg"
+              alt="Photographie d'un livre en noir et blanc"
+            />
+          </div>
+        </MediaQuery>
+        <p>
           La deuxième phase de son travail photographique est constituée
           d’images réalisées en extérieur. Son regard reste attiré par
           l’esthétique du banal et de l’abandon, mais il découvre désormais ses
@@ -58,8 +72,14 @@ const BioMain = () => {
           et de matières que portent les murs, ainsi que l’empreinte d’un passé
           que le regard néglige.
         </p>
-        <br />
-        <br />
+        <MediaQuery query="(max-device-width: 850px)">
+          <div className={styles.containerImgMobile}>
+            <img
+              src="../../images/bio/section1voiture.jpg"
+              alt="Photographie d'une voiture en noir et blanc"
+            />
+          </div>
+        </MediaQuery>
         <br />
         <p>
           <strong>Dans la poursuite de ses recherches</strong> sur les jeux du

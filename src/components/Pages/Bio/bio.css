@@ -52,7 +52,6 @@
 
 .bigContainer .containerHeader .header .secondQuote {
   padding-top: 1%;
-  /* padding-left: 25%; */
 }
 
 .bigContainer .containerHeader .header p {
@@ -80,12 +79,6 @@
 .bigContainer .section .price span {
   border: none;
 }
-
-/* .bigContainer .section span 
-{
-    border-right: 1px solid #DFE0E1;
-    padding: 0 0.5em;
-}  */
 
 .bigContainer .section span:after {
   content: "";
@@ -138,17 +131,14 @@
   margin-left: 10%;
   flex-wrap: wrap;
   margin-top: 2%;
-  /* background-color: pink; */
 }
 
 .bigContainer .sectionHeader .leftContent {
   max-width: 50%;
-  /* background-color: palegreen;  */
 }
 
 .bigContainer .sectionHeader .leftContent p {
   max-width: 100%;
-  /* background-color: green;   */
 }
 
 .bigContainer .sectionHeader .rightContent {
@@ -156,12 +146,10 @@
   margin-top: 1.5%;
   display: flex;
   flex-wrap: wrap !important;
-  /* background-color: papayawhip;   */
 }
 
 .bigContainer .sectionHeader .rightContent:last-child {
   margin-bottom: 10%;
-  /* margin-top: 5%; */
 }
 
 .bigContainer .sectionHeader .rightContent div {
@@ -177,20 +165,6 @@
   margin-top: 5%;
   margin-left: 5%;
 }
-/* 
-.bigContainer .sectionHeader .rightContent .containerImg:first-child img
-{
-    margin-top: 5%;
-    margin-right: 4%;
-}
-
-
-.bigContainer .sectionHeader .rightContent .containerImg
-{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}  */
 
 .bigContainer .sectionMain {
   max-width: 100%;
@@ -231,7 +205,6 @@
   font-family: "Whitney-Book";
   font-weight: lighter;
   font-size: 1rem;
-  /* text-transform: uppercase; */
   color: #333333;
 }
 
@@ -243,7 +216,6 @@
   font-family: "Whitney-Book";
   font-weight: lighter;
   font-size: 1rem;
-  /* text-transform: uppercase; */
   color: #333333;
 }
 
@@ -282,7 +254,6 @@
   font-family: "Whitney-Book";
   font-weight: lighter;
   font-size: 1rem;
-  /* text-transform: uppercase; */
   color: #333333;
 }
 
@@ -295,13 +266,11 @@
   font-family: "Whitney-Book";
   font-weight: lighter;
   font-size: 1rem;
-  /* text-transform: uppercase; */
   color: #333333;
 }
 
 .sectionBottom .leftContent .containerImg img {
   padding-top: 5%;
-  /* padding-right: 10%; */
   max-width: 100%;
   height: 30vw;
 }
@@ -347,7 +316,6 @@
   justify-content: space-between;
   margin-top: 2%;
   max-width: 85%;
-  /* max-height: 100%; */
   margin-bottom: 100px;
 }
 
@@ -358,11 +326,7 @@
 }
 
 .bigContainer .sectionEnd .containerLastImg .leftContent img {
-  /* width: 47%; */
   width: 18vw;
-  /* height: unset; */
-
-  /* height: 52vh; */
 }
 
 .bigContainer .sectionEnd .containerLastImg .leftContent :first-child {
@@ -379,31 +343,15 @@
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :first-child {
   width: 100%;
-  /* height: 22vh; */
-  /* height: unset; */
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :nth-child(2) {
   width: 50%;
-  /* height: 30vh; */
-  /* height: unset; */
 }
 
 .bigContainer .sectionEnd .containerLastImg .rightContent :nth-child(3) {
   width: 30%;
-  /* height: 30vh; */
-  /* height: unset; */
 }
-
-/* .bigContainer .sectionEnd .centeredImg :first-child {
-  width: 15vw;
-  height: 15vw;
-}
-
-.bigContainer .sectionEnd .centeredImg :last-child {
-  width: 10vw;
-  height: 15vw;
-} */
 
 .containerImgMobile {
   padding: 10px 10px;
@@ -429,38 +377,23 @@
     max-width: 80vw;
   }
   .bigContainer .sectionHeader .rightContent {
-    /* width: 100%; */
     display: flex;
     flex-wrap: wrap !important;
-    /* background-color: papayawhip;  */
   }
-
-  /* .bigContainer .sectionHeader .rightContent :nth-child(2) img
-    {
-        display: none;
-    } */
 
   .bigContainer .sectionHeader .rightContent div {
     margin-bottom: 30%;
   }
-  /* .bigContainer .sectionHeader .rightContent img
-    {    
-        max-width: 150px !important;
-        height: 150px !important;
-        margin-top: 5%;
-        margin-left: 5%;
-        padding-bottom: 2%;
-    } */
+
   .bigContainer .sectionMain .containerImg {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     margin-top: 10%;
   }
 
   .bigContainer .sectionMain .containerImg .cardImg img {
     height: unset;
-    width: 50vw;
+    width: 80vw;
   }
   .bigContainer .sectionMain .containerImg .cardImgOther img {
     height: unset;
@@ -495,78 +428,8 @@
   }
 }
 
-/* // IPAD PRO */
-
-/* @media only screen and (min-width : 1024px) and (max-width: 1366px)
-{
-    .bigContainer .sectionHeader
-    {
-        flex-direction: column;
-    }
-    .bigContainer .containerHeader
-    {
-        padding: 5% 0;
-    }
-    .bigContainer .containerHeader .header .secondQuote
-    {
-        padding-top: 0%;
-        padding-left: 0%;
-    }
-    .bigContainer .sectionHeader .leftContent 
-    {
-        max-width: 80vw;
-    }
-    .bigContainer .sectionHeader .rightContent 
-    {
-        max-width: 100%;
-    }
-    .bigContainer .sectionMain .containerImg
-    {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10%;
-    }
-
-    .bigContainer .sectionMain .containerImg .cardImg img
-    {
-        height: unset;
-        width: 50vw;
-    }
-    .bigContainer .sectionMain .containerImg .cardImgOther img
-    {
-        height: unset;
-        width: 80vw;
-    }
-
-    .bigContainer .sectionMain .containerImg div
-    {
-        padding-bottom: 5%;
-        padding-right: 0%;
-    }
-    .bigContainer .sectionBottom
-    {
-        display: flex;
-        flex-direction: column;
-        max-width: 90vw;
-    }
-    .bigContainer .sectionBottom .leftContent
-    {
-        max-width: 100vw;
-    }
-    .bigContainer .sectionBottom .rightContent
-    {
-        margin: auto;
-        padding: 5% 0;
-    }
-    .bigContainer .sectionBottom .leftContent p
-    {
-        max-width: 80vw;
-    }
-} */
-
 @media only screen and (min-width: 1440px) and (max-width: 1700px) {
   .bigContainer .sectionHeader .rightContent .lastChild {
-    /* margin-top: 4% !important; */
     margin-bottom: 30%;
   }
   .bigContainer .sectionHeader .rightContent {
@@ -574,12 +437,3 @@
     margin-top: 0% !important;
   }
 }
-
-/* @media only screen and (min-width : 1600px)
-{
-    .bigContainer .sectionHeader .rightContent .lastChild
-    {
-        margin-top: 0%;
-    }
-
-}  */

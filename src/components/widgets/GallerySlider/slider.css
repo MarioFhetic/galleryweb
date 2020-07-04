@@ -3,7 +3,6 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  /* max-height: 66vw; */
   max-height: 100vh !important;
 }
 
@@ -26,29 +25,12 @@
   -ms-user-select: none;
   user-select: none;
 
-  /* Image centrées */
-
-  /* bottom:0;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: auto;  */
-
-  /* Image aligné à gauche et centré verticalement */
-
   left: 0;
   top: 0;
   right: auto;
   bottom: 0;
   margin-top: auto;
   margin-bottom: auto;
-
-  /* 
-  
-  */
-
-  /* top: 50%;
-  transform: translateY(-50%);  */
 
   max-height: 100%;
   max-width: 100%;
@@ -120,14 +102,12 @@
   width: 100px;
   height: 20px;
   bottom: 0;
-  /* background-color: blue;  */
 }
 
 .containerAllControl svg {
   position: relative;
   width: 50%;
   height: 100%;
-  /* background-color: pink; */
   cursor: pointer;
 }
 
@@ -141,7 +121,6 @@
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  /* background-color: chartreuse;    */
 }
 
 .containerAllControl .counterSlides span {
@@ -179,14 +158,6 @@
     width: 100%;
   }
 
-  /* Je met une margin top au dataWrap pour que l'on puisse le voir sur mobile */
-  /* dans gallery.css - .outerGallery on a mit un padding top 10vh qui ne marche pas sur mobile 
-  d'ou le margin top sur le dataWrap pour que l'on puisse le voir
-  */
-  .dataWrap {
-    /* margin-top: 100%; */
-  }
-
   .imageWrap img {
     transform: none;
     position: relative;
@@ -209,13 +180,6 @@
     top: 40%;
   }
 }
-/* 
-@media only screen and (min-width: 813px) and (max-width: 1024px) {
-  .containerAllControl {
-    left: 65% !important;
-    top: 40%;
-  }
-} */
 
 @media only screen and (min-width: 813px) and (max-width: 1024px) {
   .imageWrap {
@@ -228,10 +192,6 @@
     top: auto;
     bottom: 0;
   }
-  /* .containerAllControl {
-    left: 33% !important;
-    top: 94% !important;
-  } */
 }
 
 /* iPad Pro - Portrait */
@@ -263,17 +223,12 @@
 
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* .dataWrap {
-    margin-top: 100%;
-  } */
   .dataWrap {
-    /* height: 100vh !important; */
   }
   .sliderWrap {
     margin-top: 1.5rem;
   }
   .containerAllControl {
-    /* top: 10% !important; */
     top: 9% !important;
   }
 }

@@ -22,14 +22,6 @@ img {
   padding: 7vh 5vw 5vh 5vw;
   box-sizing: border-box;
 }
-/* 
-.outerGallery .returnHomeArrow 
-{
-   position: absolute;
-   cursor: pointer;
-   width: 50px;
-   z-index: 6;
-} */
 
 .containerHomeArrow {
   position: absolute;
@@ -44,43 +36,17 @@ img {
   transform: translate(-25%, -10%);
 }
 
-/* .outerGallery .returnHomeArrow 
-{
-   position: absolute;
-   cursor: pointer;
-   width: 50px;
-   z-index: 6;
-} */
-
-/* .outerGallery .containerReturnArrow
-{
-    position: absolute;
-    width: 500px;
-    height: 500px;
-    z-index: 7;
-    cursor: pointer;
-} */
-
 @media only screen and (min-width: 320px) and (max-width: 780px) {
   .outerGallery .containerHomeArrow {
     width: 30px !important;
     left: 5%;
-    top: 4.7%;
-  }
-
-  /* Le padding top 10vh pose probleme sur mobile car il gère mal les vh */
-  .outerGallery {
-    /* padding-top: 10vh !important; */
-    /* padding-left: 0vw;
-    padding-right: 0vw; */
+    top: 4.9%;
   }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
   .outerGallery {
     padding-top: 10vw !important;
-    /* padding-left: 0vw;
-    padding-right: 0vw; */
   }
 }
 

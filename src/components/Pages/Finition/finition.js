@@ -51,7 +51,7 @@ const Finition = () => {
                 <div className={styles.rightContentSecond}>
                   <img
                     src="../../images/finitions/section2right.png"
-                    alt="Photographie faite en contre collé et chassis alumminium"
+                    alt="Photographie de René Colbert"
                   />
                 </div>
               </div>
@@ -168,30 +168,22 @@ const Finition = () => {
             </div>
             <div className={styles.rightContentSecond}>
               <img
-                src="../../images/finitions/secondimgsection2right.png"
+                src="../../images/finitions/section2right.png"
                 alt="Photographie faite en contre collé et chassis alumminium"
               />
             </div>
           </div>
           <div className={styles.infoSection}>
             <p>
-              UN CADRE SANS VERRE, SOBRE ET ELEGANT QUI MET EN VALEUR LE GRAIN
-              DU PAPIER SANS AUCUN REFLET.
+              Un cadre sans verre, sobre et élégant qui met en valeur le grain
+              du papier sans aucun reflet.
             </p>
           </div>
-          <div className={styles.thirdImgContainer}>
-            {/* <div className={styles.overlayImgContainer}></div> */}
-            {/* <div className={styles.infoBigImg}>
-          <p>contrecollage dibond et chassis</p>
-        </div> */}
-          </div>
+          <div className={styles.thirdImgContainer}></div>
           <div className={styles.infoSectionBigImg}>
             <p>CAISSE AMÉRICAINE ET CONTRECOLLÉ DIBOND</p>
           </div>
           <div className={styles.fourthImgContainer}></div>
-          {/* <div className={styles.infoSectionBigImg}>
-        <p>CONTRECOLLAGE ALUMINIUM ET CHASSIS</p>
-      </div> */}
 
           {/* THIRD SECTION */}
 
@@ -236,49 +228,8 @@ const Finition = () => {
               effect de profondeur unique.
             </p>
           </div>
-          {/* <div className={styles.section}>
-        <div className={styles.leftContentThird}> */}
-          {/* <p>
-            Impression de l’image sur papier photo brillant Fuji 240g. Ce papier
-            restitue des noirs profonds et détaillés ainsi que des blancs
-            éclatants.
-          </p>
-          <p>
-            L’image est ensuite contrecollé sous un verre acrylique transparent
-            de 4 mm. L'adhérence est réalisée sans colle par la réaction
-            chimique entre deux composants liquides. Le système est totalement
-            dépourvu de poussière, de bulles d'air et de traces de colle.
-          </p>
-          <p>
-            Une plaque d’Alu Dibond est appliquée au dos du tirage ainsi qu’un
-            châssis rentrant qui offre un excellente rigidité et une accroche
-            décollée du mur.
-          </p>
-          <p>
-            Une netteté d'image inégalée, le contraste des couleurs est accentué
-            et l'image acquiert une nouvelle profondeur sur toute la surface et
-            la protège à 99,7% contre les rayons UV.
-          </p> */}
-          {/* </div> */}
-          {/* <div className={styles.rightContentThird}>
-          <img
-            src="../../images/finitions/firstimgthirdsection.jpg"
-            alt="Photographie faite en contre collé et chassis alumminium"
-          />
-        </div> */}
-          {/* </div> */}
-          {/* <div className={styles.infoSection}>
-        <p>
-          LE PLEXICOLLAGE DONNE AUX IMAGES UNE BRILLANCE INTENSE ET UN EFFET DE
-          PROFONDEUR UNIQUE.
-        </p>
-      </div> */}
-          <div className={styles.lastImgContainer}>
-            {/* <div className={styles.overlayImgContainer}></div> */}
-            {/* <div className={styles.infoBigImg}>
-          <p>contrecollage dibond et chassis</p>
-        </div> */}
-          </div>
+
+          <div className={styles.lastImgContainer}></div>
           <div className={styles.infoSectionBigImg}>
             <p>PLEXICOLLAGE ET CONTRECOLLAGE SUR ALU DIBOND</p>
           </div>

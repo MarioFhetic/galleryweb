@@ -36,6 +36,12 @@ const NavbarItems = () => {
 
     {
       type: style.option,
+      text: "Exposition (bonus)",
+      link: "/",
+    },
+
+    {
+      type: style.option,
       text: "galerie",
       link: "/galerie",
     },
