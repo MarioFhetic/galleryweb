@@ -14,6 +14,7 @@ import Finition from "./components/Pages/Finition/finition";
 import Bio from "./components/Pages/Bio/bio";
 import Contact from "./components/Pages/Contact/contact";
 import Gallerie from "./components/Pages/Gallerie/gallerie";
+import Exposition from "./components/Pages/Exposition/exposition";
 
 class Routes extends Component {
   render() {
@@ -29,6 +30,7 @@ class Routes extends Component {
             <Route path="/impression" component={Impression} />
             <Route path="/finition" component={Finition} />
             <Route path="/galerie" component={Gallerie} />
+            <Route path="/exposition" component={Exposition} />
             <Route path="/contact" component={Contact} />
             <Route path="/gallery/:name" component={Gallery} />
             <Route path="/foo" component={GallerySlider} />

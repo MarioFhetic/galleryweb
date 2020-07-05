@@ -21,9 +21,10 @@ a {
   top: 60%;
   left: 60%;
   font-family: "AvenirNextLTPro-Regular";
-  font-size: 13px;
+  font-size: 14px;
   line-height: 180%;
-  color: #cccccc;
+  color: rgba(0, 0, 0, 0.856);
+  font-weight: bold;
 }
 
 .bigImg .containerText .containerLogos {
@@ -31,6 +32,9 @@ a {
   flex-direction: row;
   justify-content: space-between;
   /* margin-top: 1rem; */
+}
+.contactSpan {
+  color: rgba(0, 0, 0, 0.856);
 }
 
 .bigImg .containerText .containerLogos svg {

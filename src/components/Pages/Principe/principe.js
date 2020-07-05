@@ -1,16 +1,17 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import styles from "./principe.css";
 
-import LogoPrincipe from "../Logos/logoPrincipe";
-
-import PrincipeHeader from "./principeHeader";
-import PrincipeBottom from "./principeBottom";
+const LogoPrincipe = lazy(() => import("../Logos/logoPrincipe"));
+const PrincipeHeader = lazy(() => import("./principeHeader"));
+const PrincipeBottom = lazy(() => import("./principeBottom"));
 
 const Principe = () => (
   <div className={styles.bigContainer}>
     <LogoPrincipe />
     <PrincipeHeader />
-    <PrincipeBottom />
+    <Suspense fallback={<></>}>
+      <PrincipeBottom />
+    </Suspense>
   </div>
 );
 

@@ -37,7 +37,7 @@ const NavbarItems = () => {
     {
       type: style.option,
       text: "Exposition (bonus)",
-      link: "/",
+      link: "/exposition",
     },
 
     {

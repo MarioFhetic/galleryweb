@@ -135,9 +135,6 @@ const Finition = () => {
             <p>CONTRECOLLAGE DIBOND ET CHASSIS</p>
           </div>
 
-          {/* <div className={styles.infoSectionBigImg}>
-        <p>CONTRECOLLÉ DIBOND ET CHASSIS</p>
-      </div> */}
           <div className={styles.secondImgContainer}></div>
           <div className={styles.infoSectionBigImg}>
             <p>CONTRECOLLAGE ALUMINIUM ET CHASSIS</p>

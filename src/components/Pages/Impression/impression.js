@@ -1,19 +1,22 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import styles from "./impression.css";
 
-import LogoImpression from "../Logos/logoImpression";
-
-import ImpressionMain from "./impressionMain";
-import ImpressionBottom from "./impressionBottom";
-import ImpressionHeader from "./impressionHeader";
+const LogoImpression = lazy(() => import("../Logos/logoImpression"));
+const ImpressionMain = lazy(() => import("./impressionMain"));
+const ImpressionBottom = lazy(() => import("./impressionBottom"));
+const ImpressionHeader = lazy(() => import("./impressionHeader"));
 
 const Impression = () => {
   return (
     <div className={styles.bigContainer}>
       <LogoImpression />
       <ImpressionHeader />
-      <ImpressionMain />
-      <ImpressionBottom />
+      <Suspense fallback={<></>}>
+        <ImpressionMain />
+      </Suspense>
+      <Suspense fallback={<></>}>
+        <ImpressionBottom />
+      </Suspense>
     </div>
   );
 };
