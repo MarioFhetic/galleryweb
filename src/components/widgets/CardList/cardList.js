@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import style from "./cardList.css";
 import { firebaseLooper, firebaseImage } from "../../../firebase";
-import Fade from "react-reveal/Fade";
 
+// framer-motion
+import { AnimatePresence, motion } from "framer-motion";
 import CardListItem from "./cardListItem";
 
 class CardList extends Component {
@@ -52,15 +53,24 @@ class CardList extends Component {
 
   render() {
     {
-      console.log(this.state.link);
+      // console.log(this.state.link);
     }
-
+    // 1.2
     return (
-      <Fade delay={1200}>
-        <div className={style.bigContainerCardList}>
+      <AnimatePresence>
+        <motion.div
+          className={style.bigContainerCardList}
+          transition={{
+            delay: 1.5,
+            duration: 1.5,
+          }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+        >
           <div className={style.cardListWrapper}>{this.renderImages()}</div>
-        </div>
-      </Fade>
+        </motion.div>
+      </AnimatePresence>
     );
   }
 }

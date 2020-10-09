@@ -11,16 +11,12 @@ const Footer = lazy(() => import("../Footer/footer"));
 const Home = () => {
   return (
     <div>
+      <LogoHeader />
+      <MiddleBar />
       <Suspense fallback={<></>}>
-        <LogoHeader />
+        <CardList type="card" />
       </Suspense>
-      <Suspense fallback={<></>}>
-        <MiddleBar />
-      </Suspense>
-      <CardList type="card" />
-      <Suspense fallback={<></>}>
-        <Footer />
-      </Suspense>
+      <Footer />
     </div>
   );
 };

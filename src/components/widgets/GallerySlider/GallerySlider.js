@@ -1,6 +1,6 @@
 import React, { Component } from "react";
+import { motion } from "framer-motion";
 import styles from "./slider.css";
-import Fade from "react-reveal/Fade";
 
 import MediaQuery from "react-responsive";
 
@@ -152,7 +152,7 @@ export default class GallerySlider extends Component {
                 </span>
               </div>
             </div>
-
+            {/* animation img */}
             <div className={styles.imageWrap}>
               {images.length > 0 &&
                 images.map((item, i) => {
@@ -160,14 +160,14 @@ export default class GallerySlider extends Component {
                     return (
                       <div key={i}>
                         <MediaQuery query="(min-device-width: 1025px)">
-                          <Fade key={i}>
-                            <img
-                              key={i}
-                              src={item}
-                              className={styles.image}
-                              alt={this.props.serie}
-                            />
-                          </Fade>
+                          <motion.img
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            key={i}
+                            src={item}
+                            className={styles.image}
+                            alt={this.props.serie}
+                          />
                         </MediaQuery>
                         <MediaQuery key={i} query="(max-device-width: 1024px)">
                           <img
