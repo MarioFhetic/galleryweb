@@ -14,6 +14,11 @@ div:focus {
   outline-width: 0;
 }
 
+.no-scroll {
+  overflow-y: hidden !important;
+  overflow: hidden !important;
+}
+
 @font-face {
   font-family: "Whitney-Light";
   font-style: normal;

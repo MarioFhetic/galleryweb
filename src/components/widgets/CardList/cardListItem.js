@@ -3,7 +3,6 @@ import styles from "./cardList.css";
 import { Link } from "react-router-dom";
 
 const CardListItem = (props) => {
-  // console.log(props.data);
 
   return props.data.map((item, i) => {
     return (

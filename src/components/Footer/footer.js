@@ -1,18 +1,27 @@
 import React from "react";
 import styles from "./footer.css";
-import Fade from "react-reveal/Fade";
+import { AnimatePresence, motion } from "framer-motion";
+
 
 const Footer = () => (
-  <Fade delay={1800}>
-    <div className={styles.infoCopyright}>
-      <span>
-        © 2020 Eric Fayolle <span className={styles.divider}>|</span>{" "}
-        <a href="mailto:fayollemario@gmail.com">
-          <span>Design - Développement Mario Fayolle</span>
-        </a>
-      </span>
-    </div>
-  </Fade>
+  <AnimatePresence>
+    <motion.div className={styles.infoCopyright}
+      transition={{
+        delay: 1.8,
+      }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      >
+        <span>
+          © 2020 Eric Fayolle <span className={styles.divider}>|</span>{" "}
+          <a href="http://mario.fayolle.com/">
+            <span>Design - Développement - Mario Fayolle</span>
+          </a>
+        </span>
+    </motion.div>
+  </AnimatePresence>
+
 );
 
 export default Footer;

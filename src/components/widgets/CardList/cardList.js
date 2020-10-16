@@ -38,7 +38,6 @@ class CardList extends Component {
 
   renderImages = () => {
     let template = null;
-    // console.log('THIS STATE ALBUM ---', this.state.albums);
     switch (this.props.type) {
       case "card":
         template = <CardListItem data={this.state.albums} />;
@@ -48,14 +47,12 @@ class CardList extends Component {
     }
     return template;
 
-    // this.props.type === 'card' ? template = <CardListTemplate data = {this.state.albums}/> : template = null
   };
 
   render() {
     {
       // console.log(this.state.link);
     }
-    // 1.2
     return (
       <AnimatePresence>
         <motion.div

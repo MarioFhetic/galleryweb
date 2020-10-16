@@ -2,7 +2,10 @@ import React from "react";
 import styles from "./contact.css";
 
 import LogoContact from "../Logos/logoContact";
-import Fade from "react-reveal/Fade";
+
+// FM
+import { AnimatePresence, motion } from "framer-motion";
+
 
 // SOCIAL ICONS
 
@@ -11,7 +14,17 @@ import { ReactComponent as LogoInstagram } from "./instagram.svg";
 import { ReactComponent as LogoPinterest } from "./pinterest.svg";
 
 const Contact = () => (
-  <Fade duration={2500}>
+  <AnimatePresence>
+
+  <motion.div
+  transition={{
+            duration: 1,
+          }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+  >
+    
     <div className={styles.bigContainer}>
       <LogoContact />
     </div>
@@ -37,7 +50,8 @@ const Contact = () => (
         </div>
       </div>
     </div>
-  </Fade>
+  </motion.div>
+  </AnimatePresence>
 );
 
 export default Contact;

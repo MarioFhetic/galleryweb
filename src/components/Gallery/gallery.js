@@ -4,9 +4,9 @@ import {firebaseDB} from '../../firebase'
 import {Link} from 'react-router-dom';
 
 import GallerySlider from '../widgets/GallerySlider/GallerySlider';
-import Fade from 'react-reveal/Fade';
 import {ReactComponent as ReturnHomeArrow} from './flechehome.svg'
 
+import { AnimatePresence, motion } from "framer-motion";
 
 
 
@@ -46,24 +46,33 @@ class Gallery extends Component
         let gallery = this.state.gallery
 
         return(
-        <Fade
-            delay = {500}
-            duration = {1500}
-            big>
-            <div className={styles.outerGallery}>
-                <Link to = "/">
-                    <div className = {styles.containerHomeArrow}>
-                        <ReturnHomeArrow className = {styles.returnHomeArrow}/>
+            // delay 500
+            // duration 1500
+            <AnimatePresence>
+                <motion.div
+                transition={{
+                    delay: 1,
+                    duration: 1,
+                }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                >
+                    <div className={styles.outerGallery}>
+                        <Link to = "/">
+                            <div className = {styles.containerHomeArrow}>
+                                <ReturnHomeArrow className = {styles.returnHomeArrow}/>
+                            </div>
+                        </Link>
+
+                        {
+                        gallery &&
+
+                            <GallerySlider serie={serie} link={link} gallery={gallery} />
+                        }
                     </div>
-                </Link>
-
-                {
-                gallery &&
-
-                    <GallerySlider serie={serie} link={link} gallery={gallery} />
-                }
-            </div>
-        </Fade>
+                </motion.div>
+            </AnimatePresence>
         )
     }
 }
