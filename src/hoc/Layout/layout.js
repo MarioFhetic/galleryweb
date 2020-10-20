@@ -1,4 +1,4 @@
-import React, { useEffect, useState, Component } from "react"
+import React, {Component } from "react"
 import MediaQuery from "react-responsive";
 
 import Header from "../../components/Header/header";
@@ -14,9 +14,6 @@ class Layout extends Component {
     this.setState({
       showNav: action,
     });
-
-    {console.log(this.state.showNav)}
-
     if (this.state.showNav === false)
     {
       document.querySelector("body").style.overflow = "hidden";
@@ -25,7 +22,6 @@ class Layout extends Component {
     {
       document.querySelector("body").style.overflow = "initial";
     }
-    
     
   };
   

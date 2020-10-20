@@ -11,7 +11,7 @@ class CardList extends Component {
     albums: [],
   };
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.request();
   }
 
@@ -64,6 +64,7 @@ class CardList extends Component {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
+          
         >
           <div className={style.cardListWrapper}>{this.renderImages()}</div>
         </motion.div>

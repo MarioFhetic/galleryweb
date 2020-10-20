@@ -1,6 +1,7 @@
 {
   "name": "testsite",
   "version": "0.1.0",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@animated-burgers/burger-slide": "^1.1.2",
@@ -48,6 +49,7 @@
     "postcss-safe-parser": "4.0.1",
     "react": "^16.11.0",
     "react-app-polyfill": "^1.0.4",
+    "react-cookie-consent": "^5.2.0",
     "react-dev-utils": "^9.1.0",
     "react-dom": "^16.11.0",
     "react-intersection-observer": "^8.26.2",
