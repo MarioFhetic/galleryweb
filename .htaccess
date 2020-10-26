@@ -1,4 +1,10 @@
 <IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !=443
+RewriteRule ^(.*)$ https://ericfayolle.com/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
   RewriteRule ^index\.html$ - [L]

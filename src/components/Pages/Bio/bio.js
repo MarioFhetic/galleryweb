@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import styles from "./bio.css";
 import MediaQuery from "react-responsive";
+import { Helmet } from "react-helmet";
 
 const LogoBio = lazy(() => import("../Logos/logoBio"));
 
@@ -19,6 +20,11 @@ const BioEndMobile = lazy(() => import("./bioEndMobile"));
 const Bio = () => {
   return (
     <div className={styles.bigContainer}>
+      <Helmet>
+        <title>Bio</title>
+        <meta name="description" content="Biographie d'Éric Fayolle" />
+        <meta name="keywords" cpntent="bio,biographie,story,eric,fayolle" />
+      </Helmet>
       <LogoBio />
       <BioHeader />
       <BioTop />

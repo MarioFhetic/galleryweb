@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { motion } from "framer-motion";
 import styles from "./slider.css";
+import { Helmet } from "react-helmet";
 
 import MediaQuery from "react-responsive";
 
@@ -78,6 +79,14 @@ export default class GallerySlider extends Component {
 
     return (
       <div>
+        <Helmet>
+          <title>Galerie photos</title>
+          <meta
+            name="description"
+            content="Page de galerie photos d'Éric Fayolle"
+          />
+          <meta name="keywords" cpntent="galerie,photo,art,eric,fayolle" />
+        </Helmet>
         <div className={styles.innerGallery}>
           <div className={styles.sliderWrap}>
             {imageData.length > 0 &&

@@ -1,11 +1,11 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import styles from "./contact.css";
 
 import LogoContact from "../Logos/logoContact";
 
 // FM
 import { AnimatePresence, motion } from "framer-motion";
-
 
 // SOCIAL ICONS
 
@@ -15,42 +15,52 @@ import { ReactComponent as LogoPinterest } from "./pinterest.svg";
 
 const Contact = () => (
   <AnimatePresence>
+    <Helmet>
+      <title>Contact</title>
+      <meta
+        name="description"
+        content="Page pour contacter Éric Fayolle et voir ses réseaux"
+      />
+      <meta
+        name="keywords"
+        cpntent="about,contact,social,galerie,information"
+      />
+    </Helmet>
 
-  <motion.div
-  transition={{
-            duration: 1,
-          }}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-  >
-    
-    <div className={styles.bigContainer}>
-      <LogoContact />
-    </div>
-    <div className={styles.bigImg}>
-      <div className={styles.containerText}>
-        <span>ERIC FAYOLLE</span>
-        <span>154 RUE OBERKAMPF</span>
-        <span>75011 PARIS</span>
-        <span>+ 33 (0)1 40 21 73 43</span>
-        <a href="mailto:contact@ericfayolle.com">
-          <span className={styles.contactSpan}>contact@ericfayolle.com</span>
-        </a>
-        <div className={styles.containerLogos}>
-          <a href="https://www.instagram.com/ericfayolle/?hl=fr">
-            <LogoFacebook></LogoFacebook>
+    <motion.div
+      transition={{
+        duration: 1,
+      }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <div className={styles.bigContainer}>
+        <LogoContact />
+      </div>
+      <div className={styles.bigImg}>
+        <div className={styles.containerText}>
+          <span>ERIC FAYOLLE</span>
+          <span>154 RUE OBERKAMPF</span>
+          <span>75011 PARIS</span>
+          <span>+ 33 (0)1 40 21 73 43</span>
+          <a href="mailto:contact@ericfayolle.com">
+            <span className={styles.contactSpan}>contact@ericfayolle.com</span>
           </a>
-          <a href="https://www.instagram.com/ericfayolle/?hl=fr">
-            <LogoInstagram></LogoInstagram>
-          </a>
-          <a href="https://www.instagram.com/ericfayolle/?hl=fr">
-            <LogoPinterest></LogoPinterest>
-          </a>
+          <div className={styles.containerLogos}>
+            <a href="https://www.instagram.com/ericfayolle/?hl=fr">
+              <LogoFacebook></LogoFacebook>
+            </a>
+            <a href="https://www.instagram.com/ericfayolle/?hl=fr">
+              <LogoInstagram></LogoInstagram>
+            </a>
+            <a href="https://www.instagram.com/ericfayolle/?hl=fr">
+              <LogoPinterest></LogoPinterest>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </motion.div>
+    </motion.div>
   </AnimatePresence>
 );
 

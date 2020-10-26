@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import styles from "./gallerie.css";
+import { Helmet } from "react-helmet";
 
 // import FirstBigImg from "./firstBigImg";
 // import LeftContentImg from "./leftContentImg";
@@ -16,6 +17,11 @@ const ThirdBigImg = lazy(() => import("./thirdBigImg"));
 const Gallerie = () => {
   return (
     <div className={styles.bigContainer}>
+      <Helmet>
+        <title>Galerie</title>
+        <meta name="description" content="Page de galerie d'Éric Fayolle" />
+        <meta name="keywords" cpntent="galerie,photo,art,eric,fayolle" />
+      </Helmet>
       <FirstBigImg />
       <div className={styles.containerSecondImg}>
         <LeftContentImg />

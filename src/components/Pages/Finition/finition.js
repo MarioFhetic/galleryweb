@@ -4,6 +4,7 @@ import styles from "./finition.css";
 import LogoFinition from "../Logos/logoFinition";
 import { Parallax, ParallaxLayer } from "react-spring/renderprops-addons";
 import MediaQuery from "react-responsive";
+import { Helmet } from "react-helmet";
 
 // Components
 import FinitionHeader from "./finitionHeader";
@@ -12,6 +13,17 @@ const Finition = () => {
   const parallax = useRef(null);
   return (
     <div>
+      <Helmet>
+        <title>Finition</title>
+        <meta
+          name="description"
+          content="Page de finition, travaux d'Éric Fayolle"
+        />
+        <meta
+          name="keywords"
+          cpntent="galerie,photo,work,eric,fayolle, finition"
+        />
+      </Helmet>
       <MediaQuery query="(min-device-width: 1025px)">
         <Parallax ref={parallax} pages={4.5}>
           <ParallaxLayer offset={0}>
