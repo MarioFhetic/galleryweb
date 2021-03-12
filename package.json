@@ -50,7 +50,7 @@
     "react": "^16.11.0",
     "react-app-polyfill": "^1.0.4",
     "react-cookie-consent": "^5.2.0",
-    "react-dev-utils": "^9.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.11.0",
     "react-helmet": "^6.1.0",
     "react-intersection-observer": "^8.26.2",
